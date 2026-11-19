@@ -3,9 +3,9 @@
 Replacement images for the Editor screenshots on [foundations.unity.com](https://www.foundations.unity.com), retaken in a live
 Unity 7000.0.0a20 Editor so they match the current UI.
 
-- **257 images** are ready, across 39 pages (17 of 39 reviewed pages are complete).
+- **263 images** are ready, across 39 pages (17 of 39 reviewed pages are complete).
 - More images are added as they're retaken; pull the repo to get the latest.
-- Last updated: 2026-11-18T19:14:01.
+- Last updated: 2026-11-18T19:21:22.
 
 ## Using this repo
 
