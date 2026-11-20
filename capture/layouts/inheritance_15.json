@@ -1,0 +1,149 @@
+{
+ "out": "replacements/patterns/inheritance/locking_signify_example.png",
+ "canvas": [
+  1600,
+  600
+ ],
+ "backdrop": [
+  25,
+  25,
+  25
+ ],
+ "windows": [
+  {
+   "src": "captures/inh_lock.png",
+   "chrome": "none",
+   "x": 336,
+   "y": 66,
+   "w": 938,
+   "h": 534
+  }
+ ],
+ "annotations": [
+  {
+   "t": "image",
+   "src": "captures/icon_lock_coral.png",
+   "x": 58,
+   "y": 391.0,
+   "w": 34
+  },
+  {
+   "t": "text",
+   "s": "Locked property",
+   "x": 92,
+   "y": 408.0,
+   "size": 23,
+   "color": [
+    253,
+    134,
+    120
+   ],
+   "font": "C:/Windows/Fonts/segoeui.ttf"
+  },
+  {
+   "t": "line",
+   "x1": 270.015625,
+   "y1": 408.0,
+   "x2": 289.015625,
+   "y2": 408.0,
+   "color": [
+    253,
+    134,
+    120
+   ],
+   "w": 2
+  },
+  {
+   "t": "line",
+   "x1": 281.015625,
+   "y1": 400.0,
+   "x2": 289.015625,
+   "y2": 408.0,
+   "color": [
+    253,
+    134,
+    120
+   ],
+   "w": 2
+  },
+  {
+   "t": "line",
+   "x1": 281.015625,
+   "y1": 416.0,
+   "x2": 289.015625,
+   "y2": 408.0,
+   "color": [
+    253,
+    134,
+    120
+   ],
+   "w": 2
+  },
+  {
+   "t": "image",
+   "src": "captures/icon_lock_coral.png",
+   "x": 58,
+   "y": 519.0,
+   "w": 34
+  },
+  {
+   "t": "text",
+   "s": "Locked property",
+   "x": 92,
+   "y": 536.0,
+   "size": 23,
+   "color": [
+    253,
+    134,
+    120
+   ],
+   "font": "C:/Windows/Fonts/segoeui.ttf"
+  },
+  {
+   "t": "line",
+   "x1": 270.015625,
+   "y1": 536.0,
+   "x2": 289.015625,
+   "y2": 536.0,
+   "color": [
+    253,
+    134,
+    120
+   ],
+   "w": 2
+  },
+  {
+   "t": "line",
+   "x1": 281.015625,
+   "y1": 528.0,
+   "x2": 289.015625,
+   "y2": 536.0,
+   "color": [
+    253,
+    134,
+    120
+   ],
+   "w": 2
+  },
+  {
+   "t": "line",
+   "x1": 281.015625,
+   "y1": 544.0,
+   "x2": 289.015625,
+   "y2": 536.0,
+   "color": [
+    253,
+    134,
+    120
+   ],
+   "w": 2
+  },
+  {
+   "t": "image",
+   "src": "captures/inh_tooltip.png",
+   "x": 336,
+   "y": 430.0,
+   "w": 550
+  }
+ ]
+}

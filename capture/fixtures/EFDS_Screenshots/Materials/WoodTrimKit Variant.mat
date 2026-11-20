@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: WoodTrimKit Variant
+  m_Shader: {fileID: 4800000, guid: 042b3231b2e93aa4bba9af50dbe26139, type: 3}
+  m_Parent: {fileID: 2100000, guid: 1ff2e10b9a4a9f647b1932e9139067d8, type: 2}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _METALLICSPECGLOSSMAP
+  - _NORMALMAP
+  - _OCCLUSIONMAP
+  - _SCALE_ADAPTIVE_UV_Y_FROM_X
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap:
+    RenderType: Opaque
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Ints: []
+    m_Floats: []
+    m_Colors:
+    - _BaseColor: {r: 0.95, g: 0.6, b: 0.58, a: 1}
+    - _Color: {r: 0.95, g: 0.6, b: 0.58, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

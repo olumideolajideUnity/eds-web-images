@@ -1,0 +1,23 @@
+{
+ "out": "replacements/components/multi-column-views/1a8d749e63a4a9f5a5606244dd8925b7_uitk-mc-list.png",
+ "canvas": [
+  640,
+  520
+ ],
+ "backdrop": [
+  215,
+  215,
+  215
+ ],
+ "windows": [
+  {
+   "src": "captures/mc_list_l.png",
+   "chrome": "none",
+   "x": 40,
+   "y": 28,
+   "w": 560
+  }
+ ],
+ "annotations": [],
+ "theme": "light"
+}

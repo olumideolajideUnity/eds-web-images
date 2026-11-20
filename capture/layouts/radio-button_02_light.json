@@ -1,0 +1,81 @@
+{
+ "out": "replacements/components/radio-button/radio-vd-dd.png",
+ "canvas": [
+  1600,
+  600
+ ],
+ "backdrop": [
+  215,
+  215,
+  215
+ ],
+ "windows": [
+  {
+   "src": "captures/rb_vsdd_l.png",
+   "chrome": "none",
+   "x": 0,
+   "y": 0,
+   "w": 1600
+  }
+ ],
+ "annotations": [
+  {
+   "t": "pill",
+   "s": "Radio button",
+   "x": 200,
+   "y": 112,
+   "h": 40,
+   "pad": 14,
+   "size": 22,
+   "bg": [
+    215,
+    215,
+    215
+   ],
+   "outline": [
+    160,
+    160,
+    160
+   ],
+   "color": [
+    9,
+    9,
+    9
+   ],
+   "font": "fonts/Inter-SemiBold.ttf"
+  },
+  {
+   "t": "pill",
+   "s": "Dropdown button with menu",
+   "x": 840,
+   "y": 112,
+   "h": 40,
+   "pad": 14,
+   "size": 22,
+   "bg": [
+    215,
+    215,
+    215
+   ],
+   "outline": [
+    160,
+    160,
+    160
+   ],
+   "color": [
+    9,
+    9,
+    9
+   ],
+   "font": "fonts/Inter-SemiBold.ttf"
+  },
+  {
+   "t": "image",
+   "src": "captures/menus/rb_options_l.png",
+   "x": 926.4,
+   "y": 233.600012,
+   "w": 384.0
+  }
+ ],
+ "theme": "light"
+}

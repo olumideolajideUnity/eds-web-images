@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5e6fedc2472449cead18ef23b5cb30d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.2D.Animation.Runtime::UnityEngine.U2D.Animation.SpriteLibrarySourceAsset
+  m_Library:
+  - m_Name: idle
+    m_Hash: 472167701
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: idle01
+      m_Hash: 67066117
+      m_Sprite: {fileID: 0}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 27c74ebefe0193d4086bea3a199e7568, type: 3}
+    - m_Name: idle02
+      m_Hash: 452331711
+      m_Sprite: {fileID: 0}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 903d4476bf88ada4b88273c7756570e6, type: 3}
+    - m_Name: idle03
+      m_Hash: 770783273
+      m_Sprite: {fileID: 0}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: f02bda1b2e2bb0c4babe189d59b6ecbb, type: 3}
+    - m_Name: idle04
+      m_Hash: 865447306
+      m_Sprite: {fileID: 0}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 50d1c134b07c32e45851d9465af25675, type: 3}
+    - m_Name: idle05
+      m_Hash: 76717340
+      m_Sprite: {fileID: 0}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: a5c5db1120327e34e87b61f71c601096, type: 3}
+    - m_Name: idle06
+      m_Hash: 496749734
+      m_Sprite: {fileID: 0}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: ffa4fd282f4c3894aa9d0d435568c155, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 0
+  - m_Name: attack
+    m_Hash: 130035003
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: attack01
+      m_Hash: 908906683
+      m_Sprite: {fileID: 0}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: f02bda1b2e2bb0c4babe189d59b6ecbb, type: 3}
+    - m_Name: attack02
+      m_Hash: 790987009
+      m_Sprite: {fileID: 0}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: a5c5db1120327e34e87b61f71c601096, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 0
+  m_PrimaryLibraryGUID: 
+  m_ModificationHash: 639305433337251179
+  m_Version: 1

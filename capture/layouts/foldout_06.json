@@ -1,0 +1,58 @@
+{
+ "out": "replacements/components/foldout/e c inspector.gif",
+ "size": [
+  800,
+  600
+ ],
+ "crop": [
+  0,
+  97,
+  400,
+  300
+ ],
+ "frames": [
+  [
+   "ec_0",
+   1500
+  ],
+  [
+   "ec_2",
+   1800
+  ],
+  [
+   "ec_3",
+   1800
+  ],
+  [
+   "ec_4",
+   1800
+  ],
+  [
+   "ec_5",
+   1800
+  ]
+ ],
+ "note": "GIF from Editor view-buffer frames: a Cube's Mesh Renderer (other components hidden, unity/gif_insp.cs); real clicks sent into the Inspector (unity/gif_mouse.cs via scripts/gif_cap.sh): Materials expand, Lighting expand, Materials collapse, Lighting collapse. Built by scripts/gif_build.py. Pointer drawn by gif_build.py at the click/hover positions (crop pt).",
+ "pointer": [
+  [
+   300,
+   260
+  ],
+  [
+   46,
+   36
+  ],
+  [
+   46,
+   110
+  ],
+  [
+   46,
+   37
+  ],
+  [
+   46,
+   57
+  ]
+ ]
+}

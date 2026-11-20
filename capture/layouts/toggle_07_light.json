@@ -1,0 +1,174 @@
+{
+ "out": "replacements/components/toggle/toggle-vs-togglebutton.png",
+ "canvas": [
+  1600,
+  600
+ ],
+ "backdrop": [
+  215,
+  215,
+  215
+ ],
+ "windows": [
+  {
+   "src": "captures/tg_vs_l.png",
+   "chrome": "none",
+   "x": 0,
+   "y": 0,
+   "w": 1600
+  }
+ ],
+ "annotations": [
+  {
+   "t": "rect",
+   "x": 0,
+   "y": 0,
+   "w_": 1600,
+   "h": 82,
+   "color": [
+    194,
+    194,
+    194
+   ],
+   "w": 0,
+   "fill": 1.0,
+   "dash": false
+  },
+  {
+   "t": "rect",
+   "x": 0,
+   "y": 520,
+   "w_": 1600,
+   "h": 80,
+   "color": [
+    194,
+    194,
+    194
+   ],
+   "w": 0,
+   "fill": 1.0,
+   "dash": false
+  },
+  {
+   "t": "rect",
+   "x": 0,
+   "y": 82,
+   "w_": 120,
+   "h": 438,
+   "color": [
+    194,
+    194,
+    194
+   ],
+   "w": 0,
+   "fill": 1.0,
+   "dash": false
+  },
+  {
+   "t": "rect",
+   "x": 760,
+   "y": 82,
+   "w_": 80,
+   "h": 438,
+   "color": [
+    194,
+    194,
+    194
+   ],
+   "w": 0,
+   "fill": 1.0,
+   "dash": false
+  },
+  {
+   "t": "rect",
+   "x": 1482,
+   "y": 82,
+   "w_": 118,
+   "h": 438,
+   "color": [
+    194,
+    194,
+    194
+   ],
+   "w": 0,
+   "fill": 1.0,
+   "dash": false
+  },
+  {
+   "t": "pill",
+   "s": "Toggle",
+   "x": 176,
+   "y": 144,
+   "h": 40,
+   "pad": 14,
+   "size": 22,
+   "bg": [
+    215,
+    215,
+    215
+   ],
+   "outline": [
+    160,
+    160,
+    160
+   ],
+   "color": [
+    9,
+    9,
+    9
+   ],
+   "font": "fonts/Inter-SemiBold.ttf"
+  },
+  {
+   "t": "pill",
+   "s": "Toggle Button (Independent)",
+   "x": 898,
+   "y": 144,
+   "h": 40,
+   "pad": 14,
+   "size": 22,
+   "bg": [
+    215,
+    215,
+    215
+   ],
+   "outline": [
+    160,
+    160,
+    160
+   ],
+   "color": [
+    9,
+    9,
+    9
+   ],
+   "font": "fonts/Inter-SemiBold.ttf"
+  },
+  {
+   "t": "pill",
+   "s": "Toggle Button in toolbar",
+   "x": 898,
+   "y": 340,
+   "h": 40,
+   "pad": 14,
+   "size": 22,
+   "bg": [
+    215,
+    215,
+    215
+   ],
+   "outline": [
+    160,
+    160,
+    160
+   ],
+   "color": [
+    9,
+    9,
+    9
+   ],
+   "font": "fonts/Inter-SemiBold.ttf"
+  }
+ ],
+ "theme": "light"
+}

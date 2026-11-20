@@ -1,0 +1,22 @@
+{
+ "out": "replacements/patterns/errors-and-messaging/ea-helpbox.png",
+ "canvas": [
+  1600,
+  600
+ ],
+ "backdrop": [
+  226,
+  226,
+  226
+ ],
+ "windows": [
+  {
+   "src": "captures/em_canvas_comp_l.png",
+   "chrome": "none",
+   "x": 320,
+   "y": 104,
+   "w": 960
+  }
+ ],
+ "theme": "light"
+}

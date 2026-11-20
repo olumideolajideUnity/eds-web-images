@@ -1,0 +1,149 @@
+{
+ "out": "replacements/components/text-field/textfield-margin-paddings.png",
+ "canvas": [
+  1600,
+  600
+ ],
+ "backdrop": [
+  215,
+  215,
+  215
+ ],
+ "windows": [
+  {
+   "src": "captures/tf_margins_l.png",
+   "chrome": "none",
+   "x": 0,
+   "y": 0,
+   "w": 1600
+  }
+ ],
+ "annotations": [
+  {
+   "t": "rect",
+   "x": 447.2,
+   "y": 210.4,
+   "w_": 19.2,
+   "h": 110.399994,
+   "color": [
+    205,
+    80,
+    40
+   ],
+   "w": 0,
+   "fill": 0.45,
+   "dash": false
+  },
+  {
+   "t": "rect",
+   "x": 706.400092,
+   "y": 210.4,
+   "w_": 11.99998800000003,
+   "h": 110.399994,
+   "color": [
+    205,
+    80,
+    40
+   ],
+   "w": 0,
+   "fill": 0.45,
+   "dash": false
+  },
+  {
+   "t": "rect",
+   "x": 1126.40012,
+   "y": 210.4,
+   "w_": 19.2,
+   "h": 110.399994,
+   "color": [
+    205,
+    80,
+    40
+   ],
+   "w": 0,
+   "fill": 0.45,
+   "dash": false
+  },
+  {
+   "t": "rect",
+   "x": 718.40008,
+   "y": 210.4,
+   "w_": 19.2,
+   "h": 110.399994,
+   "color": [
+    70,
+    150,
+    40
+   ],
+   "w": 0,
+   "fill": 0.7,
+   "dash": false
+  },
+  {
+   "t": "rect",
+   "x": 1107.20014,
+   "y": 210.4,
+   "w_": 19.2,
+   "h": 110.399994,
+   "color": [
+    70,
+    150,
+    40
+   ],
+   "w": 0,
+   "fill": 0.7,
+   "dash": false
+  },
+  {
+   "t": "pill",
+   "s": "Margins",
+   "x": 40,
+   "y": 498,
+   "h": 40,
+   "pad": 14,
+   "size": 22,
+   "bg": [
+    240,
+    216,
+    206
+   ],
+   "outline": [
+    205,
+    80,
+    40
+   ],
+   "color": [
+    9,
+    9,
+    9
+   ],
+   "font": "fonts/Inter-SemiBold.ttf"
+  },
+  {
+   "t": "pill",
+   "s": "Padding",
+   "x": 180,
+   "y": 498,
+   "h": 40,
+   "pad": 14,
+   "size": 22,
+   "bg": [
+    205,
+    225,
+    190
+   ],
+   "outline": [
+    70,
+    150,
+    40
+   ],
+   "color": [
+    9,
+    9,
+    9
+   ],
+   "font": "fonts/Inter-SemiBold.ttf"
+  }
+ ],
+ "theme": "light"
+}

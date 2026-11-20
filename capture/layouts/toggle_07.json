@@ -1,0 +1,173 @@
+{
+ "out": "replacements/components/toggle/toggle-vs-togglebutton.png",
+ "canvas": [
+  1600,
+  600
+ ],
+ "backdrop": [
+  50,
+  50,
+  50
+ ],
+ "windows": [
+  {
+   "src": "captures/tg_vs.png",
+   "chrome": "none",
+   "x": 0,
+   "y": 0,
+   "w": 1600
+  }
+ ],
+ "annotations": [
+  {
+   "t": "rect",
+   "x": 0,
+   "y": 0,
+   "w_": 1600,
+   "h": 82,
+   "color": [
+    40,
+    40,
+    40
+   ],
+   "w": 0,
+   "fill": 1.0,
+   "dash": false
+  },
+  {
+   "t": "rect",
+   "x": 0,
+   "y": 520,
+   "w_": 1600,
+   "h": 80,
+   "color": [
+    40,
+    40,
+    40
+   ],
+   "w": 0,
+   "fill": 1.0,
+   "dash": false
+  },
+  {
+   "t": "rect",
+   "x": 0,
+   "y": 82,
+   "w_": 120,
+   "h": 438,
+   "color": [
+    40,
+    40,
+    40
+   ],
+   "w": 0,
+   "fill": 1.0,
+   "dash": false
+  },
+  {
+   "t": "rect",
+   "x": 760,
+   "y": 82,
+   "w_": 80,
+   "h": 438,
+   "color": [
+    40,
+    40,
+    40
+   ],
+   "w": 0,
+   "fill": 1.0,
+   "dash": false
+  },
+  {
+   "t": "rect",
+   "x": 1482,
+   "y": 82,
+   "w_": 118,
+   "h": 438,
+   "color": [
+    40,
+    40,
+    40
+   ],
+   "w": 0,
+   "fill": 1.0,
+   "dash": false
+  },
+  {
+   "t": "pill",
+   "s": "Toggle",
+   "x": 176,
+   "y": 144,
+   "h": 40,
+   "pad": 14,
+   "size": 22,
+   "bg": [
+    50,
+    50,
+    50
+   ],
+   "outline": [
+    86,
+    87,
+    88
+   ],
+   "color": [
+    255,
+    255,
+    255
+   ],
+   "font": "fonts/Inter-SemiBold.ttf"
+  },
+  {
+   "t": "pill",
+   "s": "Toggle Button (Independent)",
+   "x": 898,
+   "y": 144,
+   "h": 40,
+   "pad": 14,
+   "size": 22,
+   "bg": [
+    50,
+    50,
+    50
+   ],
+   "outline": [
+    86,
+    87,
+    88
+   ],
+   "color": [
+    255,
+    255,
+    255
+   ],
+   "font": "fonts/Inter-SemiBold.ttf"
+  },
+  {
+   "t": "pill",
+   "s": "Toggle Button in toolbar",
+   "x": 898,
+   "y": 340,
+   "h": 40,
+   "pad": 14,
+   "size": 22,
+   "bg": [
+    50,
+    50,
+    50
+   ],
+   "outline": [
+    86,
+    87,
+    88
+   ],
+   "color": [
+    255,
+    255,
+    255
+   ],
+   "font": "fonts/Inter-SemiBold.ttf"
+  }
+ ]
+}

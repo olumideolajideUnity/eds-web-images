@@ -1,0 +1,45 @@
+{
+ "out": "replacements/patterns/windowing/pu-800.png",
+ "canvas": [
+  1600,
+  600
+ ],
+ "backdrop": [
+  56,
+  56,
+  56
+ ],
+ "windows": [
+  {
+   "src": "captures/win_backdrop@2x.png",
+   "chrome": "none",
+   "x": 0,
+   "y": 0,
+   "w": 1600
+  },
+  {
+   "src": "captures/win_popup.png",
+   "chrome": "none",
+   "x": 430,
+   "y": 157,
+   "w": 580
+  }
+ ],
+ "annotations": [
+  {
+   "t": "rect",
+   "x": 429,
+   "y": 156,
+   "w_": 581,
+   "h": 287,
+   "color": [
+    25,
+    25,
+    25
+   ],
+   "dash": false,
+   "solid": true,
+   "w": 2
+  }
+ ]
+}

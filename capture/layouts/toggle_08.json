@@ -1,0 +1,22 @@
+{
+ "out": "replacements/components/toggle/toggle-htu Y img.png",
+ "canvas": [
+  780,
+  480
+ ],
+ "backdrop": [
+  50,
+  50,
+  50
+ ],
+ "windows": [
+  {
+   "src": "captures/tg_allowhdr.png",
+   "chrome": "none",
+   "x": 0,
+   "y": 0,
+   "w": 780
+  }
+ ],
+ "annotations": []
+}

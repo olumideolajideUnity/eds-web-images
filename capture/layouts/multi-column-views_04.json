@@ -1,0 +1,22 @@
+{
+ "out": "replacements/components/multi-column-views/23584b592adb643b902299027d2c3495_uitk-mc-tree.png",
+ "canvas": [
+  640,
+  520
+ ],
+ "backdrop": [
+  50,
+  50,
+  50
+ ],
+ "windows": [
+  {
+   "src": "captures/mc_tree.png",
+   "chrome": "none",
+   "x": 40,
+   "y": 28,
+   "w": 560
+  }
+ ],
+ "annotations": []
+}

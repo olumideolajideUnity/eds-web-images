@@ -1,0 +1,22 @@
+{
+ "out": "replacements/components/button/buttons-toggleDe.png",
+ "canvas": [
+  840,
+  200
+ ],
+ "backdrop": [
+  50,
+  50,
+  50
+ ],
+ "windows": [
+  {
+   "src": "captures/btn_toggleDe.png",
+   "chrome": "none",
+   "x": 0,
+   "y": 0,
+   "w": 840
+  }
+ ],
+ "annotations": []
+}

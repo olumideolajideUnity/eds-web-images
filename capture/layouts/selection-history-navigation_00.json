@@ -1,0 +1,39 @@
+{
+ "out": "replacements/patterns/selection-history-navigation/select-history-card.png",
+ "canvas": [
+  640,
+  256
+ ],
+ "backdrop": [
+  20,
+  20,
+  20
+ ],
+ "windows": [
+  {
+   "src": "captures/shn_card_src.png",
+   "chrome": "none",
+   "x": 53,
+   "y": 83,
+   "w": 534
+  }
+ ],
+ "annotations": [
+  {
+   "t": "rect",
+   "x": 69,
+   "y": 91,
+   "w_": 130,
+   "h": 74,
+   "color": [
+    66,
+    66,
+    66
+   ],
+   "dash": false,
+   "solid": true,
+   "radius": 14,
+   "w": 3
+  }
+ ]
+}

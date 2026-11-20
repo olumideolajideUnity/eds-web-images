@@ -1,0 +1,60 @@
+{
+ "out": "replacements/components/help-box/helpBox-overview.png",
+ "canvas": [
+  1600,
+  600
+ ],
+ "backdrop": [
+  194,
+  194,
+  194
+ ],
+ "windows": [
+  {
+   "src": "captures/hb_canvas_warn_post_l.png",
+   "chrome": "none",
+   "x": 80,
+   "y": 90,
+   "w": 640
+  },
+  {
+   "src": "captures/hb_canvas_warn_post.png",
+   "chrome": "none",
+   "x": 880,
+   "y": 90,
+   "w": 640
+  }
+ ],
+ "annotations": [
+  {
+   "t": "rect",
+   "x": 80,
+   "y": 90,
+   "w_": 640,
+   "h": 447.2,
+   "color": [
+    153,
+    153,
+    153
+   ],
+   "w": 2,
+   "dash": false,
+   "solid": true
+  },
+  {
+   "t": "rect",
+   "x": 880,
+   "y": 90,
+   "w_": 640,
+   "h": 447.2,
+   "color": [
+    25,
+    25,
+    25
+   ],
+   "w": 2,
+   "dash": false,
+   "solid": true
+  }
+ ]
+}

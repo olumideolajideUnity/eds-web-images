@@ -1,0 +1,50 @@
+{
+ "out": "replacements/components/color-field/picker modal.gif",
+ "size": [
+  780,
+  480
+ ],
+ "crop": [
+  0,
+  97,
+  390,
+  240
+ ],
+ "frames": [
+  [
+   "pm_0",
+   1600
+  ],
+  [
+   "pm_1",
+   1800
+  ],
+  [
+   "pm_2",
+   2000
+  ],
+  [
+   "pm_3",
+   2200
+  ]
+ ],
+ "note": "GIF from Editor view-buffer frames: the URP Camera's Background field (unity/gif_insp.cs); Unity's own ColorPicker (unity/cf_pickers.cs, opened as a utility window so it stays open, captured from its own buffer) shown over the Inspector for the starting blue and the picked green, then closed with the field updated. Built by scripts/gif_build.py. Pointer drawn by gif_build.py at the click/hover positions (crop pt).",
+ "pointer": [
+  [
+   330,
+   178
+  ],
+  [
+   220,
+   156
+  ],
+  [
+   300,
+   153
+  ],
+  [
+   40,
+   198
+  ]
+ ]
+}

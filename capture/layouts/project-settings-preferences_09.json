@@ -1,0 +1,39 @@
+{
+ "out": "replacements/patterns/project-settings-preferences/titlebar-doc.png",
+ "canvas": [
+  1600,
+  288
+ ],
+ "backdrop": [
+  25,
+  25,
+  25
+ ],
+ "windows": [
+  {
+   "src": "captures/ps_memory.png",
+   "chrome": "none",
+   "x": 0,
+   "y": 0,
+   "w": 1600,
+   "h": 288
+  }
+ ],
+ "annotations": [
+  {
+   "t": "rect",
+   "x": 1518,
+   "y": 118,
+   "w_": 32,
+   "h": 32,
+   "color": [
+    175,
+    145,
+    244
+   ],
+   "fill": 0.18,
+   "dash": true,
+   "w": 2
+  }
+ ]
+}

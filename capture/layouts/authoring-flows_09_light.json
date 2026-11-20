@@ -1,0 +1,18 @@
+{
+ "out": "replacements/patterns/authoring-flows/insp-iso.png",
+ "canvas": [
+  1600,
+  724
+ ],
+ "windows": [
+  {
+   "src": "captures/af09_insp_l.png",
+   "title": "Inspector",
+   "x": 481,
+   "y": 106,
+   "w": 640,
+   "h": 513
+  }
+ ],
+ "theme": "light"
+}

@@ -1,0 +1,21 @@
+{
+ "out": "replacements/fundamentals/color-palette/Comp - Slider.png",
+ "canvas": [
+  840,
+  200
+ ],
+ "backdrop": [
+  40,
+  40,
+  40
+ ],
+ "windows": [
+  {
+   "src": "captures/cp_sliders.png",
+   "chrome": "none",
+   "x": 0,
+   "y": 0,
+   "w": 840
+  }
+ ]
+}

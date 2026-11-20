@@ -1,0 +1,22 @@
+{
+ "out": "replacements/fundamentals/accessibility/a11y-6Y.png",
+ "canvas": [
+  780,
+  530
+ ],
+ "backdrop": [
+  25,
+  26,
+  27
+ ],
+ "windows": [
+  {
+   "src": "captures/acc_insp_6Y.png",
+   "chrome": "none",
+   "x": 44,
+   "y": 69,
+   "w": 692
+  }
+ ],
+ "annotations": []
+}

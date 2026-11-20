@@ -1,0 +1,22 @@
+{
+ "out": "replacements/components/foldout/foldout-variations.png",
+ "canvas": [
+  1600,
+  600
+ ],
+ "backdrop": [
+  50,
+  50,
+  50
+ ],
+ "windows": [
+  {
+   "src": "captures/fo_variations.png",
+   "chrome": "none",
+   "x": 0,
+   "y": 0,
+   "w": 1600
+  }
+ ],
+ "annotations": []
+}

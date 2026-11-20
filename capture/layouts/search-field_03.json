@@ -1,0 +1,22 @@
+{
+ "out": "replacements/components/search-field/ToolbarSearchField.png",
+ "canvas": [
+  840,
+  200
+ ],
+ "backdrop": [
+  50,
+  50,
+  50
+ ],
+ "windows": [
+  {
+   "src": "captures/sf_single.png",
+   "chrome": "none",
+   "x": 0,
+   "y": 0,
+   "w": 840
+  }
+ ],
+ "annotations": []
+}

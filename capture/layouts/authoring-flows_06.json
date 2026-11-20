@@ -1,0 +1,17 @@
+{
+ "out": "replacements/patterns/authoring-flows/tool-toggle.png",
+ "canvas": [
+  1600,
+  724
+ ],
+ "windows": [
+  {
+   "src": "captures/af06_scene_d.png",
+   "title": "Scene",
+   "x": 365,
+   "y": 82,
+   "w": 871,
+   "h": 559
+  }
+ ]
+}

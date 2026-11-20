@@ -1,0 +1,69 @@
+{
+ "out": "replacements/components/text-field/textfield-behavior-Y img.png",
+ "canvas": [
+  780,
+  480
+ ],
+ "backdrop": [
+  215,
+  215,
+  215
+ ],
+ "windows": [
+  {
+   "src": "captures/tf_lapY_l.png",
+   "chrome": "none",
+   "x": 0,
+   "y": 0,
+   "w": 780
+  }
+ ],
+ "annotations": [
+  {
+   "t": "rect",
+   "x": 0,
+   "y": 0,
+   "w_": 780,
+   "h": 4.4,
+   "color": [
+    180,
+    180,
+    180
+   ],
+   "w": 0,
+   "fill": 1,
+   "dash": false
+  },
+  {
+   "t": "rect",
+   "x": 0,
+   "y": 0,
+   "w_": 20,
+   "h": 480,
+   "color": [
+    180,
+    180,
+    180
+   ],
+   "w": 0,
+   "fill": 1,
+   "dash": false
+  },
+  {
+   "t": "rect",
+   "x": 722.39996,
+   "y": 0,
+   "w_": 57.600040000000035,
+   "h": 480,
+   "color": [
+    180,
+    180,
+    180
+   ],
+   "w": 0,
+   "fill": 1,
+   "dash": false
+  }
+ ],
+ "theme": "light"
+}

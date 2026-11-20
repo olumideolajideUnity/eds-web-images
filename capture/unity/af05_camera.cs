@@ -1,0 +1,11 @@
+using UnityEditor; using UnityEngine; using System.Linq; using UnityEditor.SceneManagement;
+var sv = Resources.FindObjectsOfTypeAll<SceneView>().First(w => !w.docked);
+var root = PrefabStageUtility.GetCurrentPrefabStage().prefabContentsRoot;
+var b = new Bounds(root.transform.position, Vector3.zero);
+foreach (var r in root.GetComponentsInChildren<Renderer>()) b.Encapsulate(r.bounds);
+sv.LookAtDirect(b.center + new Vector3(0, -0.02f, 0), Quaternion.Euler(14f, 165f, 0f), 0.46f);
+Selection.activeGameObject = null; Selection.activeGameObject = root;
+var hType = typeof(Editor).Assembly.GetType("UnityEditor.SceneHierarchyWindow");
+foreach (var w in Resources.FindObjectsOfTypeAll(hType).Cast<EditorWindow>()) w.Repaint();
+sv.Repaint();
+return "center=" + b.center + " size=" + b.size + " ppp=" + EditorGUIUtility.pixelsPerPoint;

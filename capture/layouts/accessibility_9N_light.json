@@ -1,0 +1,84 @@
+{
+ "out": "replacements/fundamentals/accessibility/a11y-9N.png",
+ "canvas": [
+  780,
+  480
+ ],
+ "backdrop": [
+  235,
+  235,
+  235
+ ],
+ "windows": [
+  {
+   "src": "captures/acc_toolbar_l.png",
+   "chrome": "none",
+   "x": 253.0,
+   "y": 166.0,
+   "w": 280,
+   "crop": [
+    1750,
+    0,
+    1740,
+    0
+   ]
+  }
+ ],
+ "annotations": [
+  {
+   "t": "rect",
+   "x": 377.79999999999995,
+   "y": 189.2,
+   "w_": 21.600000000000136,
+   "h": 24.80000000000001,
+   "color": [
+    200,
+    30,
+    90
+   ],
+   "w": 2,
+   "fill": 0.22,
+   "dash": false,
+   "solid": true
+  },
+  {
+   "t": "line",
+   "x1": 388.6,
+   "y1": 214.0,
+   "x2": 388.6,
+   "y2": 314,
+   "color": [
+    200,
+    30,
+    90
+   ],
+   "w": 2
+  },
+  {
+   "t": "pill",
+   "s": "Click target",
+   "x": 300.1,
+   "y": 337,
+   "h": 46,
+   "pad": 18,
+   "size": 26,
+   "bg": [
+    246,
+    214,
+    226
+   ],
+   "outline": [
+    200,
+    30,
+    90
+   ],
+   "color": [
+    200,
+    30,
+    90
+   ],
+   "font": "fonts/Inter-Regular.ttf"
+  }
+ ],
+ "theme": "light"
+}

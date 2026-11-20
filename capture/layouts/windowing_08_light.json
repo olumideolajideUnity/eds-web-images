@@ -1,0 +1,38 @@
+{
+ "out": "replacements/patterns/windowing/11 anchor.png",
+ "canvas": [
+  1600,
+  720
+ ],
+ "backdrop": [
+  215,
+  215,
+  215
+ ],
+ "windows": [
+  {
+   "src": "captures/win_backdrop720@2x_l.png",
+   "chrome": "none",
+   "x": 0,
+   "y": 0,
+   "w": 1600
+  },
+  {
+   "src": "captures/win_scene_anchor_l.png",
+   "chrome": "none",
+   "x": 306,
+   "y": 114,
+   "w": 988
+  }
+ ],
+ "annotations": [
+  {
+   "t": "image",
+   "src": "captures/win_panemenu_l.png",
+   "x": 759,
+   "y": 124.4,
+   "w": 567
+  }
+ ],
+ "theme": "light"
+}

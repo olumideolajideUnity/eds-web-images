@@ -1,0 +1,23 @@
+{
+ "out": "replacements/components/multi-column-views/mv-overview.png",
+ "canvas": [
+  1600,
+  800
+ ],
+ "backdrop": [
+  50,
+  50,
+  50
+ ],
+ "windows": [
+  {
+   "src": "captures/cp_lights.png",
+   "title": "Light Explorer",
+   "x": 50,
+   "y": 96,
+   "w": 1500,
+   "h": null
+  }
+ ],
+ "annotations": []
+}

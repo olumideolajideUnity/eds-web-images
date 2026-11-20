@@ -1,0 +1,109 @@
+{
+ "out": "replacements/patterns/content-organization/2-2-fold_hover.png",
+ "canvas": [
+  780,
+  726
+ ],
+ "backdrop": [
+  25,
+  25,
+  25
+ ],
+ "windows": [
+  {
+   "src": "captures/co08_crop.png",
+   "chrome": "none",
+   "x": 0,
+   "y": 0,
+   "w": 780
+  }
+ ],
+ "annotations": [
+  {
+   "t": "line",
+   "x1": 0,
+   "y1": 181.5,
+   "x2": 780,
+   "y2": 181.5,
+   "color": [
+    80,
+    80,
+    80
+   ],
+   "w": 1
+  },
+  {
+   "t": "line",
+   "x1": 0,
+   "y1": 363.0,
+   "x2": 780,
+   "y2": 363.0,
+   "color": [
+    80,
+    80,
+    80
+   ],
+   "w": 1
+  },
+  {
+   "t": "line",
+   "x1": 0,
+   "y1": 544.5,
+   "x2": 780,
+   "y2": 544.5,
+   "color": [
+    80,
+    80,
+    80
+   ],
+   "w": 1
+  },
+  {
+   "t": "text",
+   "s": "Idle",
+   "x": 721,
+   "y": 90.75,
+   "anchor": "rm",
+   "size": 22
+  },
+  {
+   "t": "text",
+   "s": "Hover",
+   "x": 721,
+   "y": 272.25,
+   "anchor": "rm",
+   "size": 22
+  },
+  {
+   "t": "text",
+   "s": "Focused",
+   "x": 721,
+   "y": 453.75,
+   "anchor": "rm",
+   "size": 22
+  },
+  {
+   "t": "text",
+   "s": "Disabled",
+   "x": 721,
+   "y": 635.25,
+   "anchor": "rm",
+   "size": 22
+  },
+  {
+   "t": "rect",
+   "x": 0.5,
+   "y": 0.5,
+   "w_": 779,
+   "h": 725,
+   "dash": false,
+   "solid": true,
+   "color": [
+    24,
+    24,
+    24
+   ],
+   "w": 1
+  }
+ ]
+}

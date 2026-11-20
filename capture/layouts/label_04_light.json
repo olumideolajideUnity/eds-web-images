@@ -1,0 +1,228 @@
+{
+ "out": "replacements/components/label/label-styles.png",
+ "canvas": [
+  1600,
+  880
+ ],
+ "backdrop": [
+  215,
+  215,
+  215
+ ],
+ "windows": [
+  {
+   "src": "captures/lb_styles_l.png",
+   "chrome": "none",
+   "x": 0,
+   "y": 0,
+   "w": 1600
+  },
+  {
+   "src": "captures/lb_light_l.png",
+   "chrome": "none",
+   "x": 604,
+   "y": 286,
+   "w": 400,
+   "crop": [
+    0,
+    292,
+    188,
+    694
+   ]
+  },
+  {
+   "src": "captures/lb_tree_l.png",
+   "chrome": "none",
+   "x": 610,
+   "y": 370,
+   "w": 240,
+   "crop": [
+    0,
+    200,
+    425,
+    450
+   ]
+  },
+  {
+   "src": "captures/lb_sb_Error_l.png",
+   "chrome": "none",
+   "x": 40,
+   "y": 694,
+   "w": 320,
+   "crop": [
+    0,
+    0,
+    3440,
+    0
+   ]
+  },
+  {
+   "src": "captures/lb_sb_Warning_l.png",
+   "chrome": "none",
+   "x": 40,
+   "y": 734,
+   "w": 320,
+   "crop": [
+    0,
+    0,
+    3440,
+    0
+   ]
+  },
+  {
+   "src": "captures/lb_sb_Log_l.png",
+   "chrome": "none",
+   "x": 40,
+   "y": 774,
+   "w": 320,
+   "crop": [
+    0,
+    0,
+    3440,
+    0
+   ]
+  }
+ ],
+ "annotations": [
+  {
+   "t": "line",
+   "x1": 532,
+   "y1": 0,
+   "x2": 532,
+   "y2": 460,
+   "color": [
+    160,
+    160,
+    160
+   ],
+   "w": 2
+  },
+  {
+   "t": "line",
+   "x1": 1064,
+   "y1": 0,
+   "x2": 1064,
+   "y2": 460,
+   "color": [
+    160,
+    160,
+    160
+   ],
+   "w": 2
+  },
+  {
+   "t": "line",
+   "x1": 0,
+   "y1": 460,
+   "x2": 1600,
+   "y2": 460,
+   "color": [
+    160,
+    160,
+    160
+   ],
+   "w": 2
+  },
+  {
+   "t": "pill",
+   "s": "Regular",
+   "x": 40,
+   "y": 62,
+   "h": 44,
+   "pad": 16,
+   "size": 22,
+   "bg": [
+    215,
+    215,
+    215
+   ],
+   "outline": [
+    160,
+    160,
+    160
+   ],
+   "color": [
+    9,
+    9,
+    9
+   ],
+   "font": "fonts/Inter-SemiBold.ttf"
+  },
+  {
+   "t": "pill",
+   "s": "Bold",
+   "x": 572,
+   "y": 62,
+   "h": 44,
+   "pad": 16,
+   "size": 22,
+   "bg": [
+    215,
+    215,
+    215
+   ],
+   "outline": [
+    160,
+    160,
+    160
+   ],
+   "color": [
+    9,
+    9,
+    9
+   ],
+   "font": "fonts/Inter-SemiBold.ttf"
+  },
+  {
+   "t": "pill",
+   "s": "Focused / highlighted",
+   "x": 1104,
+   "y": 62,
+   "h": 44,
+   "pad": 16,
+   "size": 22,
+   "bg": [
+    215,
+    215,
+    215
+   ],
+   "outline": [
+    160,
+    160,
+    160
+   ],
+   "color": [
+    9,
+    9,
+    9
+   ],
+   "font": "fonts/Inter-SemiBold.ttf"
+  },
+  {
+   "t": "pill",
+   "s": "Labels with semantic colors",
+   "x": 40,
+   "y": 522,
+   "h": 44,
+   "pad": 16,
+   "size": 22,
+   "bg": [
+    215,
+    215,
+    215
+   ],
+   "outline": [
+    160,
+    160,
+    160
+   ],
+   "color": [
+    9,
+    9,
+    9
+   ],
+   "font": "fonts/Inter-SemiBold.ttf"
+  }
+ ],
+ "theme": "light"
+}

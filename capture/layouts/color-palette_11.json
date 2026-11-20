@@ -1,0 +1,96 @@
+{
+ "out": "replacements/fundamentals/color-palette/Inspector borders.png",
+ "canvas": [
+  1600,
+  764
+ ],
+ "backdrop": [
+  32,
+  33,
+  34
+ ],
+ "windows": [
+  {
+   "src": "captures/cp_insp.png",
+   "chrome": "none",
+   "x": 332,
+   "y": 88,
+   "w": 908
+  }
+ ],
+ "annotations": [
+  {
+   "t": "dot",
+   "x": 210,
+   "y": 461.6,
+   "r": 20,
+   "color": [
+    178,
+    255,
+    89
+   ]
+  },
+  {
+   "t": "dot",
+   "x": 210,
+   "y": 461.6,
+   "r": 18,
+   "color": [
+    48,
+    60,
+    36
+   ]
+  },
+  {
+   "t": "text",
+   "s": "1",
+   "x": 210,
+   "y": 461.6,
+   "anchor": "mm",
+   "size": 22,
+   "color": [
+    178,
+    255,
+    89
+   ],
+   "font": "C:/Windows/Fonts/segoeui.ttf"
+  },
+  {
+   "t": "line",
+   "x1": 230,
+   "y1": 461.6,
+   "x2": 280,
+   "y2": 461.6,
+   "color": [
+    178,
+    255,
+    89
+   ],
+   "w": 2
+  },
+  {
+   "t": "line",
+   "x1": 280,
+   "y1": 461.6,
+   "x2": 452,
+   "y2": 461.6,
+   "color": [
+    178,
+    255,
+    89
+   ],
+   "w": 2
+  },
+  {
+   "t": "dot",
+   "x": 452,
+   "y": 461.6,
+   "r": 5,
+   "color": [
+    178,
+    255,
+    89
+   ]
+  }
+ ]
+}

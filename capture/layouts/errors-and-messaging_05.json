@@ -1,0 +1,21 @@
+{
+ "out": "replacements/patterns/errors-and-messaging/ea-color use.png",
+ "canvas": [
+  1600,
+  600
+ ],
+ "backdrop": [
+  56,
+  56,
+  56
+ ],
+ "windows": [
+  {
+   "src": "captures/em_statusbar_full.png",
+   "chrome": "none",
+   "x": 0,
+   "y": 0,
+   "w": 1600
+  }
+ ]
+}

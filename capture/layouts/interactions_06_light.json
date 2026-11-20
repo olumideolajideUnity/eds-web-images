@@ -1,0 +1,130 @@
+{
+ "out": "replacements/fundamentals/interactions/rounded-corners.png",
+ "canvas": [
+  780,
+  360
+ ],
+ "backdrop": [
+  215,
+  215,
+  215
+ ],
+ "windows": [
+  {
+   "src": "captures/int_rounded_l.png",
+   "chrome": "none",
+   "x": 0,
+   "y": 0,
+   "w": 780
+  }
+ ],
+ "annotations": [
+  {
+   "t": "line",
+   "x1": 236.4,
+   "y1": 156.8,
+   "x2": 236.4,
+   "y2": 208.8,
+   "color": [
+    77,
+    140,
+    80
+   ],
+   "w": 2
+  },
+  {
+   "t": "line",
+   "x1": 236.4,
+   "y1": 156.8,
+   "x2": 242.4,
+   "y2": 156.8,
+   "color": [
+    77,
+    140,
+    80
+   ],
+   "w": 2
+  },
+  {
+   "t": "line",
+   "x1": 236.4,
+   "y1": 208.8,
+   "x2": 242.4,
+   "y2": 208.8,
+   "color": [
+    77,
+    140,
+    80
+   ],
+   "w": 2
+  },
+  {
+   "t": "line",
+   "x1": 558.8,
+   "y1": 156.8,
+   "x2": 558.8,
+   "y2": 208.8,
+   "color": [
+    77,
+    140,
+    80
+   ],
+   "w": 2
+  },
+  {
+   "t": "line",
+   "x1": 552.8,
+   "y1": 156.8,
+   "x2": 558.8,
+   "y2": 156.8,
+   "color": [
+    77,
+    140,
+    80
+   ],
+   "w": 2
+  },
+  {
+   "t": "line",
+   "x1": 552.8,
+   "y1": 208.8,
+   "x2": 558.8,
+   "y2": 208.8,
+   "color": [
+    77,
+    140,
+    80
+   ],
+   "w": 2
+  },
+  {
+   "t": "text",
+   "s": "4 px\nround",
+   "x": 228.4,
+   "y": 170.8,
+   "size": 22,
+   "color": [
+    77,
+    140,
+    80
+   ],
+   "font": "fonts/Inter-Regular.ttf",
+   "anchor": "rm"
+  },
+  {
+   "t": "text",
+   "s": "4 px\nround",
+   "x": 566.8,
+   "y": 170.8,
+   "size": 22,
+   "color": [
+    77,
+    140,
+    80
+   ],
+   "font": "fonts/Inter-Regular.ttf",
+   "anchor": "lm"
+  }
+ ],
+ "theme": "light"
+}

@@ -1,0 +1,162 @@
+{
+ "out": "replacements/patterns/inheritance/inheritance-overview.png",
+ "canvas": [
+  1600,
+  600
+ ],
+ "backdrop": [
+  25,
+  25,
+  25
+ ],
+ "windows": [
+  {
+   "src": "captures/inh_prefab.png",
+   "chrome": "none",
+   "x": 82,
+   "y": 82,
+   "w": 640,
+   "h": 524
+  },
+  {
+   "src": "captures/inh_mat.png",
+   "chrome": "none",
+   "x": 880,
+   "y": 82,
+   "w": 640,
+   "h": 524
+  }
+ ],
+ "annotations": [
+  {
+   "t": "line",
+   "x1": 26,
+   "y1": 520.4,
+   "x2": 50,
+   "y2": 520.4,
+   "color": [
+    66,
+    152,
+    228
+   ],
+   "w": 2
+  },
+  {
+   "t": "line",
+   "x1": 42,
+   "y1": 512.4,
+   "x2": 50,
+   "y2": 520.4,
+   "color": [
+    66,
+    152,
+    228
+   ],
+   "w": 2
+  },
+  {
+   "t": "line",
+   "x1": 42,
+   "y1": 528.4,
+   "x2": 50,
+   "y2": 520.4,
+   "color": [
+    66,
+    152,
+    228
+   ],
+   "w": 2
+  },
+  {
+   "t": "text",
+   "s": "Prefab instance with overridden property",
+   "x": 124,
+   "y": 42,
+   "size": 24,
+   "color": [
+    228,
+    229,
+    230
+   ],
+   "font": "C:/Windows/Fonts/segoeui.ttf",
+   "_underline": "overridden",
+   "_ucol": [
+    66,
+    152,
+    228
+   ]
+  },
+  {
+   "t": "image",
+   "src": "captures/icon_d_Prefab_Icon.png",
+   "x": 84,
+   "y": 28,
+   "w": 28
+  },
+  {
+   "t": "line",
+   "x1": 824,
+   "y1": 378.4,
+   "x2": 848,
+   "y2": 378.4,
+   "color": [
+    196,
+    196,
+    196
+   ],
+   "w": 2
+  },
+  {
+   "t": "line",
+   "x1": 840,
+   "y1": 370.4,
+   "x2": 848,
+   "y2": 378.4,
+   "color": [
+    196,
+    196,
+    196
+   ],
+   "w": 2
+  },
+  {
+   "t": "line",
+   "x1": 840,
+   "y1": 386.4,
+   "x2": 848,
+   "y2": 378.4,
+   "color": [
+    196,
+    196,
+    196
+   ],
+   "w": 2
+  },
+  {
+   "t": "text",
+   "s": "Material variant with overridden property",
+   "x": 922,
+   "y": 42,
+   "size": 24,
+   "color": [
+    228,
+    229,
+    230
+   ],
+   "font": "C:/Windows/Fonts/segoeui.ttf",
+   "_underline": "overridden",
+   "_ucol": [
+    196,
+    196,
+    196
+   ]
+  },
+  {
+   "t": "image",
+   "src": "captures/icon_d_Material_Icon.png",
+   "x": 882,
+   "y": 28,
+   "w": 28
+  }
+ ]
+}

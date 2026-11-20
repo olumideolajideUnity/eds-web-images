@@ -1,0 +1,21 @@
+{
+ "out": "replacements/patterns/errors-and-messaging/buttons-order.png",
+ "canvas": [
+  1600,
+  600
+ ],
+ "backdrop": [
+  41,
+  40,
+  40
+ ],
+ "windows": [
+  {
+   "src": "captures/em_buttons_order.png",
+   "chrome": "none",
+   "x": 0,
+   "y": 0,
+   "w": 1600
+  }
+ ]
+}

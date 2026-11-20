@@ -1,0 +1,23 @@
+{
+ "out": "replacements/patterns/content-organization/1-3-container.png",
+ "canvas": [
+  780,
+  604
+ ],
+ "backdrop": [
+  203,
+  203,
+  203
+ ],
+ "windows": [
+  {
+   "src": "captures/co_mesh_crop_l.png",
+   "chrome": "none",
+   "x": 80,
+   "y": 80,
+   "w": 720.0
+  }
+ ],
+ "annotations": [],
+ "theme": "light"
+}

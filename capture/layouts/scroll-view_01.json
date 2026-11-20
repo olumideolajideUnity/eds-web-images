@@ -1,0 +1,75 @@
+{
+ "out": "replacements/components/scroll-view/sv-overview.png",
+ "canvas": [
+  1600,
+  600
+ ],
+ "backdrop": [
+  194,
+  194,
+  194
+ ],
+ "windows": [
+  {
+   "src": "captures/sv_ov_l_fade.png",
+   "chrome": "none",
+   "x": 100,
+   "y": 40,
+   "w": 600
+  },
+  {
+   "src": "captures/sv_ov_fade.png",
+   "chrome": "none",
+   "x": 900,
+   "y": 40,
+   "w": 600
+  }
+ ],
+ "annotations": [
+  {
+   "t": "rect",
+   "x": 800,
+   "y": 0,
+   "w_": 800,
+   "h": 40,
+   "color": [
+    56,
+    56,
+    56
+   ],
+   "w": 0,
+   "fill": 1.0,
+   "dash": false
+  },
+  {
+   "t": "rect",
+   "x": 800,
+   "y": 0,
+   "w_": 100,
+   "h": 600,
+   "color": [
+    56,
+    56,
+    56
+   ],
+   "w": 0,
+   "fill": 1.0,
+   "dash": false
+  },
+  {
+   "t": "rect",
+   "x": 1500,
+   "y": 0,
+   "w_": 100,
+   "h": 600,
+   "color": [
+    56,
+    56,
+    56
+   ],
+   "w": 0,
+   "fill": 1.0,
+   "dash": false
+  }
+ ]
+}

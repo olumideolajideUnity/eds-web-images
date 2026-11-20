@@ -1,0 +1,17 @@
+{
+ "out": "replacements/patterns/overlays/overlays-transient.gif",
+ "canvas": [
+  1600,
+  600
+ ],
+ "note": "Animated GIF assembled by hand from captures/ov_gif_none.png and ov_gif_particles.png (2.5x renders; @2x file is 2000x750, the capture's native size). Not composed by compose.py.",
+ "windows": [
+  {
+   "src": "captures/ov_gif_none.png",
+   "chrome": "none",
+   "x": 0,
+   "y": 0,
+   "w": 1600
+  }
+ ]
+}

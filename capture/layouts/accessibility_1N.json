@@ -1,0 +1,22 @@
+{
+ "out": "replacements/fundamentals/accessibility/a11y-1N 2.45.34\u202fPM.png",
+ "canvas": [
+  780,
+  480
+ ],
+ "backdrop": [
+  25,
+  26,
+  27
+ ],
+ "windows": [
+  {
+   "src": "captures/acc_1N.png",
+   "chrome": "none",
+   "x": 110,
+   "y": 116,
+   "w": 1280
+  }
+ ],
+ "annotations": []
+}

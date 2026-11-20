@@ -1,0 +1,208 @@
+{
+ "out": "replacements/components/text-field/textfield-variations.png",
+ "canvas": [
+  1600,
+  600
+ ],
+ "backdrop": [
+  215,
+  215,
+  215
+ ],
+ "windows": [
+  {
+   "src": "captures/tf_variations_l.png",
+   "chrome": "none",
+   "x": 0,
+   "y": 0,
+   "w": 1600
+  }
+ ],
+ "annotations": [
+  {
+   "t": "line",
+   "x1": 800,
+   "y1": 0,
+   "x2": 800,
+   "y2": 600,
+   "color": [
+    160,
+    160,
+    160
+   ],
+   "w": 1
+  },
+  {
+   "t": "line",
+   "x1": 800,
+   "y1": 296,
+   "x2": 1600,
+   "y2": 296,
+   "color": [
+    160,
+    160,
+    160
+   ],
+   "w": 1
+  },
+  {
+   "t": "dot",
+   "x": 40,
+   "y": 62,
+   "r": 17,
+   "color": [
+    160,
+    160,
+    160
+   ]
+  },
+  {
+   "t": "dot",
+   "x": 40,
+   "y": 62,
+   "r": 15,
+   "color": [
+    215,
+    215,
+    215
+   ]
+  },
+  {
+   "t": "text",
+   "s": "1",
+   "x": 40,
+   "y": 62,
+   "anchor": "mm",
+   "size": 20,
+   "color": [
+    9,
+    9,
+    9
+   ],
+   "font": "fonts/Inter-SemiBold.ttf"
+  },
+  {
+   "t": "dot",
+   "x": 830,
+   "y": 62,
+   "r": 17,
+   "color": [
+    160,
+    160,
+    160
+   ]
+  },
+  {
+   "t": "dot",
+   "x": 830,
+   "y": 62,
+   "r": 15,
+   "color": [
+    215,
+    215,
+    215
+   ]
+  },
+  {
+   "t": "text",
+   "s": "2a",
+   "x": 830,
+   "y": 62,
+   "anchor": "mm",
+   "size": 20,
+   "color": [
+    9,
+    9,
+    9
+   ],
+   "font": "fonts/Inter-SemiBold.ttf"
+  },
+  {
+   "t": "dot",
+   "x": 830,
+   "y": 358,
+   "r": 17,
+   "color": [
+    160,
+    160,
+    160
+   ]
+  },
+  {
+   "t": "dot",
+   "x": 830,
+   "y": 358,
+   "r": 15,
+   "color": [
+    215,
+    215,
+    215
+   ]
+  },
+  {
+   "t": "text",
+   "s": "2b",
+   "x": 830,
+   "y": 358,
+   "anchor": "mm",
+   "size": 20,
+   "color": [
+    9,
+    9,
+    9
+   ],
+   "font": "fonts/Inter-SemiBold.ttf"
+  },
+  {
+   "t": "pill",
+   "s": "UIT",
+   "x": 24,
+   "y": 532,
+   "h": 40,
+   "pad": 14,
+   "size": 22,
+   "bg": [
+    235,
+    225,
+    250
+   ],
+   "outline": [
+    235,
+    225,
+    250
+   ],
+   "color": [
+    128,
+    42,
+    215
+   ],
+   "font": "C:/Windows/Fonts/consolab.ttf"
+  },
+  {
+   "t": "pill",
+   "s": "imGUI",
+   "x": 808,
+   "y": 532,
+   "h": 40,
+   "pad": 14,
+   "size": 22,
+   "bg": [
+    250,
+    225,
+    232
+   ],
+   "outline": [
+    250,
+    225,
+    232
+   ],
+   "color": [
+    218,
+    33,
+    98
+   ],
+   "font": "C:/Windows/Fonts/consolab.ttf"
+  }
+ ],
+ "theme": "light"
+}

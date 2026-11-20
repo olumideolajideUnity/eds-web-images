@@ -1,0 +1,18 @@
+{
+ "out": "replacements/patterns/errors-and-messaging/LargeUnityIcon.png",
+ "canvas": [
+  256,
+  256
+ ],
+ "note": "Copied unchanged (RGBA) from Unity 7 source Editor/Resources/Common/LargeUnityIcon.png; @2x is a 2x Lanczos upscale (no larger source exists).",
+ "windows": [
+  {
+   "src": "captures/LargeUnityIcon_u7_l.png",
+   "chrome": "none",
+   "x": 0,
+   "y": 0,
+   "w": 256
+  }
+ ],
+ "theme": "light"
+}

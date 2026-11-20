@@ -1,0 +1,74 @@
+{
+ "out": "replacements/fundamentals/accessibility/a11y-3.png",
+ "canvas": [
+  1600,
+  700
+ ],
+ "backdrop": [
+  203,
+  203,
+  203
+ ],
+ "windows": [
+  {
+   "src": "captures/acc_prof_split_l.png",
+   "chrome": "none",
+   "x": 90,
+   "y": 152,
+   "w": 1394.4
+  }
+ ],
+ "annotations": [
+  {
+   "t": "pill",
+   "s": "Default",
+   "x": 95,
+   "y": 80,
+   "h": 46,
+   "pad": 16,
+   "size": 24,
+   "bg": [
+    203,
+    203,
+    203
+   ],
+   "outline": [
+    160,
+    160,
+    160
+   ],
+   "color": [
+    9,
+    9,
+    9
+   ],
+   "font": "fonts/Inter-Regular.ttf"
+  },
+  {
+   "t": "pill",
+   "s": "Color Blind Mode",
+   "x": 890,
+   "y": 80,
+   "h": 46,
+   "pad": 16,
+   "size": 24,
+   "bg": [
+    203,
+    203,
+    203
+   ],
+   "outline": [
+    160,
+    160,
+    160
+   ],
+   "color": [
+    9,
+    9,
+    9
+   ],
+   "font": "fonts/Inter-Regular.ttf"
+  }
+ ],
+ "theme": "light"
+}

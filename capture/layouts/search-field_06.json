@@ -1,0 +1,28 @@
+{
+ "out": "replacements/components/search-field/condensedsearch-style.png",
+ "canvas": [
+  1600,
+  600
+ ],
+ "backdrop": [
+  50,
+  50,
+  50
+ ],
+ "windows": [
+  {
+   "src": "captures/sf_insp.png",
+   "chrome": "none",
+   "x": 420,
+   "y": 0,
+   "w": 760,
+   "crop": [
+    0,
+    0,
+    0,
+    615
+   ]
+  }
+ ],
+ "annotations": []
+}

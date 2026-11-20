@@ -1,0 +1,74 @@
+{
+ "out": "replacements/components/radio-button/radio-labeling.png",
+ "canvas": [
+  1600,
+  600
+ ],
+ "backdrop": [
+  215,
+  215,
+  215
+ ],
+ "windows": [
+  {
+   "src": "captures/rb_labeling_l.png",
+   "chrome": "none",
+   "x": 0,
+   "y": 0,
+   "w": 1600
+  }
+ ],
+ "annotations": [
+  {
+   "t": "pill",
+   "s": "Radio button",
+   "x": 200,
+   "y": 144,
+   "h": 40,
+   "pad": 14,
+   "size": 22,
+   "bg": [
+    215,
+    215,
+    215
+   ],
+   "outline": [
+    160,
+    160,
+    160
+   ],
+   "color": [
+    9,
+    9,
+    9
+   ],
+   "font": "fonts/Inter-SemiBold.ttf"
+  },
+  {
+   "t": "pill",
+   "s": "Radio button with values",
+   "x": 840,
+   "y": 144,
+   "h": 40,
+   "pad": 14,
+   "size": 22,
+   "bg": [
+    215,
+    215,
+    215
+   ],
+   "outline": [
+    160,
+    160,
+    160
+   ],
+   "color": [
+    9,
+    9,
+    9
+   ],
+   "font": "fonts/Inter-SemiBold.ttf"
+  }
+ ],
+ "theme": "light"
+}

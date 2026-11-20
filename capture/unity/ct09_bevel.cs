@@ -1,0 +1,17 @@
+using UnityEditor; using UnityEngine; using UnityEngine.ProBuilder; using UnityEditor.ProBuilder; using UnityEditor.EditorTools; using System.Linq; using System.Reflection;
+var BF = BindingFlags.Instance|BindingFlags.Static|BindingFlags.Public|BindingFlags.NonPublic;
+var asm = System.AppDomain.CurrentDomain.GetAssemblies().First(x => x.GetName().Name == "Unity.ProBuilder.Editor");
+var ctx = asm.GetType("UnityEditor.ProBuilder.PositionToolContext");
+ToolManager.SetActiveContext(ctx);
+ProBuilderEditor.selectMode = SelectMode.Edge;
+var pb = GameObject.Find("Box").GetComponent<ProBuilderMesh>();
+var top = pb.faces.OrderByDescending(f => f.indexes.Average(i => pb.positions[i].y)).First();
+var edge = top.edges.OrderByDescending(e => pb.positions[e.a].x + pb.positions[e.b].x).First();
+pb.SetSelectedEdges(new[]{ edge });
+ProBuilderEditor.Refresh();
+var act = System.Activator.CreateInstance(asm.GetType("UnityEditor.ProBuilder.Actions.BevelEdges"));
+var m = act.GetType().GetMethod("PerformAltAction", BF) ?? act.GetType().GetMethod("DoAlternateAction", BF);
+m.Invoke(act, null);
+SceneView.RepaintAll();
+var sv = Resources.FindObjectsOfTypeAll<SceneView>().First(w => !w.docked);
+return "ctx=" + ToolManager.activeContextType?.Name + " mode=" + ProBuilderEditor.selectMode + " edges=" + pb.selectedEdgeCount + " overlays=" + string.Join(",", sv.overlayCanvas.overlays.Where(o => o.displayed).Select(o => o.displayName + "/" + o.id));

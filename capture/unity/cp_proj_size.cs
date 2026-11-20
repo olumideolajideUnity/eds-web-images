@@ -1,0 +1,13 @@
+using UnityEditor; using UnityEngine; using System.Linq; using System.Reflection;
+var BF = BindingFlags.Instance|BindingFlags.Public|BindingFlags.NonPublic;
+var t = typeof(Editor).Assembly.GetType("UnityEditor.ProjectBrowser");
+var w = Resources.FindObjectsOfTypeAll(t).Cast<EditorWindow>().First(x => !x.docked);
+var host = typeof(EditorWindow).GetField("m_Parent", BF).GetValue(w);
+var cw = host.GetType().GetProperty("window", BF).GetValue(host);
+var panes = host.GetType().GetField("m_Panes", BF)?.GetValue(host) as System.Collections.IList;
+var root = cw.GetType().GetProperty("rootView", BF).GetValue(cw);
+var mnp = root.GetType().GetProperty("minSize", BF); 
+cw.GetType().GetProperty("position", BF).SetValue(cw, new Rect(200, 100, 647, 273));
+var la = t.GetField("m_ListArea", BF).GetValue(w); la.GetType().GetProperty("gridSize", BF).SetValue(la, 80);
+w.Repaint();
+return "panes=" + (panes == null ? -1 : panes.Count) + " min=" + mnp?.GetValue(root) + " cw=" + cw.GetType().GetProperty("position", BF).GetValue(cw) + " w=" + w.position;

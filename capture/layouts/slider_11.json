@@ -1,0 +1,127 @@
+{
+ "out": "replacements/components/slider/slider-states.png",
+ "canvas": [
+  1600,
+  600
+ ],
+ "backdrop": [
+  194,
+  194,
+  194
+ ],
+ "windows": [
+  {
+   "src": "captures/sl_states_l.png",
+   "chrome": "none",
+   "x": 0,
+   "y": 0,
+   "w": 800
+  },
+  {
+   "src": "captures/sl_states.png",
+   "chrome": "none",
+   "x": 800,
+   "y": 0,
+   "w": 800
+  }
+ ],
+ "annotations": [
+  {
+   "t": "line",
+   "x1": 800,
+   "y1": 0,
+   "x2": 800,
+   "y2": 600,
+   "color": [
+    120,
+    120,
+    120
+   ],
+   "w": 1
+  },
+  {
+   "t": "text",
+   "s": "Default",
+   "x": 546.4,
+   "y": 118.399996,
+   "anchor": "lm",
+   "size": 24,
+   "color": [
+    110,
+    110,
+    110
+   ],
+   "font": "fonts/Inter-Regular.ttf"
+  },
+  {
+   "t": "text",
+   "s": "Default",
+   "x": 1346.4,
+   "y": 118.399996,
+   "anchor": "lm",
+   "size": 24,
+   "color": [
+    200,
+    200,
+    200
+   ],
+   "font": "fonts/Inter-Regular.ttf"
+  },
+  {
+   "t": "text",
+   "s": "Hover",
+   "x": 546.4,
+   "y": 238.4,
+   "anchor": "lm",
+   "size": 24,
+   "color": [
+    110,
+    110,
+    110
+   ],
+   "font": "fonts/Inter-Regular.ttf"
+  },
+  {
+   "t": "text",
+   "s": "Hover",
+   "x": 1346.4,
+   "y": 238.4,
+   "anchor": "lm",
+   "size": 24,
+   "color": [
+    200,
+    200,
+    200
+   ],
+   "font": "fonts/Inter-Regular.ttf"
+  },
+  {
+   "t": "text",
+   "s": "Focused",
+   "x": 546.4,
+   "y": 358.4,
+   "anchor": "lm",
+   "size": 24,
+   "color": [
+    110,
+    110,
+    110
+   ],
+   "font": "fonts/Inter-Regular.ttf"
+  },
+  {
+   "t": "text",
+   "s": "Focused",
+   "x": 1346.4,
+   "y": 358.4,
+   "anchor": "lm",
+   "size": 24,
+   "color": [
+    200,
+    200,
+    200
+   ],
+   "font": "fonts/Inter-Regular.ttf"
+  }
+ ]
+}

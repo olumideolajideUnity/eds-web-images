@@ -1,0 +1,51 @@
+{
+ "out": "replacements/patterns/inheritance/overrides_aggregate_example2.png",
+ "canvas": [
+  1600,
+  600
+ ],
+ "backdrop": [
+  25,
+  25,
+  25
+ ],
+ "windows": [
+  {
+   "src": "captures/inh_compare.png",
+   "chrome": "none",
+   "x": 196,
+   "y": 184,
+   "w": 1196
+  }
+ ],
+ "annotations": [
+  {
+   "t": "rect",
+   "x": 195,
+   "y": 183,
+   "w_": 1197,
+   "h": 236,
+   "color": [
+    99,
+    99,
+    99
+   ],
+   "dash": false,
+   "solid": true,
+   "w": 2
+  },
+  {
+   "t": "text",
+   "s": "Side by side comparison inspector",
+   "x": 196,
+   "y": 133,
+   "size": 24,
+   "color": [
+    255,
+    255,
+    255
+   ],
+   "font": "C:/Windows/Fonts/segoeui.ttf"
+  }
+ ]
+}

@@ -1,0 +1,35 @@
+{
+ "out": "replacements/patterns/authoring-flows/focused-inspector.png",
+ "canvas": [
+  1600,
+  724
+ ],
+ "windows": [
+  {
+   "src": "captures/af10_scene_d.png",
+   "title": "Scene",
+   "x": 68,
+   "y": 32,
+   "w": 980,
+   "h": 600
+  },
+  {
+   "src": "captures/af10_insp_d.png",
+   "title": "Inspector",
+   "x": 1064,
+   "y": 32,
+   "w": 470,
+   "h": 600,
+   "hide_right": 34
+  },
+  {
+   "src": "captures/af10_props_d.png",
+   "title": "Paint1G_WAnim_Shader",
+   "x": 471,
+   "y": 128,
+   "w": 484,
+   "h": 552,
+   "hide_right": 34
+  }
+ ]
+}

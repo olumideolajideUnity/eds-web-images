@@ -1,0 +1,22 @@
+{
+ "out": "replacements/components/progress-bar/bg-tasks-win.png",
+ "canvas": [
+  1600,
+  600
+ ],
+ "backdrop": [
+  40,
+  40,
+  40
+ ],
+ "windows": [
+  {
+   "src": "captures/pb_tasks.png",
+   "chrome": "none",
+   "x": 400,
+   "y": 48,
+   "w": 800
+  }
+ ],
+ "annotations": []
+}

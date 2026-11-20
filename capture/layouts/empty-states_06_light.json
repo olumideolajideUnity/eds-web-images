@@ -1,0 +1,77 @@
+{
+ "out": "replacements/patterns/empty-states/es-helpbox.png",
+ "canvas": [
+  1600,
+  600
+ ],
+ "backdrop": [
+  215,
+  215,
+  215
+ ],
+ "windows": [
+  {
+   "src": "captures/es06_init_l.png",
+   "chrome": "none",
+   "x": 40,
+   "y": 78,
+   "w": 742
+  },
+  {
+   "src": "captures/es06_err_l.png",
+   "chrome": "none",
+   "x": 820,
+   "y": 78,
+   "w": 742
+  }
+ ],
+ "annotations": [
+  {
+   "t": "pill",
+   "x": 40,
+   "y": 40,
+   "h": 42,
+   "s": "Initial empty state",
+   "color": [
+    9,
+    9,
+    9
+   ],
+   "size": 21,
+   "bg": [
+    226,
+    226,
+    226
+   ],
+   "outline": [
+    160,
+    160,
+    160
+   ]
+  },
+  {
+   "t": "pill",
+   "x": 820,
+   "y": 40,
+   "h": 42,
+   "s": "Empty state with an error",
+   "color": [
+    9,
+    9,
+    9
+   ],
+   "size": 21,
+   "bg": [
+    226,
+    226,
+    226
+   ],
+   "outline": [
+    160,
+    160,
+    160
+   ]
+  }
+ ],
+ "theme": "light"
+}

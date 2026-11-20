@@ -1,0 +1,163 @@
+{
+ "out": "replacements/components/button/buttons-variations.png",
+ "canvas": [
+  1600,
+  600
+ ],
+ "backdrop": [
+  50,
+  50,
+  50
+ ],
+ "windows": [
+  {
+   "src": "captures/btn_variations.png",
+   "chrome": "none",
+   "x": 0,
+   "y": 0,
+   "w": 1600
+  }
+ ],
+ "annotations": [
+  {
+   "t": "dot",
+   "x": 64,
+   "y": 64,
+   "r": 18,
+   "color": [
+    86,
+    87,
+    88
+   ]
+  },
+  {
+   "t": "dot",
+   "x": 64,
+   "y": 64,
+   "r": 16,
+   "color": [
+    50,
+    50,
+    50
+   ]
+  },
+  {
+   "t": "text",
+   "s": "1",
+   "x": 64,
+   "y": 64,
+   "anchor": "mm",
+   "size": 22,
+   "color": [
+    255,
+    255,
+    255
+   ],
+   "font": "fonts/Inter-Regular.ttf"
+  },
+  {
+   "t": "dot",
+   "x": 864,
+   "y": 64,
+   "r": 18,
+   "color": [
+    86,
+    87,
+    88
+   ]
+  },
+  {
+   "t": "dot",
+   "x": 864,
+   "y": 64,
+   "r": 16,
+   "color": [
+    50,
+    50,
+    50
+   ]
+  },
+  {
+   "t": "text",
+   "s": "2a",
+   "x": 864,
+   "y": 64,
+   "anchor": "mm",
+   "size": 22,
+   "color": [
+    255,
+    255,
+    255
+   ],
+   "font": "fonts/Inter-Regular.ttf"
+  },
+  {
+   "t": "dot",
+   "x": 864,
+   "y": 364,
+   "r": 18,
+   "color": [
+    86,
+    87,
+    88
+   ]
+  },
+  {
+   "t": "dot",
+   "x": 864,
+   "y": 364,
+   "r": 16,
+   "color": [
+    50,
+    50,
+    50
+   ]
+  },
+  {
+   "t": "text",
+   "s": "2b",
+   "x": 864,
+   "y": 364,
+   "anchor": "mm",
+   "size": 22,
+   "color": [
+    255,
+    255,
+    255
+   ],
+   "font": "fonts/Inter-Regular.ttf"
+  },
+  {
+   "t": "line",
+   "x1": 800,
+   "y1": 0,
+   "x2": 800,
+   "y2": 600,
+   "color": [
+    86,
+    87,
+    88
+   ],
+   "w": 2
+  },
+  {
+   "t": "text",
+   "s": "imGUI only",
+   "x": 1480,
+   "y": 541,
+   "anchor": "mm",
+   "size": 24,
+   "color": [
+    218,
+    33,
+    98
+   ],
+   "font": "C:/Windows/Fonts/consolab.ttf",
+   "bg": [
+    25,
+    26,
+    27
+   ]
+  }
+ ]
+}

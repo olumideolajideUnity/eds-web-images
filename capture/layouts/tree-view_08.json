@@ -1,0 +1,20 @@
+{
+ "out": "replacements/components/tree-view/tv-reorder half.gif",
+ "source": "incoming/gifs/tv-reorder half.mp4",
+ "crop": [
+  6,
+  84,
+  1278,
+  836
+ ],
+ "size": [
+  800,
+  524
+ ],
+ "trim": [
+  0,
+  10.6
+ ],
+ "fps": 20,
+ "note": "User screen recording (Unity 7, dark): Hierarchy: Cube then Sphere dragged into Canvas (SampleScene). Kept the full window width, so it is 800x524 rather than 800x600. Title bar cropped; built by scripts/rec_build.py."
+}

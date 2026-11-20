@@ -1,0 +1,15 @@
+using UnityEditor; using UnityEditor.SceneManagement; using UnityEditor.Overlays; using UnityEngine; using System.Linq; using System.Reflection;
+var BF = BindingFlags.Instance|BindingFlags.Public|BindingFlags.NonPublic;
+EditorSceneManager.OpenScene("Assets/EFDS_Screenshots/ProBuilderBevel.unity");
+var cam = new GameObject("Camera").AddComponent<Camera>();
+cam.transform.position = new Vector3(-4.5f, 2.6f, -3.5f); cam.transform.LookAt(new Vector3(0, 0.6f, 0));
+cam.clearFlags = CameraClearFlags.SolidColor; cam.backgroundColor = new Color(0.26f, 0.21f, 0.29f);
+Selection.activeGameObject = cam.gameObject;
+var sv = Resources.FindObjectsOfTypeAll<SceneView>().First(w => !w.docked);
+foreach (var o in sv.overlayCanvas.overlays) if (o.displayName == "Bevel Edges" || o.displayName == "View Options") o.displayed = false;
+var co = sv.overlayCanvas.overlays.First(o => o.displayName == "Cameras");
+co.displayed = true; co.Undock(); co.collapsed = false; co.floatingPosition = new Vector2(1060, 40);
+sv.drawGizmos = true;
+sv.LookAtDirect(new Vector3(-1.6f, 0.4f, 0), Quaternion.Euler(28f, -50f, 0f), 4.6f);
+sv.Repaint();
+return "cameras=" + co.rootVisualElement.worldBound + " dirty=" + UnityEngine.SceneManagement.SceneManager.GetActiveScene().isDirty;

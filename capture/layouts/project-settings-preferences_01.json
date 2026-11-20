@@ -1,0 +1,22 @@
+{
+ "out": "replacements/patterns/project-settings-preferences/ps-general.png",
+ "canvas": [
+  1600,
+  600
+ ],
+ "backdrop": [
+  25,
+  25,
+  25
+ ],
+ "windows": [
+  {
+   "src": "captures/ps_general_b.png",
+   "chrome": "none",
+   "x": 0,
+   "y": 0,
+   "w": 1600,
+   "h": 600
+  }
+ ]
+}

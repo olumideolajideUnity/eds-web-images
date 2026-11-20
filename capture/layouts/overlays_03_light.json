@@ -1,0 +1,132 @@
+{
+ "out": "replacements/patterns/overlays/overlays-pos-dock.png",
+ "canvas": [
+  1600,
+  600
+ ],
+ "backdrop": [
+  226,
+  226,
+  226
+ ],
+ "windows": [
+  {
+   "src": "captures/ov_posdock_l.png",
+   "chrome": "none",
+   "x": 160,
+   "y": 30,
+   "w": 1440
+  }
+ ],
+ "annotations": [
+  {
+   "t": "dot",
+   "x": 732.0,
+   "y": 273.0,
+   "r": 20,
+   "color": [
+    77,
+    140,
+    80
+   ]
+  },
+  {
+   "t": "dot",
+   "x": 732.0,
+   "y": 273.0,
+   "r": 18,
+   "color": [
+    182,
+    191,
+    182
+   ]
+  },
+  {
+   "t": "text",
+   "s": "1",
+   "x": 732.0,
+   "y": 273.0,
+   "anchor": "mm",
+   "size": 22,
+   "color": [
+    77,
+    140,
+    80
+   ],
+   "font": "C:/Windows/Fonts/segoeui.ttf"
+  },
+  {
+   "t": "dot",
+   "x": 138.0,
+   "y": 96.60000000000001,
+   "r": 20,
+   "color": [
+    77,
+    140,
+    80
+   ]
+  },
+  {
+   "t": "dot",
+   "x": 138.0,
+   "y": 96.60000000000001,
+   "r": 18,
+   "color": [
+    182,
+    191,
+    182
+   ]
+  },
+  {
+   "t": "text",
+   "s": "2",
+   "x": 138.0,
+   "y": 96.60000000000001,
+   "anchor": "mm",
+   "size": 22,
+   "color": [
+    77,
+    140,
+    80
+   ],
+   "font": "C:/Windows/Fonts/segoeui.ttf"
+  },
+  {
+   "t": "dot",
+   "x": 1410.96,
+   "y": 181.4160054,
+   "r": 20,
+   "color": [
+    77,
+    140,
+    80
+   ]
+  },
+  {
+   "t": "dot",
+   "x": 1410.96,
+   "y": 181.4160054,
+   "r": 18,
+   "color": [
+    182,
+    191,
+    182
+   ]
+  },
+  {
+   "t": "text",
+   "s": "3",
+   "x": 1410.96,
+   "y": 181.4160054,
+   "anchor": "mm",
+   "size": 22,
+   "color": [
+    77,
+    140,
+    80
+   ],
+   "font": "C:/Windows/Fonts/segoeui.ttf"
+  }
+ ],
+ "theme": "light"
+}

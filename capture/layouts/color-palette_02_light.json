@@ -1,0 +1,192 @@
+{
+ "out": "replacements/fundamentals/color-palette/Accent Borders.png",
+ "canvas": [
+  1600,
+  600
+ ],
+ "backdrop": [
+  226,
+  226,
+  226
+ ],
+ "windows": [
+  {
+   "src": "captures/cp_accent_diagram_l.png",
+   "chrome": "none",
+   "x": 0,
+   "y": 0,
+   "w": 1600
+  },
+  {
+   "src": "captures/cp_accent_tf_l.png",
+   "chrome": "none",
+   "x": 207,
+   "y": 202,
+   "w": 386,
+   "crop": [
+    332,
+    81,
+    332,
+    82
+   ]
+  },
+  {
+   "src": "captures/cp_accent_dd_l.png",
+   "chrome": "none",
+   "x": 993,
+   "y": 201,
+   "w": 414,
+   "crop": [
+    318,
+    79,
+    318,
+    79
+   ]
+  }
+ ],
+ "annotations": [
+  {
+   "t": "pill",
+   "s": "1: Inset Border",
+   "x": 40,
+   "y": 62,
+   "h": 44,
+   "pad": 16,
+   "size": 22,
+   "bg": [
+    226,
+    226,
+    226
+   ],
+   "outline": [
+    160,
+    160,
+    160
+   ],
+   "color": [
+    9,
+    9,
+    9
+   ],
+   "font": "fonts/Inter-Regular.ttf"
+  },
+  {
+   "t": "pill",
+   "s": "2: Outset Border",
+   "x": 840,
+   "y": 62,
+   "h": 44,
+   "pad": 16,
+   "size": 22,
+   "bg": [
+    226,
+    226,
+    226
+   ],
+   "outline": [
+    160,
+    160,
+    160
+   ],
+   "color": [
+    9,
+    9,
+    9
+   ],
+   "font": "fonts/Inter-Regular.ttf"
+  },
+  {
+   "t": "line",
+   "x1": 401,
+   "y1": 201,
+   "x2": 401,
+   "y2": 166,
+   "color": [
+    77,
+    140,
+    80
+   ],
+   "w": 2
+  },
+  {
+   "t": "line",
+   "x1": 401,
+   "y1": 166,
+   "x2": 800,
+   "y2": 166,
+   "color": [
+    77,
+    140,
+    80
+   ],
+   "w": 2
+  },
+  {
+   "t": "line",
+   "x1": 800,
+   "y1": 166,
+   "x2": 800,
+   "y2": 205,
+   "color": [
+    77,
+    140,
+    80
+   ],
+   "w": 2
+  },
+  {
+   "t": "line",
+   "x1": 801,
+   "y1": 287,
+   "x2": 801,
+   "y2": 325,
+   "color": [
+    77,
+    140,
+    80
+   ],
+   "w": 2
+  },
+  {
+   "t": "line",
+   "x1": 801,
+   "y1": 325,
+   "x2": 1200,
+   "y2": 325,
+   "color": [
+    77,
+    140,
+    80
+   ],
+   "w": 2
+  },
+  {
+   "t": "line",
+   "x1": 1200,
+   "y1": 325,
+   "x2": 1200,
+   "y2": 295,
+   "color": [
+    77,
+    140,
+    80
+   ],
+   "w": 2
+  },
+  {
+   "t": "text",
+   "s": "Darker Border",
+   "x": 800,
+   "y": 246,
+   "size": 22,
+   "color": [
+    77,
+    140,
+    80
+   ],
+   "anchor": "mm",
+   "font": "fonts/Inter-SemiBold.ttf"
+  }
+ ],
+ "theme": "light"
+}

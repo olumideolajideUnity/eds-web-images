@@ -1,0 +1,82 @@
+{
+ "out": "replacements/components/search-field/search results.gif",
+ "size": [
+  1600,
+  600
+ ],
+ "crop": [
+  0,
+  0,
+  800,
+  300
+ ],
+ "frames": [
+  [
+   "sr_0",
+   1300
+  ],
+  [
+   "sr_1",
+   450
+  ],
+  [
+   "sr_2",
+   450
+  ],
+  [
+   "sr_3",
+   450
+  ],
+  [
+   "sr_4",
+   450
+  ],
+  [
+   "sr_5",
+   450
+  ],
+  [
+   "sr_6",
+   1600
+  ],
+  [
+   "sr_7",
+   2200
+  ]
+ ],
+ "note": "GIF from Editor view-buffer frames: a floating two-column Project browser in grid view (unity/gif_proj.cs); the search runs for 'c', 'ca' ... 'candle' through the browser's own SetSearch (Unity's real search and result thumbnails), then a real click selects a result (scripts/gif_search.sh). Built by scripts/gif_build.py. Pointer drawn by gif_build.py at the click/hover positions (crop pt).",
+ "pointer": [
+  [
+   500,
+   240
+  ],
+  [
+   470,
+   37
+  ],
+  [
+   470,
+   37
+  ],
+  [
+   470,
+   37
+  ],
+  [
+   470,
+   37
+  ],
+  [
+   470,
+   37
+  ],
+  [
+   470,
+   37
+  ],
+  [
+   317,
+   110
+  ]
+ ]
+}

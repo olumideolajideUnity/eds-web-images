@@ -1,0 +1,30 @@
+{
+ "out": "replacements/patterns/windowing/default-800.png",
+ "canvas": [
+  1600,
+  600
+ ],
+ "backdrop": [
+  215,
+  215,
+  215
+ ],
+ "windows": [
+  {
+   "src": "captures/win_backdrop@2x_l.png",
+   "chrome": "none",
+   "x": 0,
+   "y": 0,
+   "w": 1600
+  },
+  {
+   "src": "captures/win_scene2_l.png",
+   "title": "Scene",
+   "x": 80,
+   "y": 58,
+   "w": 1440,
+   "h": 600
+  }
+ ],
+ "theme": "light"
+}

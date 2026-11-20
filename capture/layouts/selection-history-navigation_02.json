@@ -1,0 +1,21 @@
+{
+ "out": "replacements/patterns/selection-history-navigation/toolbar-layout.png",
+ "canvas": [
+  1600,
+  600
+ ],
+ "backdrop": [
+  56,
+  56,
+  56
+ ],
+ "windows": [
+  {
+   "src": "captures/shn_traffic.png",
+   "chrome": "none",
+   "x": 0,
+   "y": 0,
+   "w": 1600
+  }
+ ]
+}

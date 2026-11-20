@@ -1,0 +1,380 @@
+{
+ "out": "replacements/components/reorderable-list/c02440186b4ffe0f0772bcd67b83b103_rlv-states.png",
+ "canvas": [
+  1600,
+  740
+ ],
+ "backdrop": [
+  194,
+  194,
+  194
+ ],
+ "windows": [
+  {
+   "src": "captures/rl_states_d_l.png",
+   "chrome": "none",
+   "x": 0,
+   "y": 0,
+   "w": 800
+  },
+  {
+   "src": "captures/rl_states_d.png",
+   "chrome": "none",
+   "x": 800,
+   "y": 0,
+   "w": 800
+  }
+ ],
+ "annotations": [
+  {
+   "t": "line",
+   "x1": 0,
+   "y1": 355,
+   "x2": 1600,
+   "y2": 355,
+   "color": [
+    170,
+    170,
+    170
+   ],
+   "w": 1
+  },
+  {
+   "t": "line",
+   "x1": 800,
+   "y1": 355,
+   "x2": 1600,
+   "y2": 355,
+   "color": [
+    86,
+    87,
+    88
+   ],
+   "w": 1
+  },
+  {
+   "t": "pill",
+   "s": "IMGUI",
+   "x": 37,
+   "y": 40,
+   "h": 40,
+   "pad": 14,
+   "size": 22,
+   "bg": [
+    182,
+    191,
+    182
+   ],
+   "outline": [
+    77,
+    140,
+    80
+   ],
+   "color": [
+    77,
+    140,
+    80
+   ],
+   "font": "fonts/Inter-Regular.ttf"
+  },
+  {
+   "t": "pill",
+   "s": "IMGUI",
+   "x": 837,
+   "y": 40,
+   "h": 40,
+   "pad": 14,
+   "size": 22,
+   "bg": [
+    48,
+    60,
+    36
+   ],
+   "outline": [
+    178,
+    255,
+    89
+   ],
+   "color": [
+    178,
+    255,
+    89
+   ],
+   "font": "fonts/Inter-Regular.ttf"
+  },
+  {
+   "t": "pill",
+   "s": "UITK",
+   "x": 37,
+   "y": 400,
+   "h": 40,
+   "pad": 14,
+   "size": 22,
+   "bg": [
+    182,
+    191,
+    182
+   ],
+   "outline": [
+    77,
+    140,
+    80
+   ],
+   "color": [
+    77,
+    140,
+    80
+   ],
+   "font": "fonts/Inter-Regular.ttf"
+  },
+  {
+   "t": "pill",
+   "s": "UITK",
+   "x": 837,
+   "y": 400,
+   "h": 40,
+   "pad": 14,
+   "size": 22,
+   "bg": [
+    48,
+    60,
+    36
+   ],
+   "outline": [
+    178,
+    255,
+    89
+   ],
+   "color": [
+    178,
+    255,
+    89
+   ],
+   "font": "fonts/Inter-Regular.ttf"
+  },
+  {
+   "t": "text",
+   "s": "Default",
+   "x": 200,
+   "y": 137.4,
+   "anchor": "rm",
+   "size": 26,
+   "color": [
+    120,
+    120,
+    120
+   ],
+   "font": "fonts/Inter-Regular.ttf"
+  },
+  {
+   "t": "text",
+   "s": "Default",
+   "x": 1380,
+   "y": 137.4,
+   "anchor": "lm",
+   "size": 26,
+   "color": [
+    200,
+    200,
+    200
+   ],
+   "font": "fonts/Inter-Regular.ttf"
+  },
+  {
+   "t": "text",
+   "s": "Selected",
+   "x": 200,
+   "y": 179.4,
+   "anchor": "rm",
+   "size": 26,
+   "color": [
+    120,
+    120,
+    120
+   ],
+   "font": "fonts/Inter-Regular.ttf"
+  },
+  {
+   "t": "text",
+   "s": "Selected",
+   "x": 1380,
+   "y": 179.4,
+   "anchor": "lm",
+   "size": 26,
+   "color": [
+    200,
+    200,
+    200
+   ],
+   "font": "fonts/Inter-Regular.ttf"
+  },
+  {
+   "t": "text",
+   "s": "Focused",
+   "x": 200,
+   "y": 221.4,
+   "anchor": "rm",
+   "size": 26,
+   "color": [
+    120,
+    120,
+    120
+   ],
+   "font": "fonts/Inter-Regular.ttf"
+  },
+  {
+   "t": "text",
+   "s": "Focused",
+   "x": 1380,
+   "y": 221.4,
+   "anchor": "lm",
+   "size": 26,
+   "color": [
+    200,
+    200,
+    200
+   ],
+   "font": "fonts/Inter-Regular.ttf"
+  },
+  {
+   "t": "text",
+   "s": "Default",
+   "x": 200,
+   "y": 477.2,
+   "anchor": "rm",
+   "size": 26,
+   "color": [
+    120,
+    120,
+    120
+   ],
+   "font": "fonts/Inter-Regular.ttf"
+  },
+  {
+   "t": "text",
+   "s": "Default",
+   "x": 1380,
+   "y": 477.2,
+   "anchor": "lm",
+   "size": 26,
+   "color": [
+    200,
+    200,
+    200
+   ],
+   "font": "fonts/Inter-Regular.ttf"
+  },
+  {
+   "t": "text",
+   "s": "Alternate",
+   "x": 200,
+   "y": 521.2,
+   "anchor": "rm",
+   "size": 26,
+   "color": [
+    120,
+    120,
+    120
+   ],
+   "font": "fonts/Inter-Regular.ttf"
+  },
+  {
+   "t": "text",
+   "s": "Alternate",
+   "x": 1380,
+   "y": 521.2,
+   "anchor": "lm",
+   "size": 26,
+   "color": [
+    200,
+    200,
+    200
+   ],
+   "font": "fonts/Inter-Regular.ttf"
+  },
+  {
+   "t": "text",
+   "s": "Selected",
+   "x": 200,
+   "y": 565.2,
+   "anchor": "rm",
+   "size": 26,
+   "color": [
+    120,
+    120,
+    120
+   ],
+   "font": "fonts/Inter-Regular.ttf"
+  },
+  {
+   "t": "text",
+   "s": "Selected",
+   "x": 1380,
+   "y": 565.2,
+   "anchor": "lm",
+   "size": 26,
+   "color": [
+    200,
+    200,
+    200
+   ],
+   "font": "fonts/Inter-Regular.ttf"
+  },
+  {
+   "t": "text",
+   "s": "Hover",
+   "x": 200,
+   "y": 609.2,
+   "anchor": "rm",
+   "size": 26,
+   "color": [
+    120,
+    120,
+    120
+   ],
+   "font": "fonts/Inter-Regular.ttf"
+  },
+  {
+   "t": "text",
+   "s": "Hover",
+   "x": 1380,
+   "y": 609.2,
+   "anchor": "lm",
+   "size": 26,
+   "color": [
+    200,
+    200,
+    200
+   ],
+   "font": "fonts/Inter-Regular.ttf"
+  },
+  {
+   "t": "text",
+   "s": "Focused",
+   "x": 200,
+   "y": 653.2,
+   "anchor": "rm",
+   "size": 26,
+   "color": [
+    120,
+    120,
+    120
+   ],
+   "font": "fonts/Inter-Regular.ttf"
+  },
+  {
+   "t": "text",
+   "s": "Focused",
+   "x": 1380,
+   "y": 653.2,
+   "anchor": "lm",
+   "size": 26,
+   "color": [
+    200,
+    200,
+    200
+   ],
+   "font": "fonts/Inter-Regular.ttf"
+  }
+ ]
+}

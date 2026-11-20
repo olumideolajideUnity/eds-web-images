@@ -1,0 +1,15 @@
+using UnityEditor; using UnityEditor.Overlays; using UnityEngine; using UnityEngine.UIElements; using System.Linq; using System.Reflection;
+var BF = BindingFlags.Instance|BindingFlags.Static|BindingFlags.Public|BindingFlags.NonPublic;
+UnityEditor.SceneManagement.EditorSceneManager.OpenScene("Assets/EFDS_Screenshots/GOAuthoring.unity");
+Selection.activeGameObject = null; Tools.current = Tool.View;
+var sv = Resources.FindObjectsOfTypeAll<SceneView>().First(w => !w.docked);
+foreach (var o in sv.overlayCanvas.overlays) if (o.id.StartsWith("legacy") || o.displayName == "Tools" || o.displayName == "Tool Settings") o.displayed = false;
+var vo = sv.overlayCanvas.overlays.First(o => o.displayName == "View Options");
+vo.displayed = true; vo.Undock(); typeof(Overlay).GetProperty("layout", BF).GetSetMethod(true)?.Invoke(vo, new object[]{ Layout.HorizontalToolbar });
+vo.floatingPosition = new Vector2(330, 52);
+var s = sv.sceneViewState; s.showSkybox = true; s.showFog = true; s.showFlares = true; s.alwaysRefresh = false; s.showImageEffects = true; s.showParticleSystems = true;
+sv.drawGizmos = false; sv.LookAtDirect(new Vector3(-40f, 0f, 30f), Quaternion.Euler(20f, 20f, 0f), 6f);
+sv.Repaint();
+var fx = typeof(Editor).Assembly.GetType("UnityEditor.SceneFXWindow");
+var ctor = fx.GetConstructors(BF).Select(c => c.ToString()).ToArray();
+return "vo=" + vo.rootVisualElement.worldBound + " fx ctors=" + string.Join(";", ctor) + " base=" + fx.BaseType.Name;

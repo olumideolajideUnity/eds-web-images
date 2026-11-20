@@ -1,0 +1,226 @@
+{
+ "out": "replacements/components/tree-view/tv-states.png",
+ "canvas": [
+  1600,
+  740
+ ],
+ "backdrop": [
+  194,
+  194,
+  194
+ ],
+ "windows": [
+  {
+   "src": "captures/tv_states_l.png",
+   "chrome": "none",
+   "x": 0,
+   "y": 0,
+   "w": 800
+  },
+  {
+   "src": "captures/tv_states.png",
+   "chrome": "none",
+   "x": 800,
+   "y": 0,
+   "w": 800
+  }
+ ],
+ "annotations": [
+  {
+   "t": "text",
+   "s": "Expanded",
+   "x": 332,
+   "y": 60,
+   "anchor": "mm",
+   "size": 22,
+   "color": [
+    110,
+    110,
+    110
+   ],
+   "font": "fonts/Inter-Regular.ttf"
+  },
+  {
+   "t": "text",
+   "s": "Collapsed",
+   "x": 632,
+   "y": 60,
+   "anchor": "mm",
+   "size": 22,
+   "color": [
+    110,
+    110,
+    110
+   ],
+   "font": "fonts/Inter-Regular.ttf"
+  },
+  {
+   "t": "text",
+   "s": "Expanded",
+   "x": 996,
+   "y": 60,
+   "anchor": "mm",
+   "size": 22,
+   "color": [
+    190,
+    190,
+    190
+   ],
+   "font": "fonts/Inter-Regular.ttf"
+  },
+  {
+   "t": "text",
+   "s": "Collapsed",
+   "x": 1298,
+   "y": 60,
+   "anchor": "mm",
+   "size": 22,
+   "color": [
+    190,
+    190,
+    190
+   ],
+   "font": "fonts/Inter-Regular.ttf"
+  },
+  {
+   "t": "text",
+   "s": "Default",
+   "x": 54,
+   "y": 160,
+   "anchor": "lm",
+   "size": 22,
+   "color": [
+    110,
+    110,
+    110
+   ],
+   "font": "fonts/Inter-Regular.ttf"
+  },
+  {
+   "t": "text",
+   "s": "Default",
+   "x": 1560,
+   "y": 160,
+   "anchor": "rm",
+   "size": 22,
+   "color": [
+    190,
+    190,
+    190
+   ],
+   "font": "fonts/Inter-Regular.ttf"
+  },
+  {
+   "t": "text",
+   "s": "Hover",
+   "x": 54,
+   "y": 276,
+   "anchor": "lm",
+   "size": 22,
+   "color": [
+    110,
+    110,
+    110
+   ],
+   "font": "fonts/Inter-Regular.ttf"
+  },
+  {
+   "t": "text",
+   "s": "Hover",
+   "x": 1560,
+   "y": 276,
+   "anchor": "rm",
+   "size": 22,
+   "color": [
+    190,
+    190,
+    190
+   ],
+   "font": "fonts/Inter-Regular.ttf"
+  },
+  {
+   "t": "text",
+   "s": "Selected",
+   "x": 54,
+   "y": 392,
+   "anchor": "lm",
+   "size": 22,
+   "color": [
+    110,
+    110,
+    110
+   ],
+   "font": "fonts/Inter-Regular.ttf"
+  },
+  {
+   "t": "text",
+   "s": "Selected",
+   "x": 1560,
+   "y": 392,
+   "anchor": "rm",
+   "size": 22,
+   "color": [
+    190,
+    190,
+    190
+   ],
+   "font": "fonts/Inter-Regular.ttf"
+  },
+  {
+   "t": "text",
+   "s": "Focused",
+   "x": 54,
+   "y": 504,
+   "anchor": "lm",
+   "size": 22,
+   "color": [
+    110,
+    110,
+    110
+   ],
+   "font": "fonts/Inter-Regular.ttf"
+  },
+  {
+   "t": "text",
+   "s": "Focused",
+   "x": 1560,
+   "y": 504,
+   "anchor": "rm",
+   "size": 22,
+   "color": [
+    190,
+    190,
+    190
+   ],
+   "font": "fonts/Inter-Regular.ttf"
+  },
+  {
+   "t": "text",
+   "s": "Disabled",
+   "x": 54,
+   "y": 618,
+   "anchor": "lm",
+   "size": 22,
+   "color": [
+    110,
+    110,
+    110
+   ],
+   "font": "fonts/Inter-Regular.ttf"
+  },
+  {
+   "t": "text",
+   "s": "Disabled",
+   "x": 1560,
+   "y": 618,
+   "anchor": "rm",
+   "size": 22,
+   "color": [
+    190,
+    190,
+    190
+   ],
+   "font": "fonts/Inter-Regular.ttf"
+  }
+ ]
+}

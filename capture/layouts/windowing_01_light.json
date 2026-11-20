@@ -1,0 +1,47 @@
+{
+ "out": "replacements/patterns/windowing/w-overview_ss - L 3.png",
+ "canvas": [
+  1600,
+  880
+ ],
+ "backdrop": [
+  226,
+  226,
+  226
+ ],
+ "windows": [
+  {
+   "src": "captures/win_scene2_l.png",
+   "title": "Scene",
+   "x": 60,
+   "y": 80,
+   "w": 920,
+   "h": 365
+  },
+  {
+   "src": "captures/win_light_l.png",
+   "title": "Inspector",
+   "x": 1000,
+   "y": 84,
+   "w": 360,
+   "h": 563
+  },
+  {
+   "src": "captures/win_shortcuts_l.png",
+   "title": "Shortcuts",
+   "x": 130,
+   "y": 470,
+   "w": 1020,
+   "h": 450
+  },
+  {
+   "src": "captures/win_picker_l.png",
+   "title": "Color",
+   "x": 1230,
+   "y": 330,
+   "w": 280,
+   "h": 590
+  }
+ ],
+ "theme": "light"
+}

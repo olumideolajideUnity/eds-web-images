@@ -1,0 +1,37 @@
+{
+ "out": "replacements/patterns/windowing/aux-800.png",
+ "canvas": [
+  1600,
+  600
+ ],
+ "backdrop": [
+  215,
+  215,
+  215
+ ],
+ "windows": [
+  {
+   "src": "captures/win_backdrop@2x_l.png",
+   "chrome": "none",
+   "x": 0,
+   "y": 0,
+   "w": 1600
+  },
+  {
+   "src": "captures/win_light_c_l.png",
+   "chrome": "none",
+   "x": 400,
+   "y": 0,
+   "w": 600
+  },
+  {
+   "src": "captures/win_picker_l.png",
+   "title": "Color",
+   "x": 730,
+   "y": 58,
+   "w": 466,
+   "h": 600
+  }
+ ],
+ "theme": "light"
+}

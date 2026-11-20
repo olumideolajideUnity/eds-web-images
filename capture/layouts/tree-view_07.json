@@ -1,0 +1,90 @@
+{
+ "out": "replacements/components/tree-view/tv-expand-collapse.gif",
+ "size": [
+  1600,
+  600
+ ],
+ "crop": [
+  0,
+  0,
+  800,
+  300
+ ],
+ "frames": [
+  [
+   "tvx_0",
+   1300
+  ],
+  [
+   "tvx_1",
+   1100
+  ],
+  [
+   "tvx_2",
+   1100
+  ],
+  [
+   "tvx_3",
+   1100
+  ],
+  [
+   "tvx_4",
+   1100
+  ],
+  [
+   "tvx_5",
+   1100
+  ],
+  [
+   "tvx_6",
+   1500
+  ],
+  [
+   "tvx_7",
+   1100
+  ],
+  [
+   "tvx_8",
+   1300
+  ]
+ ],
+ "note": "GIF from Editor view-buffer frames: a floating two-column Project browser (unity/gif_proj.cs, folder tree fully collapsed); real clicks in the folder tree (scripts/gif_tv_expand.sh): expand Assets, select and expand Atrio, select and expand Character, select Bird, then collapse Atrio and Assets. Built by scripts/gif_build.py. Pointer drawn by gif_build.py at the click/hover positions (crop pt).",
+ "pointer": [
+  [
+   400,
+   250
+  ],
+  [
+   10,
+   88
+  ],
+  [
+   70,
+   120
+  ],
+  [
+   24,
+   120
+  ],
+  [
+   80,
+   216
+  ],
+  [
+   38,
+   216
+  ],
+  [
+   95,
+   232
+  ],
+  [
+   24,
+   120
+  ],
+  [
+   10,
+   88
+  ]
+ ]
+}

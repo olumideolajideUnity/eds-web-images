@@ -1,0 +1,37 @@
+{
+ "out": "replacements/patterns/project-settings-preferences/label-doc.png",
+ "canvas": [
+  1600,
+  276
+ ],
+ "backdrop": [
+  25,
+  25,
+  25
+ ],
+ "windows": [
+  {
+   "src": "captures/ps_label.png",
+   "chrome": "none",
+   "x": 0,
+   "y": 0,
+   "w": 1600
+  }
+ ],
+ "annotations": [
+  {
+   "t": "rect",
+   "x": 7.199999999999999,
+   "y": 16.799999999999955,
+   "w_": 511.2,
+   "h": 68.79999999999995,
+   "color": [
+    175,
+    145,
+    244
+   ],
+   "dash": true,
+   "w": 2
+  }
+ ]
+}

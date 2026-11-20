@@ -1,0 +1,10 @@
+using UnityEditor; using UnityEditor.UIElements; using UnityEngine; using UnityEngine.UIElements; using System.Linq;
+var mats = AssetDatabase.FindAssets("t:Material crate").Select(AssetDatabase.GUIDToAssetPath).Take(6);
+var hostT = System.AppDomain.CurrentDomain.GetAssemblies().Select(a => a.GetType("EFDS.EFDSPopupHost")).First(x => x != null);
+foreach (var o in Resources.FindObjectsOfTypeAll(hostT).Cast<EditorWindow>().ToList()) o.Close();
+var w = (EditorWindow)ScriptableObject.CreateInstance(hostT); w.ShowUtility(); w.position = new Rect(400, 300, 300, 120);
+var b = new Button { text = "B" }; var f = new IntegerField { value = 20 }; var of = new ObjectField { objectType = typeof(Material) };
+w.rootVisualElement.Add(b); w.rootVisualElement.Add(f); w.rootVisualElement.Add(of);
+string R(VisualElement e) => e == null ? "null" : e.resolvedStyle.borderTopLeftRadius + "/" + e.resolvedStyle.borderTopWidth;
+w.rootVisualElement.schedule.Execute(() => System.IO.File.WriteAllText("C:/tmp/rad.txt", "button " + R(b) + " intInput " + R(f.Q(className: "unity-base-text-field__input")) + " objDisplay " + R(of.Q(className: "unity-object-field__input")) + " mats " + string.Join(";", mats))).StartingIn(300);
+return "ok";

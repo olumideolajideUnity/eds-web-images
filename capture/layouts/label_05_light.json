@@ -1,0 +1,30 @@
+{
+ "out": "replacements/components/label/68cba26a4be0ca7a77d3e9e9eb8cf94d_Truncated-label.png",
+ "canvas": [
+  534,
+  460
+ ],
+ "backdrop": [
+  215,
+  215,
+  215
+ ],
+ "windows": [
+  {
+   "src": "captures/lb_trunc_l.png",
+   "chrome": "none",
+   "x": 0,
+   "y": 0,
+   "w": 535
+  },
+  {
+   "src": "captures/lb_tooltip_l.png",
+   "chrome": "none",
+   "x": 108,
+   "y": 270,
+   "w": 389
+  }
+ ],
+ "annotations": [],
+ "theme": "light"
+}

@@ -1,0 +1,21 @@
+{
+ "out": "replacements/home/new banner compressed.png",
+ "canvas": [
+  2120,
+  1280
+ ],
+ "backdrop": [
+  25,
+  26,
+  27
+ ],
+ "windows": [
+  {
+   "src": "captures/home_hero.png",
+   "chrome": "none",
+   "x": 0,
+   "y": 0,
+   "w": 2120
+  }
+ ]
+}

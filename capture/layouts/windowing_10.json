@@ -1,0 +1,196 @@
+{
+ "out": "replacements/patterns/windowing/w-states.png",
+ "canvas": [
+  1600,
+  1000
+ ],
+ "backdrop": [
+  71,
+  71,
+  71
+ ],
+ "zoom": 1.5,
+ "windows": [
+  {
+   "src": "captures/win_backdrop1000@2x.png",
+   "chrome": "none",
+   "x": 0,
+   "y": 0,
+   "w": 1600
+  },
+  {
+   "src": "captures/win_hier.png",
+   "title": "Hierarchy",
+   "x": 40,
+   "y": 60,
+   "w": 1214,
+   "h": 820,
+   "inactive": true
+  },
+  {
+   "src": "captures/win_project.png",
+   "title": "Project",
+   "x": 120,
+   "y": 150,
+   "w": 1240,
+   "h": 760
+  },
+  {
+   "src": "captures/win_import.png",
+   "title": "Import Unity Package",
+   "x": 690,
+   "y": 660,
+   "w": 700,
+   "h": 337
+  }
+ ],
+ "annotations": [
+  {
+   "t": "pill",
+   "x": 1518.0,
+   "y": 88,
+   "h": 46,
+   "s": "Idle",
+   "color": [
+    178,
+    255,
+    89
+   ],
+   "bg": [
+    87,
+    99,
+    74
+   ],
+   "outline": [
+    178,
+    255,
+    89
+   ],
+   "size": 23,
+   "pad": 15,
+   "font": "C:/Windows/Fonts/segoeui.ttf"
+  },
+  {
+   "t": "line",
+   "x1": 1254,
+   "y1": 88,
+   "x2": 1518.0,
+   "y2": 88,
+   "color": [
+    178,
+    255,
+    89
+   ],
+   "w": 2
+  },
+  {
+   "t": "dot",
+   "x": 1254,
+   "y": 88,
+   "r": 4,
+   "color": [
+    178,
+    255,
+    89
+   ]
+  },
+  {
+   "t": "pill",
+   "x": 1493.0,
+   "y": 500,
+   "h": 46,
+   "s": "Active",
+   "color": [
+    178,
+    255,
+    89
+   ],
+   "bg": [
+    87,
+    99,
+    74
+   ],
+   "outline": [
+    178,
+    255,
+    89
+   ],
+   "size": 23,
+   "pad": 15,
+   "font": "C:/Windows/Fonts/segoeui.ttf"
+  },
+  {
+   "t": "line",
+   "x1": 1360,
+   "y1": 500,
+   "x2": 1493.0,
+   "y2": 500,
+   "color": [
+    178,
+    255,
+    89
+   ],
+   "w": 2
+  },
+  {
+   "t": "dot",
+   "x": 1360,
+   "y": 500,
+   "r": 4,
+   "color": [
+    178,
+    255,
+    89
+   ]
+  },
+  {
+   "t": "pill",
+   "x": 1412.0,
+   "y": 690,
+   "h": 46,
+   "s": "Always on top",
+   "color": [
+    178,
+    255,
+    89
+   ],
+   "bg": [
+    87,
+    99,
+    74
+   ],
+   "outline": [
+    178,
+    255,
+    89
+   ],
+   "size": 23,
+   "pad": 15,
+   "font": "C:/Windows/Fonts/segoeui.ttf"
+  },
+  {
+   "t": "line",
+   "x1": 1390,
+   "y1": 690,
+   "x2": 1412.0,
+   "y2": 690,
+   "color": [
+    178,
+    255,
+    89
+   ],
+   "w": 2
+  },
+  {
+   "t": "dot",
+   "x": 1390,
+   "y": 690,
+   "r": 4,
+   "color": [
+    178,
+    255,
+    89
+   ]
+  }
+ ]
+}

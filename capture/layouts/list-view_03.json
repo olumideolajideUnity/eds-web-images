@@ -1,0 +1,73 @@
+{
+ "out": "replacements/components/list-view/lv-foldout.png",
+ "canvas": [
+  1600,
+  600
+ ],
+ "backdrop": [
+  50,
+  50,
+  50
+ ],
+ "windows": [
+  {
+   "src": "captures/lv_foldout.png",
+   "chrome": "none",
+   "x": 0,
+   "y": 0,
+   "w": 1600
+  }
+ ],
+ "annotations": [
+  {
+   "t": "pill",
+   "s": "Default list view",
+   "x": 116,
+   "y": 180,
+   "h": 40,
+   "pad": 14,
+   "size": 22,
+   "bg": [
+    50,
+    50,
+    50
+   ],
+   "outline": [
+    86,
+    87,
+    88
+   ],
+   "color": [
+    255,
+    255,
+    255
+   ],
+   "font": "fonts/Inter-SemiBold.ttf"
+  },
+  {
+   "t": "pill",
+   "s": "List view with a foldout",
+   "x": 876,
+   "y": 180,
+   "h": 40,
+   "pad": 14,
+   "size": 22,
+   "bg": [
+    50,
+    50,
+    50
+   ],
+   "outline": [
+    86,
+    87,
+    88
+   ],
+   "color": [
+    255,
+    255,
+    255
+   ],
+   "font": "fonts/Inter-SemiBold.ttf"
+  }
+ ]
+}

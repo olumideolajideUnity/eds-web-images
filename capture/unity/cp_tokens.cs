@@ -1,0 +1,5 @@
+using UnityEditor; using UnityEngine; using System.Linq; using System.Reflection;
+string[] N = { "app_toolbar-background","app_toolbar_button-background","app_toolbar_button-background-checked","app_toolbar_button-border","tab-background","highlight-background","toolbar-background","inspector_titlebar-background","window-background","inspector_titlebar-border","inspector_titlebar-border_accent","default-background","alternated_rows-background","toolbar-border","window-border","default-border","toolbar_button-background","toolbar_button-border","default-text","error-text","link-text","helpbox-text","label-text","label-text-focus","tab-text","toolbar_button-text" };
+var svcT = typeof(Editor).Assembly.GetTypes().First(t => t.Name == "SVC`1").MakeGenericType(typeof(Color));
+var r = N.Select(n => { var o = System.Activator.CreateInstance(svcT, new object[]{ "--unity-colors-" + n, default(Color) }); var c = (Color32)(Color)svcT.GetProperty("value").GetValue(o); return n + "=#" + c.r.ToString("X2") + c.g.ToString("X2") + c.b.ToString("X2") + (c.a < 255 ? "/" + c.a : ""); });
+System.IO.File.WriteAllText("OUT", string.Join("\n", r)); return "ok";

@@ -1,0 +1,87 @@
+{
+ "out": "replacements/components/slider/num_field-positioning.png",
+ "canvas": [
+  1600,
+  600
+ ],
+ "backdrop": [
+  200,
+  200,
+  200
+ ],
+ "windows": [
+  {
+   "src": "captures/nf_positioning_l.png",
+   "chrome": "none",
+   "x": 0,
+   "y": 0,
+   "w": 1600
+  }
+ ],
+ "annotations": [
+  {
+   "t": "line",
+   "x1": 800,
+   "y1": 0,
+   "x2": 800,
+   "y2": 600,
+   "color": [
+    190,
+    190,
+    190
+   ],
+   "w": 2
+  },
+  {
+   "t": "pill",
+   "s": "Basic Slider with a Numeric Field",
+   "x": 40,
+   "y": 60,
+   "h": 40,
+   "pad": 14,
+   "size": 22,
+   "bg": [
+    200,
+    200,
+    200
+   ],
+   "outline": [
+    190,
+    190,
+    190
+   ],
+   "color": [
+    9,
+    9,
+    9
+   ],
+   "font": "fonts/Inter-SemiBold.ttf"
+  },
+  {
+   "t": "pill",
+   "s": "Min/Max Slider with 2 Numeric Fields",
+   "x": 840,
+   "y": 60,
+   "h": 40,
+   "pad": 14,
+   "size": 22,
+   "bg": [
+    200,
+    200,
+    200
+   ],
+   "outline": [
+    190,
+    190,
+    190
+   ],
+   "color": [
+    9,
+    9,
+    9
+   ],
+   "font": "fonts/Inter-SemiBold.ttf"
+  }
+ ],
+ "theme": "light"
+}

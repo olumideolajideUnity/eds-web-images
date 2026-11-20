@@ -1,0 +1,48 @@
+{
+ "out": "replacements/components/tab/tabuitk-reordering.png",
+ "canvas": [
+  1600,
+  460
+ ],
+ "backdrop": [
+  50,
+  50,
+  50
+ ],
+ "windows": [
+  {
+   "src": "captures/tb_reorder_drag.png",
+   "chrome": "none",
+   "x": 0,
+   "y": 0,
+   "w": 1600
+  }
+ ],
+ "annotations": [
+  {
+   "t": "pill",
+   "s": "Reordering a tab",
+   "x": 80,
+   "y": 74,
+   "h": 40,
+   "pad": 14,
+   "size": 22,
+   "bg": [
+    50,
+    50,
+    50
+   ],
+   "outline": [
+    86,
+    87,
+    88
+   ],
+   "color": [
+    255,
+    255,
+    255
+   ],
+   "font": "fonts/Inter-SemiBold.ttf"
+  }
+ ]
+}

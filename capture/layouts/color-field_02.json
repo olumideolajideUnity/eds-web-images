@@ -1,0 +1,58 @@
+{
+ "out": "replacements/components/color-field/color picking.gif",
+ "size": [
+  600,
+  369
+ ],
+ "crop": [
+  0,
+  97,
+  300,
+  185
+ ],
+ "frames": [
+  [
+   "cp_0",
+   1500
+  ],
+  [
+   "cp_1",
+   900
+  ],
+  [
+   "cp_2",
+   350
+  ],
+  [
+   "cp_3",
+   350
+  ],
+  [
+   "cp_4",
+   2400
+  ]
+ ],
+ "note": "GIF from Editor view-buffer frames: a URP Camera (Background Type Solid Color; other sections collapsed, unity/gif_insp.cs) 300pt wide; a real click focuses the Background field, then the colour changes from grey to blue as it would while picking. Built by scripts/gif_build.py. Pointer drawn by gif_build.py at the click/hover positions (crop pt).",
+ "pointer": [
+  [
+   200,
+   178
+  ],
+  [
+   215,
+   156
+  ],
+  [
+   215,
+   156
+  ],
+  [
+   215,
+   156
+  ],
+  [
+   215,
+   156
+  ]
+ ]
+}

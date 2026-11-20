@@ -1,0 +1,23 @@
+{
+ "out": "replacements/components/toggle/toggle.png",
+ "canvas": [
+  840,
+  200
+ ],
+ "backdrop": [
+  215,
+  215,
+  215
+ ],
+ "windows": [
+  {
+   "src": "captures/tg_toggle_l.png",
+   "chrome": "none",
+   "x": 0,
+   "y": 0,
+   "w": 840
+  }
+ ],
+ "annotations": [],
+ "theme": "light"
+}

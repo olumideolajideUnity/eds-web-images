@@ -1,0 +1,86 @@
+{
+ "out": "replacements/fundamentals/interactions/higlighted.png",
+ "canvas": [
+  1600,
+  600
+ ],
+ "backdrop": [
+  56,
+  56,
+  56
+ ],
+ "windows": [
+  {
+   "src": "captures/int_highlighted_l.png",
+   "chrome": "none",
+   "x": 0,
+   "y": 0,
+   "w": 800
+  },
+  {
+   "src": "captures/int_highlighted_d.png",
+   "chrome": "none",
+   "x": 800,
+   "y": 0,
+   "w": 800
+  },
+  {
+   "src": "captures/int_tree_l.png",
+   "chrome": "none",
+   "x": 200,
+   "y": 40,
+   "w": 400,
+   "crop": [
+    0,
+    125,
+    225,
+    190
+   ]
+  },
+  {
+   "src": "captures/int_tree_d.png",
+   "chrome": "none",
+   "x": 1000,
+   "y": 40,
+   "w": 400,
+   "crop": [
+    0,
+    125,
+    225,
+    190
+   ]
+  }
+ ],
+ "annotations": [
+  {
+   "t": "rect",
+   "x": 200,
+   "y": 40,
+   "w_": 400,
+   "h": 300,
+   "dash": false,
+   "solid": true,
+   "color": [
+    170,
+    170,
+    170
+   ],
+   "w": 1
+  },
+  {
+   "t": "rect",
+   "x": 1000,
+   "y": 40,
+   "w_": 400,
+   "h": 300,
+   "dash": false,
+   "solid": true,
+   "color": [
+    35,
+    35,
+    35
+   ],
+   "w": 1
+  }
+ ]
+}

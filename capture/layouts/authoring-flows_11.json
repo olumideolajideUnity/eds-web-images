@@ -1,0 +1,17 @@
+{
+ "out": "replacements/patterns/authoring-flows/dedicated-window.png",
+ "canvas": [
+  1600,
+  724
+ ],
+ "windows": [
+  {
+   "src": "captures/af11_timeline_d.png",
+   "title": "Timeline",
+   "x": 192,
+   "y": 26,
+   "w": 1218,
+   "h": 673
+  }
+ ]
+}

@@ -1,0 +1,113 @@
+{
+ "out": "replacements/components/dropdown/dd-layout.png",
+ "canvas": [
+  1600,
+  600
+ ],
+ "backdrop": [
+  215,
+  215,
+  215
+ ],
+ "windows": [
+  {
+   "src": "captures/dd_gizmos_l.png",
+   "chrome": "none",
+   "x": 410,
+   "y": 124,
+   "w": 540
+  },
+  {
+   "src": "captures/dd_camera_l.png",
+   "chrome": "none",
+   "x": 990,
+   "y": 124,
+   "w": 580
+  }
+ ],
+ "annotations": [
+  {
+   "t": "pill",
+   "s": "OS Menu",
+   "x": 30,
+   "y": 62,
+   "h": 44,
+   "pad": 16,
+   "size": 22,
+   "bg": [
+    215,
+    215,
+    215
+   ],
+   "outline": [
+    160,
+    160,
+    160
+   ],
+   "color": [
+    9,
+    9,
+    9
+   ],
+   "font": "fonts/Inter-SemiBold.ttf"
+  },
+  {
+   "t": "pill",
+   "s": "Gizmos Menu",
+   "x": 410,
+   "y": 62,
+   "h": 44,
+   "pad": 16,
+   "size": 22,
+   "bg": [
+    215,
+    215,
+    215
+   ],
+   "outline": [
+    160,
+    160,
+    160
+   ],
+   "color": [
+    9,
+    9,
+    9
+   ],
+   "font": "fonts/Inter-SemiBold.ttf"
+  },
+  {
+   "t": "pill",
+   "s": "Scene Camera Menu",
+   "x": 990,
+   "y": 62,
+   "h": 44,
+   "pad": 16,
+   "size": 22,
+   "bg": [
+    215,
+    215,
+    215
+   ],
+   "outline": [
+    160,
+    160,
+    160
+   ],
+   "color": [
+    9,
+    9,
+    9
+   ],
+   "font": "fonts/Inter-SemiBold.ttf"
+  },
+  {
+   "t": "image",
+   "src": "captures/menus/dd_os_l.png",
+   "x": -2.0,
+   "y": 92.0,
+   "w": 436.5
+  }
+ ],
+ "theme": "light"
+}

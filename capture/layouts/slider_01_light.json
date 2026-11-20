@@ -1,0 +1,99 @@
+{
+ "out": "replacements/components/slider/slider-variations.png",
+ "canvas": [
+  1600,
+  600
+ ],
+ "backdrop": [
+  215,
+  215,
+  215
+ ],
+ "windows": [
+  {
+   "src": "captures/sl_variations_d_l.png",
+   "chrome": "none",
+   "x": 0,
+   "y": 0,
+   "w": 1600
+  }
+ ],
+ "annotations": [
+  {
+   "t": "rect",
+   "x": 0,
+   "y": 0,
+   "w_": 1600,
+   "h": 136,
+   "color": [
+    194,
+    194,
+    194
+   ],
+   "w": 0,
+   "fill": 1.0,
+   "dash": false
+  },
+  {
+   "t": "rect",
+   "x": 0,
+   "y": 464,
+   "w_": 1600,
+   "h": 136,
+   "color": [
+    194,
+    194,
+    194
+   ],
+   "w": 0,
+   "fill": 1.0,
+   "dash": false
+  },
+  {
+   "t": "rect",
+   "x": 0,
+   "y": 136,
+   "w_": 116,
+   "h": 328,
+   "color": [
+    194,
+    194,
+    194
+   ],
+   "w": 0,
+   "fill": 1.0,
+   "dash": false
+  },
+  {
+   "t": "rect",
+   "x": 780,
+   "y": 136,
+   "w_": 58,
+   "h": 328,
+   "color": [
+    194,
+    194,
+    194
+   ],
+   "w": 0,
+   "fill": 1.0,
+   "dash": false
+  },
+  {
+   "t": "rect",
+   "x": 1502,
+   "y": 136,
+   "w_": 98,
+   "h": 328,
+   "color": [
+    194,
+    194,
+    194
+   ],
+   "w": 0,
+   "fill": 1.0,
+   "dash": false
+  }
+ ],
+ "theme": "light"
+}

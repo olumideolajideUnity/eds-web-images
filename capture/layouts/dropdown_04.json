@@ -1,0 +1,86 @@
+{
+ "out": "replacements/components/dropdown/dd-menu position.png",
+ "canvas": [
+  1600,
+  622
+ ],
+ "backdrop": [
+  50,
+  50,
+  50
+ ],
+ "windows": [
+  {
+   "src": "captures/dd_position.png",
+   "chrome": "none",
+   "x": 0,
+   "y": 0,
+   "w": 1600
+  }
+ ],
+ "annotations": [
+  {
+   "t": "pill",
+   "s": "Menu Positioning",
+   "x": 40,
+   "y": 62,
+   "h": 44,
+   "pad": 16,
+   "size": 22,
+   "bg": [
+    50,
+    50,
+    50
+   ],
+   "outline": [
+    86,
+    87,
+    88
+   ],
+   "color": [
+    255,
+    255,
+    255
+   ],
+   "font": "fonts/Inter-SemiBold.ttf"
+  },
+  {
+   "t": "hdash",
+   "x1": 0,
+   "x2": 1600,
+   "y": 202,
+   "color": [
+    86,
+    87,
+    88
+   ],
+   "w": 1
+  },
+  {
+   "t": "hdash",
+   "x1": 0,
+   "x2": 1600,
+   "y": 247.600006,
+   "color": [
+    86,
+    87,
+    88
+   ],
+   "w": 1
+  },
+  {
+   "t": "image",
+   "src": "captures/menus/dd_position.png",
+   "x": 515.9000000000001,
+   "y": 99.90000300000003,
+   "w": 492.0
+  },
+  {
+   "t": "image",
+   "src": "captures/menus/dd_position.png",
+   "x": 1067.5,
+   "y": 211.100006,
+   "w": 492.0
+  }
+ ]
+}

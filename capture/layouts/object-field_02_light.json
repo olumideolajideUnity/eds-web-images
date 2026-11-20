@@ -1,0 +1,23 @@
+{
+ "out": "replacements/components/object-field/object_fields-variations.png",
+ "canvas": [
+  1600,
+  600
+ ],
+ "backdrop": [
+  215,
+  215,
+  215
+ ],
+ "windows": [
+  {
+   "src": "captures/of_variations_l.png",
+   "chrome": "none",
+   "x": 0,
+   "y": 0,
+   "w": 1600
+  }
+ ],
+ "annotations": [],
+ "theme": "light"
+}

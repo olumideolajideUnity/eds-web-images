@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement style="flex-grow: 1; padding-left: 20px; padding-right: 20px; padding-top: 40px; background-color: rgb(40, 40, 40);">
+        <ui:Slider label="Field of View" value="20" high-value="100" name="FieldOfView" style="width: 300px;" />
+    </ui:VisualElement>
+</ui:UXML>

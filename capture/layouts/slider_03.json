@@ -1,0 +1,22 @@
+{
+ "out": "replacements/components/slider/minmax-slider.png",
+ "canvas": [
+  840,
+  200
+ ],
+ "backdrop": [
+  50,
+  50,
+  50
+ ],
+ "windows": [
+  {
+   "src": "captures/sl_minmax.png",
+   "chrome": "none",
+   "x": 0,
+   "y": 0,
+   "w": 840
+  }
+ ],
+ "annotations": []
+}

@@ -1,0 +1,124 @@
+{
+ "out": "replacements/components/tab/Tabview Toolbars.png",
+ "canvas": [
+  1600,
+  600
+ ],
+ "backdrop": [
+  215,
+  215,
+  215
+ ],
+ "windows": [
+  {
+   "src": "captures/tb_toolbars_l.png",
+   "chrome": "none",
+   "x": 0,
+   "y": 0,
+   "w": 1600
+  }
+ ],
+ "annotations": [
+  {
+   "t": "pill",
+   "s": "Secondary Tabs",
+   "x": 80,
+   "y": 102,
+   "h": 40,
+   "pad": 14,
+   "size": 22,
+   "bg": [
+    215,
+    215,
+    215
+   ],
+   "outline": [
+    160,
+    160,
+    160
+   ],
+   "color": [
+    9,
+    9,
+    9
+   ],
+   "font": "fonts/Inter-SemiBold.ttf"
+  },
+  {
+   "t": "pill",
+   "s": "new",
+   "x": 294.0,
+   "y": 102,
+   "h": 40,
+   "pad": 14,
+   "size": 22,
+   "bg": [
+    205,
+    225,
+    190
+   ],
+   "outline": [
+    77,
+    140,
+    80
+   ],
+   "color": [
+    30,
+    60,
+    30
+   ],
+   "font": "fonts/Inter-SemiBold.ttf"
+  },
+  {
+   "t": "pill",
+   "s": "Tabs constructed with Toggle Buttons in a Toolbar",
+   "x": 80,
+   "y": 404,
+   "h": 40,
+   "pad": 14,
+   "size": 22,
+   "bg": [
+    215,
+    215,
+    215
+   ],
+   "outline": [
+    160,
+    160,
+    160
+   ],
+   "color": [
+    9,
+    9,
+    9
+   ],
+   "font": "fonts/Inter-SemiBold.ttf"
+  },
+  {
+   "t": "pill",
+   "s": "imgui only",
+   "x": 654.0,
+   "y": 404,
+   "h": 40,
+   "pad": 14,
+   "size": 22,
+   "bg": [
+    240,
+    216,
+    206
+   ],
+   "outline": [
+    205,
+    90,
+    50
+   ],
+   "color": [
+    80,
+    35,
+    20
+   ],
+   "font": "fonts/Inter-SemiBold.ttf"
+  }
+ ],
+ "theme": "light"
+}

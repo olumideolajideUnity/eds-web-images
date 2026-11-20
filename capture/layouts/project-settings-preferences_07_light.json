@@ -1,0 +1,22 @@
+{
+ "out": "replacements/patterns/project-settings-preferences/kebab-preferences.png",
+ "canvas": [
+  1600,
+  600
+ ],
+ "backdrop": [
+  203,
+  203,
+  203
+ ],
+ "windows": [
+  {
+   "src": "captures/ps_panemenu_l.png",
+   "chrome": "none",
+   "x": 0,
+   "y": 0,
+   "w": 1600
+  }
+ ],
+ "theme": "light"
+}

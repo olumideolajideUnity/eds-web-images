@@ -1,0 +1,25 @@
+using UnityEditor; using UnityEditor.SceneManagement; using UnityEngine; using UnityEngine.ProBuilder; using UnityEngine.ProBuilder.Shapes; using System.Linq; using System.Reflection;
+var BF = BindingFlags.Instance|BindingFlags.Static|BindingFlags.Public|BindingFlags.NonPublic;
+var scene = EditorSceneManager.NewScene(NewSceneSetup.EmptyScene, NewSceneMode.Single);
+var light = new GameObject("Directional Light").AddComponent<Light>(); light.type = LightType.Directional; light.transform.rotation = Quaternion.Euler(50, -30, 0); light.transform.position = new Vector3(0, 40, -60);
+var mesh = ShapeFactory.Instantiate(typeof(Stairs));
+mesh.gameObject.name = "Stairs";
+var scType = typeof(ProBuilderMesh).Assembly.GetType("UnityEngine.ProBuilder.Shapes.ProBuilderShape");
+var sc = mesh.GetComponent(scType);
+var stairs = scType.GetProperty("shape", BF).GetValue(sc);
+stairs.GetType().GetField("m_Steps", BF)?.SetValue(stairs, 10);
+scType.GetProperty("size", BF).SetValue(sc, new Vector3(6.884265f, 2.206997f, 2.048972f));
+scType.GetField("m_ShapeRotation", BF).SetValue(sc, Quaternion.Euler(0, 90, 0));
+scType.GetMethod("Rebuild", BF, null, System.Type.EmptyTypes, null)?.Invoke(sc, null);
+var ver = typeof(ProBuilderMesh).GetProperty("versionIndex", BF)?.GetValue(mesh);
+if (ver != null) scType.GetField("m_UnmodifiedMeshVersion", BF).SetValue(sc, System.Convert.ToUInt16(ver));
+EditorSceneManager.SaveScene(scene, "Assets/EFDS_Screenshots/ProBuilderStairs.unity");
+Selection.activeGameObject = mesh.gameObject;
+var sv = Resources.FindObjectsOfTypeAll<SceneView>().FirstOrDefault(w => !w.docked);
+if (sv == null) { sv = ScriptableObject.CreateInstance<SceneView>(); sv.Show(); }
+var parent = typeof(EditorWindow).GetField("m_Parent", BF).GetValue(sv);
+var container = parent.GetType().GetProperty("window", BF).GetValue(parent);
+container.GetType().GetProperty("position", BF).SetValue(container, new Rect(10, 60, 1500, 711));
+sv.sceneViewState.showSkybox = false; sv.drawGizmos = true; sv.showGrid = true;
+sv.LookAtDirect(mesh.transform.position + new Vector3(0.6f, 0.9f, 0f), Quaternion.Euler(28f, -40f, 0f), 4.6f);
+return "editable=" + scType.GetProperty("isEditable", BF).GetValue(sc) + " size=" + scType.GetProperty("size", BF).GetValue(sc) + " steps=" + stairs.GetType().GetField("m_Steps", BF)?.GetValue(stairs);

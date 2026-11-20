@@ -1,0 +1,22 @@
+{
+ "out": "replacements/fundamentals/color-palette/Themes.png",
+ "canvas": [
+  1600,
+  600
+ ],
+ "backdrop": [
+  194,
+  194,
+  194
+ ],
+ "windows": [
+  {
+   "src": "captures/cp_themes_split.png",
+   "chrome": "none",
+   "x": 0,
+   "y": 0,
+   "w": 1600
+  }
+ ],
+ "annotations": []
+}

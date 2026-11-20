@@ -1,0 +1,42 @@
+{
+ "out": "replacements/components/toggle/toggle-style-labels.png",
+ "canvas": [
+  1600,
+  600
+ ],
+ "backdrop": [
+  215,
+  215,
+  215
+ ],
+ "windows": [
+  {
+   "src": "captures/tg_prefs_l.png",
+   "chrome": "none",
+   "x": 70,
+   "y": 210,
+   "w": 570,
+   "crop": [
+    512,
+    220,
+    325,
+    680
+   ]
+  },
+  {
+   "src": "captures/tg_insp_l.png",
+   "chrome": "none",
+   "x": 840,
+   "y": 100,
+   "w": 704,
+   "crop": [
+    0,
+    0,
+    0,
+    345
+   ]
+  }
+ ],
+ "annotations": [],
+ "theme": "light"
+}

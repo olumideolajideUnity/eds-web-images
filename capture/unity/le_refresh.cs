@@ -1,0 +1,12 @@
+using UnityEditor; using UnityEngine; using System.Linq; using System.Reflection;
+var BF = BindingFlags.Instance|BindingFlags.Public|BindingFlags.NonPublic;
+var t = typeof(Editor).Assembly.GetType("UnityEditor.LightingExplorerWindow");
+var w = Resources.FindObjectsOfTypeAll(t).Cast<EditorWindow>().First();
+var tab = ((System.Array)t.GetField("m_TableTabs", BF).GetValue(w)).GetValue(0);
+var tbl = tab.GetType().GetField("m_LightTable", BF).GetValue(tab);
+var tv = tbl.GetType().GetField("m_TreeView", BF).GetValue(tbl);
+var ms = string.Join(",", tv.GetType().GetMethods(BF).Where(m => m.DeclaringType == tv.GetType()).Select(m => m.Name + "/" + m.GetParameters().Length));
+var ds = tbl.GetType().GetField("m_DataStore", BF).GetValue(tbl);
+var dm = string.Join(",", ds.GetType().GetMethods(BF).Where(m => m.DeclaringType == ds.GetType()).Select(m => m.Name + "/" + m.GetParameters().Length));
+w.Repaint();
+return "TV: " + ms + " DS: " + dm;

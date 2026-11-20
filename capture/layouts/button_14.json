@@ -1,0 +1,226 @@
+{
+ "out": "replacements/components/button/buttons-togglebutton-states.png",
+ "canvas": [
+  1600,
+  880
+ ],
+ "backdrop": [
+  194,
+  194,
+  194
+ ],
+ "windows": [
+  {
+   "src": "captures/two_btn_tstates_l.png",
+   "chrome": "none",
+   "x": 0,
+   "y": 0,
+   "w": 800
+  },
+  {
+   "src": "captures/two_btn_tstates.png",
+   "chrome": "none",
+   "x": 800,
+   "y": 0,
+   "w": 800
+  }
+ ],
+ "annotations": [
+  {
+   "t": "text",
+   "s": "Default",
+   "x": 40,
+   "y": 102,
+   "anchor": "lm",
+   "size": 24,
+   "color": [
+    117,
+    117,
+    117
+   ],
+   "font": "fonts/Inter-Regular.ttf"
+  },
+  {
+   "t": "text",
+   "s": "Hover",
+   "x": 40,
+   "y": 214,
+   "anchor": "lm",
+   "size": 24,
+   "color": [
+    117,
+    117,
+    117
+   ],
+   "font": "fonts/Inter-Regular.ttf"
+  },
+  {
+   "t": "text",
+   "s": "Pressed",
+   "x": 40,
+   "y": 326,
+   "anchor": "lm",
+   "size": 24,
+   "color": [
+    117,
+    117,
+    117
+   ],
+   "font": "fonts/Inter-Regular.ttf"
+  },
+  {
+   "t": "text",
+   "s": "Pressed + Focused",
+   "x": 40,
+   "y": 438,
+   "anchor": "lm",
+   "size": 24,
+   "color": [
+    117,
+    117,
+    117
+   ],
+   "font": "fonts/Inter-Regular.ttf"
+  },
+  {
+   "t": "text",
+   "s": "Focused",
+   "x": 40,
+   "y": 550,
+   "anchor": "lm",
+   "size": 24,
+   "color": [
+    117,
+    117,
+    117
+   ],
+   "font": "fonts/Inter-Regular.ttf"
+  },
+  {
+   "t": "text",
+   "s": "Hover Focused",
+   "x": 40,
+   "y": 662,
+   "anchor": "lm",
+   "size": 24,
+   "color": [
+    117,
+    117,
+    117
+   ],
+   "font": "fonts/Inter-Regular.ttf"
+  },
+  {
+   "t": "text",
+   "s": "Disabled",
+   "x": 40,
+   "y": 774,
+   "anchor": "lm",
+   "size": 24,
+   "color": [
+    117,
+    117,
+    117
+   ],
+   "font": "fonts/Inter-Regular.ttf"
+  },
+  {
+   "t": "text",
+   "s": "Default",
+   "x": 1560,
+   "y": 102,
+   "anchor": "rm",
+   "size": 24,
+   "color": [
+    194,
+    195,
+    196
+   ],
+   "font": "fonts/Inter-Regular.ttf"
+  },
+  {
+   "t": "text",
+   "s": "Hover",
+   "x": 1560,
+   "y": 214,
+   "anchor": "rm",
+   "size": 24,
+   "color": [
+    194,
+    195,
+    196
+   ],
+   "font": "fonts/Inter-Regular.ttf"
+  },
+  {
+   "t": "text",
+   "s": "Pressed",
+   "x": 1560,
+   "y": 326,
+   "anchor": "rm",
+   "size": 24,
+   "color": [
+    194,
+    195,
+    196
+   ],
+   "font": "fonts/Inter-Regular.ttf"
+  },
+  {
+   "t": "text",
+   "s": "Pressed + Focused",
+   "x": 1560,
+   "y": 438,
+   "anchor": "rm",
+   "size": 24,
+   "color": [
+    194,
+    195,
+    196
+   ],
+   "font": "fonts/Inter-Regular.ttf"
+  },
+  {
+   "t": "text",
+   "s": "Focused",
+   "x": 1560,
+   "y": 550,
+   "anchor": "rm",
+   "size": 24,
+   "color": [
+    194,
+    195,
+    196
+   ],
+   "font": "fonts/Inter-Regular.ttf"
+  },
+  {
+   "t": "text",
+   "s": "Hover Focused",
+   "x": 1560,
+   "y": 662,
+   "anchor": "rm",
+   "size": 24,
+   "color": [
+    194,
+    195,
+    196
+   ],
+   "font": "fonts/Inter-Regular.ttf"
+  },
+  {
+   "t": "text",
+   "s": "Disabled",
+   "x": 1560,
+   "y": 774,
+   "anchor": "rm",
+   "size": 24,
+   "color": [
+    194,
+    195,
+    196
+   ],
+   "font": "fonts/Inter-Regular.ttf"
+  }
+ ]
+}

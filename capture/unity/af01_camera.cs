@@ -1,0 +1,10 @@
+using UnityEditor; using UnityEngine; using System.Linq;
+var sv = Resources.FindObjectsOfTypeAll<SceneView>().First(w => !w.docked);
+sv.drawGizmos = false;
+var c = new Vector3(8.789518f, 0.829852f, -4.06888f);
+sv.LookAtDirect(c + new Vector3(0.12f, 0.05f, 0f), Quaternion.Euler(17f, 22f, 0f), 1.05f);
+sv.Repaint();
+var inspType = typeof(Editor).Assembly.GetType("UnityEditor.InspectorWindow");
+var insp = Resources.FindObjectsOfTypeAll(inspType).Cast<EditorWindow>().First(w => !w.docked);
+insp.Focus(); insp.Repaint(); sv.Focus();
+return "sv=" + sv.position + " insp=" + insp.position;

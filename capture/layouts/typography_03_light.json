@@ -1,0 +1,85 @@
+{
+ "out": "replacements/fundamentals/typography/typography - indent.png",
+ "canvas": [
+  1600,
+  792
+ ],
+ "backdrop": [
+  203,
+  203,
+  203
+ ],
+ "windows": [
+  {
+   "src": "captures/ty_indent_l.png",
+   "chrome": "none",
+   "x": 412,
+   "y": 30,
+   "w": 774.4,
+   "h": 762
+  }
+ ],
+ "annotations": [
+  {
+   "t": "vdash",
+   "x": 450.0,
+   "y1": 0,
+   "y2": 553.2,
+   "color": [
+    77,
+    140,
+    80
+   ],
+   "w": 2
+  },
+  {
+   "t": "hdash",
+   "x1": 450.0,
+   "x2": 492.8,
+   "y": 553.2,
+   "color": [
+    77,
+    140,
+    80
+   ],
+   "w": 2
+  },
+  {
+   "t": "vdash",
+   "x": 492.8,
+   "y1": 553.2,
+   "y2": 596.0,
+   "color": [
+    77,
+    140,
+    80
+   ],
+   "w": 2
+  },
+  {
+   "t": "hdash",
+   "x1": 492.8,
+   "x2": 528.0,
+   "y": 596.0,
+   "color": [
+    77,
+    140,
+    80
+   ],
+   "w": 2
+  },
+  {
+   "t": "vdash",
+   "x": 528.0,
+   "y1": 596.0,
+   "y2": 792,
+   "color": [
+    77,
+    140,
+    80
+   ],
+   "w": 2
+  }
+ ],
+ "theme": "light"
+}

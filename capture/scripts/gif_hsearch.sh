@@ -1,0 +1,5 @@
+# Components > Search field 'search filters' (Unity 7): the floating Hierarchy searched by name, then by type (t:), through its own
+# SetSearchText; the Scene view greys what doesn't match. Frames sf_<n>_h / sf_<n>_s, stacked side by side by the caller.
+source efds.sh; source scripts/gif_cap.sh
+hs(){ ucode "var t=System.AppDomain.CurrentDomain.GetAssemblies().Select(a=>a.GetType(\"Unity.Hierarchy.Editor.HierarchyWindow\")).First(x=>x!=null); var w=UnityEngine.Resources.FindObjectsOfTypeAll(t).Cast<UnityEditor.EditorWindow>().First(x=>!x.docked); t.GetMethods(System.Reflection.BindingFlags.Instance|System.Reflection.BindingFlags.Public|System.Reflection.BindingFlags.NonPublic).First(m=>m.Name==\"SetSearchText\"&&m.GetParameters().Length==1&&m.GetParameters()[0].ParameterType==typeof(string)).Invoke(w,new object[]{\"$1\"}); w.Repaint(); UnityEditor.SceneView.RepaintAll(); return \"s\";" >/dev/null; }
+n=0; for s in "" "c" "ca" "cap" "" "t:Light" "t:Camera"; do hs "$s"; sleep 2; gf sf_${n}_h HierarchyWindow; gf sf_${n}_s SceneView; n=$((n+1)); done; hs ""

@@ -1,0 +1,262 @@
+{
+ "out": "replacements/components/tooltip/tooltip-when-to-use.png",
+ "canvas": [
+  1612,
+  880
+ ],
+ "backdrop": [
+  215,
+  215,
+  215
+ ],
+ "windows": [
+  {
+   "src": "captures/tt_wtu_l.png",
+   "chrome": "none",
+   "x": 0,
+   "y": 0,
+   "w": 1612
+  },
+  {
+   "src": "captures/tl_scene_l.png",
+   "chrome": "none",
+   "x": 1062,
+   "y": 204,
+   "w": 540,
+   "crop": [
+    1325,
+    65,
+    50,
+    623
+   ]
+  },
+  {
+   "src": "captures/cp_apptb_l.png",
+   "chrome": "none",
+   "x": 850,
+   "y": 636,
+   "w": 422,
+   "crop": [
+    3312,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "src": "captures/tt_fov_l.png",
+   "chrome": "none",
+   "x": 52.400000000000006,
+   "y": 269.600012,
+   "w": 221.6
+  },
+  {
+   "src": "captures/tt_dynres_l.png",
+   "chrome": "none",
+   "x": 606.4,
+   "y": 262.4,
+   "w": 311.2
+  },
+  {
+   "src": "captures/tt_audio_l.png",
+   "chrome": "none",
+   "x": 1035.6000199999999,
+   "y": 264,
+   "w": 274.4
+  },
+  {
+   "src": "captures/tt_dirmon_l.png",
+   "chrome": "none",
+   "x": 108.80004000000002,
+   "y": 682.4,
+   "w": 556
+  },
+  {
+   "src": "captures/tt_search_l.png",
+   "chrome": "none",
+   "x": 956.0,
+   "y": 720,
+   "w": 326.4
+  }
+ ],
+ "annotations": [
+  {
+   "t": "line",
+   "x1": 530,
+   "y1": 0,
+   "x2": 530,
+   "y2": 456,
+   "color": [
+    160,
+    160,
+    160
+   ],
+   "w": 1
+  },
+  {
+   "t": "line",
+   "x1": 1058,
+   "y1": 0,
+   "x2": 1058,
+   "y2": 456,
+   "color": [
+    160,
+    160,
+    160
+   ],
+   "w": 1
+  },
+  {
+   "t": "line",
+   "x1": 0,
+   "y1": 456,
+   "x2": 1612,
+   "y2": 456,
+   "color": [
+    160,
+    160,
+    160
+   ],
+   "w": 1
+  },
+  {
+   "t": "line",
+   "x1": 796,
+   "y1": 456,
+   "x2": 796,
+   "y2": 880,
+   "color": [
+    160,
+    160,
+    160
+   ],
+   "w": 1
+  },
+  {
+   "t": "pill",
+   "s": "New users",
+   "x": 40,
+   "y": 60,
+   "h": 40,
+   "pad": 14,
+   "size": 22,
+   "bg": [
+    215,
+    215,
+    215
+   ],
+   "outline": [
+    160,
+    160,
+    160
+   ],
+   "color": [
+    9,
+    9,
+    9
+   ],
+   "font": "fonts/Inter-SemiBold.ttf"
+  },
+  {
+   "t": "pill",
+   "s": "Truncated text",
+   "x": 568,
+   "y": 60,
+   "h": 40,
+   "pad": 14,
+   "size": 22,
+   "bg": [
+    215,
+    215,
+    215
+   ],
+   "outline": [
+    160,
+    160,
+    160
+   ],
+   "color": [
+    9,
+    9,
+    9
+   ],
+   "font": "fonts/Inter-SemiBold.ttf"
+  },
+  {
+   "t": "pill",
+   "s": "Alt text",
+   "x": 1096,
+   "y": 60,
+   "h": 40,
+   "pad": 14,
+   "size": 22,
+   "bg": [
+    215,
+    215,
+    215
+   ],
+   "outline": [
+    160,
+    160,
+    160
+   ],
+   "color": [
+    9,
+    9,
+    9
+   ],
+   "font": "fonts/Inter-SemiBold.ttf"
+  },
+  {
+   "t": "pill",
+   "s": "Disabled UI",
+   "x": 40,
+   "y": 516,
+   "h": 40,
+   "pad": 14,
+   "size": 22,
+   "bg": [
+    215,
+    215,
+    215
+   ],
+   "outline": [
+    160,
+    160,
+    160
+   ],
+   "color": [
+    9,
+    9,
+    9
+   ],
+   "font": "fonts/Inter-SemiBold.ttf"
+  },
+  {
+   "t": "pill",
+   "s": "Keyboard shortcuts",
+   "x": 832,
+   "y": 516,
+   "h": 40,
+   "pad": 14,
+   "size": 22,
+   "bg": [
+    215,
+    215,
+    215
+   ],
+   "outline": [
+    160,
+    160,
+    160
+   ],
+   "color": [
+    9,
+    9,
+    9
+   ],
+   "font": "fonts/Inter-SemiBold.ttf"
+  }
+ ],
+ "theme": "light"
+}

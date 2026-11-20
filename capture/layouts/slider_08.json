@@ -1,0 +1,20 @@
+{
+ "out": "replacements/components/slider/Slider-Cursor-Change.gif",
+ "source": "incoming/gifs/Slider-Cursor-Change.mp4",
+ "crop": [
+  0,
+  0,
+  940,
+  134
+ ],
+ "size": [
+  338,
+  48
+ ],
+ "trim": [
+  0.2,
+  16.6
+ ],
+ "fps": 20,
+ "note": "User screen recording (Unity 7, dark): Field of View label/field hover and scrub showing the slide cursor; the full row is 7:1, so 338x48 rather than 338x58. Title bar cropped; built by scripts/rec_build.py."
+}

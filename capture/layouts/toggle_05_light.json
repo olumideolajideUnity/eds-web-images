@@ -1,0 +1,29 @@
+{
+ "out": "replacements/components/toggle/toggles-wtu.png",
+ "canvas": [
+  1600,
+  600
+ ],
+ "backdrop": [
+  215,
+  215,
+  215
+ ],
+ "windows": [
+  {
+   "src": "captures/tg_phys_l.png",
+   "chrome": "none",
+   "x": 335,
+   "y": 8,
+   "w": 930,
+   "crop": [
+    512,
+    220,
+    20,
+    1263
+   ]
+  }
+ ],
+ "annotations": [],
+ "theme": "light"
+}

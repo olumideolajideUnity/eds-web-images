@@ -1,0 +1,29 @@
+{
+ "out": "replacements/patterns/windowing/modal-800.png",
+ "canvas": [
+  1600,
+  600
+ ],
+ "backdrop": [
+  56,
+  56,
+  56
+ ],
+ "windows": [
+  {
+   "src": "captures/win_backdrop@2x.png",
+   "chrome": "none",
+   "x": 0,
+   "y": 0,
+   "w": 1600
+  },
+  {
+   "src": "captures/win_import.png",
+   "title": "Import Unity Package",
+   "x": 450,
+   "y": 150,
+   "w": 700,
+   "h": 318
+  }
+ ]
+}

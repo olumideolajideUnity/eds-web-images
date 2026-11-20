@@ -1,0 +1,21 @@
+using UnityEditor; using UnityEditor.SceneManagement; using UnityEngine; using UnityEngine.ProBuilder; using UnityEngine.ProBuilder.Shapes; using UnityEditor.ProBuilder; using System.Linq; using System.Reflection;
+var BF = BindingFlags.Instance|BindingFlags.Static|BindingFlags.Public|BindingFlags.NonPublic;
+var scene = EditorSceneManager.NewScene(NewSceneSetup.EmptyScene, NewSceneMode.Single);
+var light = new GameObject("Directional Light").AddComponent<Light>(); light.type = LightType.Directional; light.transform.rotation = Quaternion.Euler(50, -30, 0); light.transform.position = new Vector3(0, 40, -60);
+var pb = ShapeFactory.Instantiate(typeof(Cube));
+var scType = typeof(ProBuilderMesh).Assembly.GetType("UnityEngine.ProBuilder.Shapes.ProBuilderShape");
+var sc = pb.GetComponent(scType); scType.GetProperty("size", BF).SetValue(sc, new Vector3(6, 2.2f, 4)); scType.GetMethod("Rebuild", BF, null, System.Type.EmptyTypes, null)?.Invoke(sc, null);
+Object.DestroyImmediate(sc);
+var mr = pb.GetComponent<MeshRenderer>(); var mat = new Material(mr.sharedMaterial) { hideFlags = HideFlags.DontSave };
+var blue = new Color(0.22f, 0.5f, 0.95f); if (mat.HasProperty("_BaseColor")) mat.SetColor("_BaseColor", blue); if (mat.HasProperty("_Color")) mat.SetColor("_Color", blue);
+mr.sharedMaterial = mat;
+pb.gameObject.name = "Box";
+EditorSceneManager.SaveScene(scene, "Assets/EFDS_Screenshots/ProBuilderBevel.unity");
+Selection.activeGameObject = pb.gameObject;
+// pick the top edge facing the camera-right (+x side, top)
+var top = pb.faces.OrderByDescending(f => f.indexes.Average(i => pb.positions[i].y)).First();
+var edge = top.edges.OrderByDescending(e => pb.positions[e.a].x + pb.positions[e.b].x).First();
+var sv = Resources.FindObjectsOfTypeAll<SceneView>().First(w => !w.docked);
+sv.drawGizmos = true; sv.sceneViewState.showSkybox = false;
+sv.LookAtDirect(new Vector3(0.6f, 0.6f, 0), Quaternion.Euler(32f, -58f, 0f), 6.2f);
+return "edge=" + edge;

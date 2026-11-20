@@ -1,0 +1,154 @@
+{
+ "out": "replacements/fundamentals/color-palette/Text Colors Base 3.png",
+ "canvas": [
+  1600,
+  744
+ ],
+ "backdrop": [
+  226,
+  226,
+  226
+ ],
+ "windows": [
+  {
+   "src": "captures/cp_scene_l.png",
+   "chrome": "none",
+   "x": 344,
+   "y": 150,
+   "w": 912
+  }
+ ],
+ "annotations": [
+  {
+   "t": "rect",
+   "x": 387.0,
+   "y": 162.8,
+   "w_": 85.19999999999999,
+   "h": 32.79999999999998,
+   "color": [
+    77,
+    140,
+    80
+   ],
+   "w": 2,
+   "radius": 3,
+   "dash": false,
+   "solid": true
+  },
+  {
+   "t": "line",
+   "x1": 244,
+   "y1": 179.2,
+   "x2": 387.0,
+   "y2": 179.2,
+   "color": [
+    77,
+    140,
+    80
+   ],
+   "w": 2
+  },
+  {
+   "t": "dot",
+   "x": 224,
+   "y": 179.2,
+   "r": 20,
+   "color": [
+    77,
+    140,
+    80
+   ]
+  },
+  {
+   "t": "dot",
+   "x": 224,
+   "y": 179.2,
+   "r": 18,
+   "color": [
+    182,
+    191,
+    182
+   ]
+  },
+  {
+   "t": "text",
+   "s": "1",
+   "x": 224,
+   "y": 179.2,
+   "anchor": "mm",
+   "size": 22,
+   "color": [
+    77,
+    140,
+    80
+   ],
+   "font": "C:/Windows/Fonts/segoeui.ttf"
+  },
+  {
+   "t": "rect",
+   "x": 566.6,
+   "y": 207.6,
+   "w_": 82.0,
+   "h": 32.80000000000001,
+   "color": [
+    77,
+    140,
+    80
+   ],
+   "w": 2,
+   "radius": 3,
+   "dash": false,
+   "solid": true
+  },
+  {
+   "t": "line",
+   "x1": 607.6,
+   "y1": 126,
+   "x2": 607.6,
+   "y2": 207.6,
+   "color": [
+    77,
+    140,
+    80
+   ],
+   "w": 2
+  },
+  {
+   "t": "dot",
+   "x": 607.6,
+   "y": 106,
+   "r": 20,
+   "color": [
+    77,
+    140,
+    80
+   ]
+  },
+  {
+   "t": "dot",
+   "x": 607.6,
+   "y": 106,
+   "r": 18,
+   "color": [
+    182,
+    191,
+    182
+   ]
+  },
+  {
+   "t": "text",
+   "s": "2",
+   "x": 607.6,
+   "y": 106,
+   "anchor": "mm",
+   "size": 22,
+   "color": [
+    77,
+    140,
+    80
+   ],
+   "font": "C:/Windows/Fonts/segoeui.ttf"
+  }
+ ],
+ "theme": "light"
+}

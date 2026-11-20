@@ -1,0 +1,26 @@
+{
+ "out": "replacements/patterns/authoring-flows/af-gO_scene-insp.png",
+ "canvas": [
+  1600,
+  724
+ ],
+ "windows": [
+  {
+   "src": "captures/af01_scene_l.png",
+   "title": "Scene",
+   "x": 137,
+   "y": 80,
+   "w": 838,
+   "h": 563
+  },
+  {
+   "src": "captures/af01_insp_l.png",
+   "title": "Inspector",
+   "x": 1037,
+   "y": 80,
+   "w": 500,
+   "h": null
+  }
+ ],
+ "theme": "light"
+}

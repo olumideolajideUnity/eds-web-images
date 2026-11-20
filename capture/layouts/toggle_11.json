@@ -1,0 +1,49 @@
+{
+ "out": "replacements/components/toggle/toggle-style.png",
+ "canvas": [
+  1600,
+  600
+ ],
+ "backdrop": [
+  50,
+  50,
+  50
+ ],
+ "windows": [
+  {
+   "src": "captures/tg_style.png",
+   "chrome": "none",
+   "x": 0,
+   "y": 0,
+   "w": 1600
+  }
+ ],
+ "annotations": [
+  {
+   "t": "line",
+   "x1": 534,
+   "y1": 0,
+   "x2": 534,
+   "y2": 600,
+   "color": [
+    86,
+    87,
+    88
+   ],
+   "w": 1
+  },
+  {
+   "t": "line",
+   "x1": 1068,
+   "y1": 0,
+   "x2": 1068,
+   "y2": 600,
+   "color": [
+    86,
+    87,
+    88
+   ],
+   "w": 1
+  }
+ ]
+}

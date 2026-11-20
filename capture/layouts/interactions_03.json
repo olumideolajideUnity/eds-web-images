@@ -1,0 +1,20 @@
+{
+ "out": "replacements/fundamentals/interactions/treeview.gif",
+ "source": "incoming/gifs/treeview.mp4",
+ "crop": [
+  6,
+  75,
+  1374,
+  862
+ ],
+ "size": [
+  709,
+  445
+ ],
+ "trim": [
+  0,
+  15.5
+ ],
+ "fps": 20,
+ "note": "User screen recording (Unity 7, dark): Hierarchy drag and drop in Unity 7 (Untitled scene, Parent > Child 1-4). Title bar cropped; built by scripts/rec_build.py."
+}

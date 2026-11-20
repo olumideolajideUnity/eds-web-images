@@ -1,0 +1,17 @@
+using UnityEditor; using UnityEngine; using System.Linq; using System.Reflection;
+var BF = BindingFlags.Instance|BindingFlags.Public|BindingFlags.NonPublic;
+var t = typeof(Editor).Assembly.GetType("UnityEditor.LightingExplorerWindow");
+var w = Resources.FindObjectsOfTypeAll(t).Cast<EditorWindow>().First();
+var tab = ((System.Array)t.GetField("m_TableTabs", BF).GetValue(w)).GetValue(0);
+var tbl = tab.GetType().GetField("m_LightTable", BF).GetValue(tab);
+var tv = tbl.GetType().GetField("m_TreeView", BF).GetValue(tbl);
+var rows = (System.Collections.IEnumerable)tv.GetType().GetMethod("GetRows", BF).Invoke(tv, null);
+var s = "";
+foreach (var r in rows) s += r.GetType().GetProperty("id").GetValue(r) + ":" + r.GetType().GetProperty("displayName").GetValue(r) + "; ";
+var sel = (System.Collections.IEnumerable)tv.GetType().GetMethod("GetSelection", BF).Invoke(tv, null);
+s += " sel="; foreach (var x in sel) s += x + ",";
+s += " Sel.active=" + (Selection.activeGameObject ? Selection.activeGameObject.name : "null");
+var hdr = tv.GetType().GetProperty("multiColumnHeader", BF).GetValue(tv) as UnityEditor.IMGUI.Controls.MultiColumnHeader;
+s += " sortcol=" + hdr.sortedColumnIndex;
+var src = t.GetMethods(BF).Where(m => m.DeclaringType == t).Select(m => m.Name);
+return s + " WIN: " + string.Join(",", src);

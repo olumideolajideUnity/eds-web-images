@@ -1,0 +1,109 @@
+{
+ "out": "replacements/components/toggle/toggle-variations.png",
+ "canvas": [
+  1600,
+  600
+ ],
+ "backdrop": [
+  215,
+  215,
+  215
+ ],
+ "windows": [
+  {
+   "src": "captures/tg_variations_l.png",
+   "chrome": "none",
+   "x": 0,
+   "y": 0,
+   "w": 1600
+  }
+ ],
+ "annotations": [
+  {
+   "t": "line",
+   "x1": 800,
+   "y1": 0,
+   "x2": 800,
+   "y2": 600,
+   "color": [
+    160,
+    160,
+    160
+   ],
+   "w": 1
+  },
+  {
+   "t": "dot",
+   "x": 46,
+   "y": 534,
+   "r": 17,
+   "color": [
+    160,
+    160,
+    160
+   ]
+  },
+  {
+   "t": "dot",
+   "x": 46,
+   "y": 534,
+   "r": 15,
+   "color": [
+    215,
+    215,
+    215
+   ]
+  },
+  {
+   "t": "text",
+   "s": "1",
+   "x": 46,
+   "y": 534,
+   "anchor": "mm",
+   "size": 20,
+   "color": [
+    9,
+    9,
+    9
+   ],
+   "font": "fonts/Inter-SemiBold.ttf"
+  },
+  {
+   "t": "dot",
+   "x": 846,
+   "y": 534,
+   "r": 17,
+   "color": [
+    160,
+    160,
+    160
+   ]
+  },
+  {
+   "t": "dot",
+   "x": 846,
+   "y": 534,
+   "r": 15,
+   "color": [
+    215,
+    215,
+    215
+   ]
+  },
+  {
+   "t": "text",
+   "s": "2",
+   "x": 846,
+   "y": 534,
+   "anchor": "mm",
+   "size": 20,
+   "color": [
+    9,
+    9,
+    9
+   ],
+   "font": "fonts/Inter-SemiBold.ttf"
+  }
+ ],
+ "theme": "light"
+}

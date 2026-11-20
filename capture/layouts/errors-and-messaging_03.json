@@ -1,0 +1,21 @@
+{
+ "out": "replacements/patterns/errors-and-messaging/ea type-warning.png",
+ "canvas": [
+  840,
+  320
+ ],
+ "backdrop": [
+  56,
+  56,
+  56
+ ],
+ "windows": [
+  {
+   "src": "captures/em_warning.png",
+   "chrome": "none",
+   "x": 58,
+   "y": 131,
+   "w": 724
+  }
+ ]
+}

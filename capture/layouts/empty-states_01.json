@@ -1,0 +1,21 @@
+{
+ "out": "replacements/patterns/empty-states/es cardImg.png",
+ "canvas": [
+  640,
+  256
+ ],
+ "backdrop": [
+  90,
+  90,
+  90
+ ],
+ "windows": [
+  {
+   "src": "captures/es_card.png",
+   "chrome": "none",
+   "x": 48,
+   "y": 48,
+   "w": 592
+  }
+ ]
+}

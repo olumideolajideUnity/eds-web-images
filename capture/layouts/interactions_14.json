@@ -1,0 +1,29 @@
+{
+ "out": "replacements/fundamentals/interactions/pressed.png",
+ "canvas": [
+  1600,
+  520
+ ],
+ "backdrop": [
+  56,
+  56,
+  56
+ ],
+ "windows": [
+  {
+   "src": "captures/int_pressed_l.png",
+   "chrome": "none",
+   "x": 0,
+   "y": 0,
+   "w": 800
+  },
+  {
+   "src": "captures/int_pressed_d.png",
+   "chrome": "none",
+   "x": 800,
+   "y": 0,
+   "w": 800
+  }
+ ],
+ "annotations": []
+}

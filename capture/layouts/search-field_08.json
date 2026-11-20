@@ -1,0 +1,74 @@
+{
+ "out": "replacements/components/search-field/search filters.gif",
+ "size": [
+  1600,
+  600
+ ],
+ "crop": [
+  0,
+  0,
+  800,
+  300
+ ],
+ "frames": [
+  [
+   "sf_0",
+   1300
+  ],
+  [
+   "sf_1",
+   450
+  ],
+  [
+   "sf_2",
+   450
+  ],
+  [
+   "sf_3",
+   1700
+  ],
+  [
+   "sf_4",
+   700
+  ],
+  [
+   "sf_5",
+   2000
+  ],
+  [
+   "sf_6",
+   2000
+  ]
+ ],
+ "note": "GIF from Editor view-buffer frames (Unity 7): Unity 7's Hierarchy has no All / Name / Type filter dropdown; its search field filters by name or by type with t: (shown as a filter chip). A floating Hierarchy beside a Scene view (unity/gif_hier.cs; a few unsaved demo objects) searched for 'c', 'ca', 'cap', then t:Light and t:Camera through the Hierarchy's own SetSearchText (scripts/gif_hsearch.sh); the Scene view greys what doesn't match. Built by scripts/gif_build.py. Pointer drawn by gif_build.py at the click/hover positions (crop pt).",
+ "pointer": [
+  [
+   230,
+   250
+  ],
+  [
+   180,
+   40
+  ],
+  [
+   180,
+   40
+  ],
+  [
+   180,
+   40
+  ],
+  [
+   258,
+   40
+  ],
+  [
+   200,
+   40
+  ],
+  [
+   200,
+   40
+  ]
+ ]
+}

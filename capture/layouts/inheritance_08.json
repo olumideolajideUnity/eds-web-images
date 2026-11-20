@@ -1,0 +1,73 @@
+{
+ "out": "replacements/patterns/inheritance/2d_ui.png",
+ "canvas": [
+  1600,
+  600
+ ],
+ "backdrop": [
+  25,
+  25,
+  25
+ ],
+ "windows": [
+  {
+   "src": "captures/inh_spritelib.png",
+   "title": "",
+   "x": 300,
+   "y": 60,
+   "w": 1000
+  }
+ ],
+ "annotations": [
+  {
+   "t": "dot",
+   "x": 736,
+   "y": 318,
+   "r": 14,
+   "color": [
+    106,
+    207,
+    125
+   ]
+  },
+  {
+   "t": "text",
+   "s": "1",
+   "x": 736,
+   "y": 318,
+   "anchor": "mm",
+   "size": 18,
+   "color": [
+    255,
+    255,
+    255
+   ],
+   "font": "C:/Windows/Fonts/segoeuib.ttf"
+  },
+  {
+   "t": "dot",
+   "x": 300,
+   "y": 368,
+   "r": 14,
+   "color": [
+    106,
+    207,
+    125
+   ]
+  },
+  {
+   "t": "text",
+   "s": "2",
+   "x": 300,
+   "y": 368,
+   "anchor": "mm",
+   "size": 18,
+   "color": [
+    255,
+    255,
+    255
+   ],
+   "font": "C:/Windows/Fonts/segoeuib.ttf"
+  }
+ ]
+}

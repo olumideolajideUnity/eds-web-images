@@ -1,0 +1,29 @@
+{
+ "out": "replacements/fundamentals/accessibility/a11y-8N.png",
+ "canvas": [
+  780,
+  480
+ ],
+ "backdrop": [
+  203,
+  203,
+  203
+ ],
+ "windows": [
+  {
+   "src": "captures/acc_insp8N_l.png",
+   "chrome": "none",
+   "x": 46,
+   "y": 82,
+   "w": 692,
+   "crop": [
+    0,
+    302,
+    0,
+    603
+   ]
+  }
+ ],
+ "annotations": [],
+ "theme": "light"
+}

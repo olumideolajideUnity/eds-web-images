@@ -1,0 +1,21 @@
+using UnityEditor; using UnityEditor.SceneManagement; using UnityEngine; using UnityEngine.Splines; using UnityEditor.Splines; using Unity.Mathematics; using System.Linq; using System.Reflection;
+var scene = EditorSceneManager.NewScene(NewSceneSetup.DefaultGameObjects, NewSceneMode.Single);
+var light = GameObject.Find("Directional Light"); if (light) light.transform.position = new Vector3(0, 30, 40);
+var go = new GameObject("Spline");
+var sc = go.AddComponent<SplineContainer>();
+var s = sc.Spline; s.Clear();
+var pts = new[]{ new float3(-6,0,-1), new float3(-3,0,0.2f), new float3(-2.6f,0,-1.6f), new float3(0.5f,0,0.4f), new float3(2.2f,0,-2.0f), new float3(4.3f,0,-0.6f) };
+foreach (var p in pts) s.Add(new BezierKnot(p), TangentMode.AutoSmooth);
+EditorSceneManager.SaveScene(scene, "Assets/EFDS_Screenshots/Splines.unity");
+Selection.activeGameObject = go;
+Tools.current = Tool.Move;
+// size the floating Scene view container like the original (1171 x 619 window)
+var BF = BindingFlags.Instance|BindingFlags.Public|BindingFlags.NonPublic;
+var sv = Resources.FindObjectsOfTypeAll<SceneView>().First(w => w.position.x > -1000);
+var parent = typeof(EditorWindow).GetField("m_Parent", BF).GetValue(sv);
+var container = parent.GetType().GetProperty("window", BF).GetValue(parent);
+container.GetType().GetProperty("position", BF).SetValue(container, new Rect(40, 80, 976, 510));
+sv.drawGizmos = true;
+sv.LookAtDirect(new Vector3(0.2f, 0, -0.6f), Quaternion.Euler(24f, -8f, 0f), 6.2f);
+sv.Focus(); sv.Repaint();
+return "knots=" + s.Count + " sv=" + sv.position;

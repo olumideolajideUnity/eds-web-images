@@ -1,0 +1,87 @@
+{
+ "out": "replacements/components/dropdown/dd-menu position.png",
+ "canvas": [
+  1600,
+  622
+ ],
+ "backdrop": [
+  215,
+  215,
+  215
+ ],
+ "windows": [
+  {
+   "src": "captures/dd_position_l.png",
+   "chrome": "none",
+   "x": 0,
+   "y": 0,
+   "w": 1600
+  }
+ ],
+ "annotations": [
+  {
+   "t": "pill",
+   "s": "Menu Positioning",
+   "x": 40,
+   "y": 62,
+   "h": 44,
+   "pad": 16,
+   "size": 22,
+   "bg": [
+    215,
+    215,
+    215
+   ],
+   "outline": [
+    160,
+    160,
+    160
+   ],
+   "color": [
+    9,
+    9,
+    9
+   ],
+   "font": "fonts/Inter-SemiBold.ttf"
+  },
+  {
+   "t": "hdash",
+   "x1": 0,
+   "x2": 1600,
+   "y": 202.4,
+   "color": [
+    160,
+    160,
+    160
+   ],
+   "w": 1
+  },
+  {
+   "t": "hdash",
+   "x1": 0,
+   "x2": 1600,
+   "y": 249.440008,
+   "color": [
+    160,
+    160,
+    160
+   ],
+   "w": 1
+  },
+  {
+   "t": "image",
+   "src": "captures/menus/dd_position_l.png",
+   "x": 515.9000000000001,
+   "y": 101.02000400000003,
+   "w": 492.0
+  },
+  {
+   "t": "image",
+   "src": "captures/menus/dd_position_l.png",
+   "x": 1067.9,
+   "y": 212.940008,
+   "w": 492.0
+  }
+ ],
+ "theme": "light"
+}

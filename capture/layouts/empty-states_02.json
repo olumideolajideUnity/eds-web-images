@@ -1,0 +1,28 @@
+{
+ "out": "replacements/patterns/empty-states/es-overview.png",
+ "canvas": [
+  1600,
+  600
+ ],
+ "backdrop": [
+  56,
+  56,
+  56
+ ],
+ "windows": [
+  {
+   "src": "captures/es_tl0.png",
+   "chrome": "none",
+   "x": 40,
+   "y": 78,
+   "w": 744
+  },
+  {
+   "src": "captures/es_tl1.png",
+   "chrome": "none",
+   "x": 820,
+   "y": 78,
+   "w": 744
+  }
+ ]
+}

@@ -1,0 +1,22 @@
+{
+ "out": "replacements/patterns/contextual-tooling/ToolSettings-SplineMode@2x.png",
+ "canvas": [
+  1600,
+  721
+ ],
+ "backdrop": [
+  25,
+  25,
+  25
+ ],
+ "windows": [
+  {
+   "src": "captures/ct06_scene_l_crop.png",
+   "chrome": "none",
+   "x": 0,
+   "y": 0,
+   "w": 1600
+  }
+ ],
+ "theme": "light"
+}

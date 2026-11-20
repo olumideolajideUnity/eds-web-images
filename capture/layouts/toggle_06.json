@@ -1,0 +1,75 @@
+{
+ "out": "replacements/components/toggle/Toggles.png",
+ "canvas": [
+  1600,
+  600
+ ],
+ "backdrop": [
+  50,
+  50,
+  50
+ ],
+ "windows": [
+  {
+   "src": "captures/tg_prefsspec.png",
+   "chrome": "none",
+   "x": 0,
+   "y": 0,
+   "w": 1600
+  },
+  {
+   "src": "captures/tg_vp.png",
+   "chrome": "none",
+   "x": 40,
+   "y": 30,
+   "w": 1520,
+   "crop": [
+    0,
+    0,
+    0,
+    1023
+   ]
+  }
+ ],
+ "annotations": [
+  {
+   "t": "text",
+   "s": "\u201cPreview interactions\u201d toggle in the UI Viewport toolbar (UI Toolkit).",
+   "x": 40,
+   "y": 196,
+   "size": 22,
+   "color": [
+    230,
+    230,
+    230
+   ],
+   "font": "fonts/Inter-Regular.ttf"
+  },
+  {
+   "t": "line",
+   "x1": 0,
+   "y1": 300,
+   "x2": 1600,
+   "y2": 300,
+   "color": [
+    86,
+    87,
+    88
+   ],
+   "w": 1
+  },
+  {
+   "t": "text",
+   "s": "Regular Toggles (Checkboxes) in use.",
+   "x": 1100,
+   "y": 420,
+   "size": 22,
+   "color": [
+    230,
+    230,
+    230
+   ],
+   "font": "fonts/Inter-Regular.ttf"
+  }
+ ]
+}

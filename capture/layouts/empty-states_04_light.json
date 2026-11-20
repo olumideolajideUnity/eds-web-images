@@ -1,0 +1,22 @@
+{
+ "out": "replacements/patterns/empty-states/es-idle.png",
+ "canvas": [
+  1602,
+  600
+ ],
+ "backdrop": [
+  215,
+  215,
+  215
+ ],
+ "windows": [
+  {
+   "src": "captures/es_dbg_l.png",
+   "chrome": "none",
+   "x": 0,
+   "y": 0,
+   "w": 1602
+  }
+ ],
+ "theme": "light"
+}

@@ -1,0 +1,10 @@
+using UnityEditor; using UnityEngine; using System.Linq;
+float PITCH = 28, YAW = 58, SIZE = 4.6f, RIGHT = 1.2f, FOV = 30; Vector3 C = new Vector3(-0.2f, 1.3f, -0.8f);
+var sv = Resources.FindObjectsOfTypeAll<SceneView>().First(w => !w.docked);
+foreach (var o in sv.overlayCanvas.overlays) if (new[]{ "Tools", "Tool Settings", "Bevel Edges", "Cameras" }.Contains(o.displayName)) o.displayed = false;
+Selection.activeGameObject = GameObject.Find("Main Block");
+Tools.current = Tool.View; sv.drawGizmos = false;
+var cs = sv.cameraSettings; cs.fieldOfView = FOV; sv.cameraSettings = cs;
+var rot = Quaternion.Euler(PITCH, YAW, 0);
+sv.LookAtDirect(C + rot * Vector3.right * RIGHT, rot, SIZE);
+sv.Repaint(); return "ok";

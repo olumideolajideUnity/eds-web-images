@@ -1,0 +1,83 @@
+{
+ "out": "replacements/components/toggle/toggle-behavior.png",
+ "canvas": [
+  1600,
+  600
+ ],
+ "backdrop": [
+  50,
+  50,
+  50
+ ],
+ "windows": [
+  {
+   "src": "captures/tg_behavior.png",
+   "chrome": "none",
+   "x": 0,
+   "y": 0,
+   "w": 1600
+  }
+ ],
+ "annotations": [
+  {
+   "t": "rect",
+   "x": 0,
+   "y": 0,
+   "w_": 1600,
+   "h": 120,
+   "color": [
+    40,
+    40,
+    40
+   ],
+   "w": 0,
+   "fill": 1.0,
+   "dash": false
+  },
+  {
+   "t": "rect",
+   "x": 0,
+   "y": 492,
+   "w_": 1600,
+   "h": 108,
+   "color": [
+    40,
+    40,
+    40
+   ],
+   "w": 0,
+   "fill": 1.0,
+   "dash": false
+  },
+  {
+   "t": "rect",
+   "x": 0,
+   "y": 120,
+   "w_": 384,
+   "h": 372,
+   "color": [
+    40,
+    40,
+    40
+   ],
+   "w": 0,
+   "fill": 1.0,
+   "dash": false
+  },
+  {
+   "t": "rect",
+   "x": 1222,
+   "y": 120,
+   "w_": 378,
+   "h": 372,
+   "color": [
+    40,
+    40,
+    40
+   ],
+   "w": 0,
+   "fill": 1.0,
+   "dash": false
+  }
+ ]
+}

@@ -1,0 +1,14 @@
+using UnityEditor; using UnityEngine; using System.Linq; using System.Reflection;
+var BF = BindingFlags.Instance|BindingFlags.Public|BindingFlags.NonPublic;
+var t = typeof(Editor).Assembly.GetType("UnityEditor.LightingExplorerWindow");
+var w = Resources.FindObjectsOfTypeAll(t).Cast<EditorWindow>().First();
+var p = Object.FindObjectsByType<Light>(FindObjectsInactive.Include).First(l => l.name == "Point Light").gameObject;
+Selection.objects = new Object[]{ p };
+t.GetMethod("OnSelectionChange", BF).Invoke(w, null);
+var tab = ((System.Array)t.GetField("m_TableTabs", BF).GetValue(w)).GetValue(0);
+var tbl = tab.GetType().GetField("m_LightTable", BF).GetValue(tab);
+var tv = tbl.GetType().GetField("m_TreeView", BF).GetValue(tbl);
+var sel = (System.Collections.IEnumerable)tv.GetType().GetMethod("GetSelection", BF).Invoke(tv, null);
+var s = "p=" + p.GetEntityId() + " sel="; foreach (var x in sel) s += x + ",";
+w.Focus(); var sf = tv.GetType().GetMethod("SetFocusAndEnsureSelectedItem", BF) ?? tv.GetType().GetMethod("SetFocus", BF); sf?.Invoke(tv, null); s += " focus=" + (sf?.Name);
+w.Repaint(); return s;

@@ -1,0 +1,21 @@
+{
+ "out": "replacements/patterns/errors-and-messaging/ea-console.png",
+ "canvas": [
+  1600,
+  600
+ ],
+ "backdrop": [
+  25,
+  25,
+  25
+ ],
+ "windows": [
+  {
+   "src": "captures/em_console_full.png",
+   "chrome": "none",
+   "x": 130,
+   "y": 24,
+   "w": 1340
+  }
+ ]
+}

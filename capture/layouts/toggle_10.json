@@ -1,0 +1,42 @@
+{
+ "out": "replacements/components/toggle/toggles-htu hideinsp.gif",
+ "size": [
+  780,
+  600
+ ],
+ "crop": [
+  0,
+  268,
+  390,
+  300
+ ],
+ "frames": [
+  [
+   "tg_0",
+   1500
+  ],
+  [
+   "tg_1",
+   2600
+  ],
+  [
+   "tg_2",
+   1500
+  ]
+ ],
+ "note": "GIF from Editor view-buffer frames: a Camera (URP; other components hidden, unity/gif_insp.cs KIND camera) with Rendering expanded; real clicks on the Physical Camera toggle (unity/gif_mouse.cs) show and hide the physical camera properties. Built by scripts/gif_build.py. Pointer drawn by gif_build.py at the click/hover positions (crop pt).",
+ "pointer": [
+  [
+   250,
+   285
+  ],
+  [
+   169,
+   12
+  ],
+  [
+   169,
+   12
+  ]
+ ]
+}

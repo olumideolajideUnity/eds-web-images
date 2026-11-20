@@ -1,0 +1,128 @@
+{
+ "out": "replacements/components/toolbar/toolbar-variations.png",
+ "canvas": [
+  1600,
+  600
+ ],
+ "backdrop": [
+  215,
+  215,
+  215
+ ],
+ "windows": [
+  {
+   "src": "captures/tg_vp_l.png",
+   "chrome": "none",
+   "x": 60,
+   "y": 126,
+   "w": 1480,
+   "crop": [
+    0,
+    120,
+    0,
+    1023
+   ]
+  },
+  {
+   "src": "captures/tl_scene_l.png",
+   "chrome": "none",
+   "x": 60,
+   "y": 426,
+   "w": 1480,
+   "crop": [
+    0,
+    65,
+    0,
+    623
+   ]
+  }
+ ],
+ "annotations": [
+  {
+   "t": "line",
+   "x1": 0,
+   "y1": 300,
+   "x2": 1600,
+   "y2": 300,
+   "color": [
+    160,
+    160,
+    160
+   ],
+   "w": 1
+  },
+  {
+   "t": "dot",
+   "x": 60,
+   "y": 60,
+   "r": 17,
+   "color": [
+    160,
+    160,
+    160
+   ]
+  },
+  {
+   "t": "dot",
+   "x": 60,
+   "y": 60,
+   "r": 15,
+   "color": [
+    215,
+    215,
+    215
+   ]
+  },
+  {
+   "t": "text",
+   "s": "1",
+   "x": 60,
+   "y": 60,
+   "anchor": "mm",
+   "size": 20,
+   "color": [
+    9,
+    9,
+    9
+   ],
+   "font": "fonts/Inter-SemiBold.ttf"
+  },
+  {
+   "t": "dot",
+   "x": 60,
+   "y": 360,
+   "r": 17,
+   "color": [
+    160,
+    160,
+    160
+   ]
+  },
+  {
+   "t": "dot",
+   "x": 60,
+   "y": 360,
+   "r": 15,
+   "color": [
+    215,
+    215,
+    215
+   ]
+  },
+  {
+   "t": "text",
+   "s": "2",
+   "x": 60,
+   "y": 360,
+   "anchor": "mm",
+   "size": 20,
+   "color": [
+    9,
+    9,
+    9
+   ],
+   "font": "fonts/Inter-SemiBold.ttf"
+  }
+ ],
+ "theme": "light"
+}

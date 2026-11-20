@@ -1,0 +1,73 @@
+{
+ "out": "replacements/patterns/project-settings-preferences/kebab-options.png",
+ "canvas": [
+  1600,
+  600
+ ],
+ "backdrop": [
+  226,
+  226,
+  226
+ ],
+ "windows": [
+  {
+   "src": "captures/ps_kebab_l.png",
+   "chrome": "none",
+   "x": 0,
+   "y": 0,
+   "w": 1230
+  }
+ ],
+ "annotations": [
+  {
+   "t": "line",
+   "x1": 1229.0,
+   "y1": 65.0,
+   "x2": 1258,
+   "y2": 65.0,
+   "color": [
+    150,
+    150,
+    150
+   ],
+   "w": 1
+  },
+  {
+   "t": "dot",
+   "x": 1229.0,
+   "y": 65.0,
+   "r": 3,
+   "color": [
+    150,
+    150,
+    150
+   ]
+  },
+  {
+   "t": "pill",
+   "x": 1258,
+   "y": 65.0,
+   "h": 46,
+   "s": "Tool Preferences",
+   "color": [
+    9,
+    9,
+    9
+   ],
+   "bg": [
+    226,
+    226,
+    226
+   ],
+   "outline": [
+    160,
+    160,
+    160
+   ],
+   "size": 17,
+   "pad": 13,
+   "font": "C:/Windows/Fonts/segoeui.ttf"
+  }
+ ],
+ "theme": "light"
+}

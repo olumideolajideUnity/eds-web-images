@@ -1,0 +1,13 @@
+{
+ "out": "replacements/patterns/empty-states/es-helpbox.png",
+ "canvas": [1600, 600],
+ "backdrop": [56, 56, 56],
+ "windows": [
+  {"src": "captures/es06_init.png", "chrome": "none", "x": 40, "y": 78, "w": 742},
+  {"src": "captures/es06_err.png", "chrome": "none", "x": 820, "y": 78, "w": 742}
+ ],
+ "annotations": [
+  {"t": "pill", "x": 40, "y": 40, "h": 42, "s": "Initial empty state", "color": [238, 238, 238], "size": 21},
+  {"t": "pill", "x": 820, "y": 40, "h": 42, "s": "Empty state with an error", "color": [238, 238, 238], "size": 21}
+ ]
+}

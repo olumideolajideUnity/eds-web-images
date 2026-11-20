@@ -1,0 +1,27 @@
+{
+ "out": "replacements/patterns/authoring-flows/asset_insp-custom-prop.png",
+ "canvas": [
+  1600,
+  724
+ ],
+ "windows": [
+  {
+   "src": "captures/af02_graph_l.png",
+   "title": "Paint1G_WAnim_Shader",
+   "x": 137,
+   "y": 70,
+   "w": 840,
+   "h": 583
+  },
+  {
+   "src": "captures/af02_insp_l.png",
+   "title": "Inspector",
+   "x": 1037,
+   "y": 70,
+   "w": 425,
+   "h": null,
+   "hide_right": 34
+  }
+ ],
+ "theme": "light"
+}

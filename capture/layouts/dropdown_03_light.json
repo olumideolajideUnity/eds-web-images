@@ -1,0 +1,45 @@
+{
+ "out": "replacements/components/dropdown/menus-dd.png",
+ "canvas": [
+  1600,
+  600
+ ],
+ "backdrop": [
+  215,
+  215,
+  215
+ ],
+ "windows": [
+  {
+   "src": "captures/dd_hier_l.png",
+   "chrome": "none",
+   "x": 0,
+   "y": 0,
+   "w": 312
+  },
+  {
+   "src": "captures/dd_scene_l.png",
+   "chrome": "none",
+   "x": 312,
+   "y": 0,
+   "w": 1288
+  }
+ ],
+ "annotations": [
+  {
+   "t": "image",
+   "src": "captures/menus/hier_create_l.png",
+   "x": -26.0,
+   "y": 52.0,
+   "w": 611.0
+  },
+  {
+   "t": "image",
+   "src": "captures/menus/hier_vfx_l.png",
+   "x": 515.0,
+   "y": 326.0,
+   "w": 499.0
+  }
+ ],
+ "theme": "light"
+}

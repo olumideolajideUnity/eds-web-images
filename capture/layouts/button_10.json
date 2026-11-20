@@ -1,0 +1,30 @@
+{
+ "out": "replacements/components/button/Buttons.png",
+ "canvas": [
+  1600,
+  600
+ ],
+ "backdrop": [
+  50,
+  50,
+  50
+ ],
+ "windows": [
+  {
+   "src": "captures/btn_export.png",
+   "chrome": "none",
+   "x": 0,
+   "y": 0,
+   "w": 1600
+  },
+  {
+   "src": "captures/btn_empty.png",
+   "title": "Export Coordinates",
+   "x": 592,
+   "y": 248,
+   "w": 826,
+   "h": null
+  }
+ ],
+ "annotations": []
+}

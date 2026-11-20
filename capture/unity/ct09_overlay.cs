@@ -1,0 +1,11 @@
+using UnityEditor; using UnityEngine; using System.Linq; using System.Reflection;
+var BF = BindingFlags.Instance|BindingFlags.Static|BindingFlags.Public|BindingFlags.NonPublic;
+var a = System.AppDomain.CurrentDomain.GetAssemblies().First(x => x.GetName().Name == "Unity.ProBuilder.Editor");
+var act = System.Activator.CreateInstance(a.GetType("UnityEditor.ProBuilder.Actions.BevelEdges"));
+var mas = System.Activator.CreateInstance(a.GetType("UnityEditor.ProBuilder.MenuActionSettings"), BF, null, new object[]{ act, true }, null);
+var ea = typeof(Editor).Assembly.GetType("UnityEditor.Actions.EditorAction") ?? System.AppDomain.CurrentDomain.GetAssemblies().Select(x => x.GetType("UnityEditor.Actions.EditorAction")).First(x => x != null);
+var start = ea.GetMethods(BF).FirstOrDefault(m => m.Name == "Start" && m.IsStatic && m.GetParameters().Length == 1);
+start?.Invoke(null, new[]{ mas });
+var sv = Resources.FindObjectsOfTypeAll<SceneView>().First(w => !w.docked);
+SceneView.RepaintAll();
+return "start=" + (start != null) + " eaMethods=" + string.Join(",", ea.GetMethods(BF | BindingFlags.DeclaredOnly).Select(m => m.Name)) + " overlays=" + string.Join(",", sv.overlayCanvas.overlays.Where(o => o.displayed).Select(o => o.displayName));

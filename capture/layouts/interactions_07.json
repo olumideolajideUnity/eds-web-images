@@ -1,0 +1,73 @@
+{
+ "out": "replacements/fundamentals/interactions/containers.png",
+ "canvas": [
+  780,
+  508
+ ],
+ "backdrop": [
+  50,
+  50,
+  50
+ ],
+ "windows": [
+  {
+   "src": "captures/int_containers.png",
+   "chrome": "none",
+   "x": 0,
+   "y": 0,
+   "w": 780
+  }
+ ],
+ "annotations": [
+  {
+   "t": "pill",
+   "s": "Interactive content",
+   "x": 34,
+   "y": 62,
+   "h": 44,
+   "pad": 16,
+   "size": 24,
+   "bg": [
+    50,
+    50,
+    50
+   ],
+   "outline": [
+    86,
+    87,
+    88
+   ],
+   "color": [
+    255,
+    255,
+    255
+   ],
+   "font": "fonts/Inter-SemiBold.ttf"
+  },
+  {
+   "t": "pill",
+   "s": "Static content",
+   "x": 424,
+   "y": 62,
+   "h": 44,
+   "pad": 16,
+   "size": 24,
+   "bg": [
+    50,
+    50,
+    50
+   ],
+   "outline": [
+    86,
+    87,
+    88
+   ],
+   "color": [
+    255,
+    255,
+    255
+   ],
+   "font": "fonts/Inter-SemiBold.ttf"
+  }
+ ]
+}

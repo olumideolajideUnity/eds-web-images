@@ -1,0 +1,10 @@
+using UnityEditor; using UnityEditor.SceneManagement; using UnityEngine; using UnityEngine.Playables; using System.Linq;
+EditorSceneManager.OpenScene("Assets/EFDS_Screenshots/GameplaySequenceDemo/Scenes/GameplaySequence.unity", OpenSceneMode.Single);
+var dir = Object.FindObjectsByType<PlayableDirector>(FindObjectsSortMode.None).FirstOrDefault(d => d.playableAsset != null && d.playableAsset.name == "GameplaySequence");
+Selection.activeGameObject = dir.gameObject;
+var tType = System.AppDomain.CurrentDomain.GetAssemblies().Select(a => a.GetType("UnityEditor.Timeline.TimelineWindow")).First(t => t != null);
+foreach (var old in Resources.FindObjectsOfTypeAll(tType).Cast<EditorWindow>().ToList()) old.Close();
+var w = (EditorWindow)ScriptableObject.CreateInstance(tType);
+w.Show();
+w.position = new Rect(100, 100, 1015, 503);
+return "director=" + dir.name + " window=" + w.position;

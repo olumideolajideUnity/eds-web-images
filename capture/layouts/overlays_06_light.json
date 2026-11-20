@@ -1,0 +1,105 @@
+{
+ "out": "replacements/patterns/overlays/overlays-drop zones 1.png",
+ "canvas": [
+  1600,
+  600
+ ],
+ "backdrop": [
+  203,
+  203,
+  203
+ ],
+ "windows": [
+  {
+   "src": "captures/ov_dz1_0_l.png",
+   "chrome": "none",
+   "x": 60,
+   "y": 30,
+   "w": 720,
+   "h": 540
+  },
+  {
+   "src": "captures/ov_dz1_1_l.png",
+   "chrome": "none",
+   "x": 840,
+   "y": 30,
+   "w": 720,
+   "h": 540
+  }
+ ],
+ "annotations": [
+  {
+   "t": "dot",
+   "x": 30,
+   "y": 52,
+   "r": 20,
+   "color": [
+    77,
+    140,
+    80
+   ]
+  },
+  {
+   "t": "dot",
+   "x": 30,
+   "y": 52,
+   "r": 18,
+   "color": [
+    182,
+    191,
+    182
+   ]
+  },
+  {
+   "t": "text",
+   "s": "1",
+   "x": 30,
+   "y": 52,
+   "anchor": "mm",
+   "size": 22,
+   "color": [
+    77,
+    140,
+    80
+   ],
+   "font": "C:/Windows/Fonts/segoeui.ttf"
+  },
+  {
+   "t": "dot",
+   "x": 810,
+   "y": 52,
+   "r": 20,
+   "color": [
+    77,
+    140,
+    80
+   ]
+  },
+  {
+   "t": "dot",
+   "x": 810,
+   "y": 52,
+   "r": 18,
+   "color": [
+    182,
+    191,
+    182
+   ]
+  },
+  {
+   "t": "text",
+   "s": "2",
+   "x": 810,
+   "y": 52,
+   "anchor": "mm",
+   "size": 22,
+   "color": [
+    77,
+    140,
+    80
+   ],
+   "font": "C:/Windows/Fonts/segoeui.ttf"
+  }
+ ],
+ "theme": "light"
+}

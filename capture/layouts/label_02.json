@@ -1,0 +1,54 @@
+{
+ "out": "replacements/components/label/label-withIcons.png",
+ "canvas": [
+  1600,
+  600
+ ],
+ "backdrop": [
+  40,
+  40,
+  40
+ ],
+ "windows": [
+  {
+   "src": "captures/acc_insp6.png",
+   "chrome": "none",
+   "x": 70,
+   "y": 278,
+   "w": 480,
+   "crop": [
+    0,
+    234,
+    265,
+    361
+   ]
+  },
+  {
+   "src": "captures/dd_scene.png",
+   "chrome": "none",
+   "x": 640,
+   "y": 274,
+   "w": 400,
+   "crop": [
+    0,
+    0,
+    1110,
+    685
+   ]
+  },
+  {
+   "src": "captures/lb_tree.png",
+   "chrome": "none",
+   "x": 1180,
+   "y": 252,
+   "w": 380,
+   "crop": [
+    0,
+    200,
+    250,
+    370
+   ]
+  }
+ ],
+ "annotations": []
+}

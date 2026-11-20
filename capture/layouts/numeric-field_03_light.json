@@ -1,0 +1,23 @@
+{
+ "out": "replacements/components/numeric-field/SingleField.png",
+ "canvas": [
+  840,
+  200
+ ],
+ "backdrop": [
+  200,
+  200,
+  200
+ ],
+ "windows": [
+  {
+   "src": "captures/nf_single_l.png",
+   "chrome": "none",
+   "x": 0,
+   "y": 0,
+   "w": 840
+  }
+ ],
+ "annotations": [],
+ "theme": "light"
+}

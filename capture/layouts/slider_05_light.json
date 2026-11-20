@@ -1,0 +1,23 @@
+{
+ "out": "replacements/components/slider/slider-htut-N.png",
+ "canvas": [
+  780,
+  480
+ ],
+ "backdrop": [
+  50,
+  51,
+  52
+ ],
+ "windows": [
+  {
+   "src": "captures/sl_htutN_post_l.png",
+   "chrome": "none",
+   "x": 32,
+   "y": 40,
+   "w": 714
+  }
+ ],
+ "annotations": [],
+ "theme": "light"
+}

@@ -1,0 +1,41 @@
+{
+ "out": "replacements/patterns/content-organization/1-4-container.png",
+ "canvas": [
+  780,
+  464
+ ],
+ "backdrop": [
+  25,
+  25,
+  25
+ ],
+ "windows": [
+  {
+   "src": "captures/co_rect_crop.png",
+   "chrome": "none",
+   "x": 80,
+   "y": 80,
+   "w": 720.0
+  }
+ ],
+ "annotations": [
+  {
+   "t": "rect",
+   "x": 116.0,
+   "y": 132.80004000000002,
+   "w_": 674.0,
+   "h": 48.8,
+   "dash": false,
+   "solid": true
+  },
+  {
+   "t": "rect",
+   "x": 116.0,
+   "y": 385.59999999999997,
+   "w_": 674.0,
+   "h": 72.80002,
+   "dash": false,
+   "solid": true
+  }
+ ]
+}

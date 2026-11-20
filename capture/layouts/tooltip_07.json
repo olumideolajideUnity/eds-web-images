@@ -1,0 +1,77 @@
+{
+ "out": "replacements/components/tooltip/tooltip-bh.gif",
+ "size": [
+  600,
+  450
+ ],
+ "crop": [
+  0,
+  97,
+  300,
+  225
+ ],
+ "frames": [
+  [
+   "tt_0",
+   1200
+  ],
+  [
+   "tt_type",
+   2400
+  ],
+  [
+   "tt_0",
+   500
+  ],
+  [
+   "tt_mode",
+   2600
+  ],
+  [
+   "tt_0",
+   500
+  ],
+  [
+   "tt_color",
+   2200
+  ],
+  [
+   "tt_0",
+   900
+  ]
+ ],
+ "note": "GIF from Editor view-buffer frames: a URP Directional Light inspector 300pt wide (unity/gif_insp.cs KIND light). Each tooltip is Unity's real TooltipView (unity/tt_show.cs, captured from its own buffer) with the URP Light inspector's own tooltip text (Type, Mode, Color), placed under its label. Synthetic mouse moves don't start Unity's tooltip timer, so the tooltip is shown directly. Built by scripts/gif_build.py. Pointer drawn by gif_build.py at the click/hover positions (crop pt).",
+ "pointer": [
+  [
+   230,
+   200
+  ],
+  [
+   58,
+   54
+  ],
+  [
+   58,
+   73,
+   "self"
+  ],
+  [
+   58,
+   73
+  ],
+  [
+   58,
+   140,
+   "self"
+  ],
+  [
+   58,
+   140
+  ],
+  [
+   230,
+   200,
+   "self"
+  ]
+ ]
+}

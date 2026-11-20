@@ -1,0 +1,126 @@
+{
+ "out": "replacements/components/search-field/searchfield-length.png",
+ "canvas": [
+  1600,
+  600
+ ],
+ "backdrop": [
+  215,
+  215,
+  215
+ ],
+ "windows": [
+  {
+   "src": "captures/sf_length_l.png",
+   "chrome": "none",
+   "x": 0,
+   "y": 0,
+   "w": 1600
+  }
+ ],
+ "annotations": [
+  {
+   "t": "pill",
+   "s": "Recommended min: 150px",
+   "x": 40,
+   "y": 62,
+   "h": 40,
+   "pad": 14,
+   "size": 22,
+   "bg": [
+    215,
+    215,
+    215
+   ],
+   "outline": [
+    160,
+    160,
+    160
+   ],
+   "color": [
+    9,
+    9,
+    9
+   ],
+   "font": "fonts/Inter-SemiBold.ttf"
+  },
+  {
+   "t": "vdash",
+   "x": 658.4,
+   "y1": 0,
+   "y2": 600,
+   "color": [
+    255,
+    110,
+    64
+   ],
+   "w": 1
+  },
+  {
+   "t": "vdash",
+   "x": 958.4,
+   "y1": 0,
+   "y2": 600,
+   "color": [
+    255,
+    110,
+    64
+   ],
+   "w": 1
+  },
+  {
+   "t": "line",
+   "x1": 658.4,
+   "y1": 338.799988,
+   "x2": 958.4,
+   "y2": 338.799988,
+   "color": [
+    255,
+    110,
+    64
+   ],
+   "w": 2
+  },
+  {
+   "t": "line",
+   "x1": 658.4,
+   "y1": 330.799988,
+   "x2": 658.4,
+   "y2": 346.799988,
+   "color": [
+    255,
+    110,
+    64
+   ],
+   "w": 2
+  },
+  {
+   "t": "line",
+   "x1": 958.4,
+   "y1": 330.799988,
+   "x2": 958.4,
+   "y2": 346.799988,
+   "color": [
+    255,
+    110,
+    64
+   ],
+   "w": 2
+  },
+  {
+   "t": "text",
+   "s": "150 px",
+   "x": 808.4,
+   "y": 370.799988,
+   "anchor": "mm",
+   "size": 22,
+   "color": [
+    255,
+    110,
+    64
+   ],
+   "font": "fonts/Inter-SemiBold.ttf"
+  }
+ ],
+ "theme": "light"
+}

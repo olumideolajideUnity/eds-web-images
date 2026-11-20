@@ -1,0 +1,20 @@
+{
+ "out": "replacements/fundamentals/interactions/adding_project.gif",
+ "source": "incoming/gifs/adding_project.mp4",
+ "crop": [
+  0,
+  0,
+  2652,
+  994
+ ],
+ "size": [
+  1600,
+  600
+ ],
+ "trim": [
+  0.9,
+  9.0
+ ],
+ "fps": 20,
+ "note": "User screen recording (Unity 7, dark): 'New icon set' dragged from the desktop onto Art assets > UI Icons in the Project window. Title bar cropped; built by scripts/rec_build.py."
+}

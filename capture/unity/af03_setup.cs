@@ -1,0 +1,15 @@
+using UnityEditor; using UnityEngine; using System.Linq; using System.Reflection;
+var BF = BindingFlags.Instance|BindingFlags.Public|BindingFlags.NonPublic;
+var sv = Resources.FindObjectsOfTypeAll<SceneView>().First(w => !w.docked);
+var parent = typeof(EditorWindow).GetField("m_Parent", BF).GetValue(sv);
+var container = parent.GetType().GetProperty("window", BF).GetValue(parent);
+container.GetType().GetProperty("position", BF).SetValue(container, new Rect(60, 100, 897, 502));
+var plant = UnityEngine.SceneManagement.SceneManager.GetActiveScene().GetRootGameObjects().SelectMany(g => g.GetComponentsInChildren<Transform>(true)).First(t => t.name == "PottedPlant_Bush (4)").gameObject;
+Selection.activeGameObject = plant;
+Tools.current = Tool.Rotate; Tools.pivotMode = PivotMode.Pivot; Tools.pivotRotation = PivotRotation.Global;
+sv.drawGizmos = false;
+var b = new Bounds(plant.transform.position, Vector3.zero);
+foreach (var r in plant.GetComponentsInChildren<Renderer>()) b.Encapsulate(r.bounds);
+sv.LookAtDirect(b.center, Quaternion.Euler(15f, 135f, 0f), 1.9f);
+sv.Focus(); sv.Repaint();
+return "plant bounds=" + b + " sv=" + sv.position;

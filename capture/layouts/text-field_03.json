@@ -1,0 +1,48 @@
+{
+ "out": "replacements/components/text-field/textfield-style.png",
+ "canvas": [
+  1600,
+  600
+ ],
+ "backdrop": [
+  56,
+  56,
+  56
+ ],
+ "windows": [
+  {
+   "src": "original/cp/Accent Borders.png",
+   "chrome": "none",
+   "x": 0,
+   "y": 0,
+   "w": 1600
+  },
+  {
+   "src": "captures/cp_accent_tf.png",
+   "chrome": "none",
+   "x": 207,
+   "y": 202,
+   "w": 386,
+   "crop": [
+    332,
+    81,
+    332,
+    82
+   ]
+  },
+  {
+   "src": "captures/cp_accent_dd.png",
+   "chrome": "none",
+   "x": 993,
+   "y": 201,
+   "w": 414,
+   "crop": [
+    318,
+    79,
+    318,
+    79
+   ]
+  }
+ ],
+ "annotations": []
+}

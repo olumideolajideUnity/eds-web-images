@@ -1,0 +1,29 @@
+{
+ "out": "replacements/components/text-field/textfield-states.png",
+ "canvas": [
+  1600,
+  600
+ ],
+ "backdrop": [
+  194,
+  194,
+  194
+ ],
+ "windows": [
+  {
+   "src": "captures/tf_states_l.png",
+   "chrome": "none",
+   "x": 0,
+   "y": 0,
+   "w": 800
+  },
+  {
+   "src": "captures/tf_states.png",
+   "chrome": "none",
+   "x": 800,
+   "y": 0,
+   "w": 800
+  }
+ ],
+ "annotations": []
+}

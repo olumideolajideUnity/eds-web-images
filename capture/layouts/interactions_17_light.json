@@ -1,0 +1,139 @@
+{
+ "out": "replacements/fundamentals/interactions/assigning.png",
+ "canvas": [
+  1600,
+  600
+ ],
+ "backdrop": [
+  215,
+  215,
+  215
+ ],
+ "windows": [
+  {
+   "src": "captures/int_assign0_l.png",
+   "chrome": "none",
+   "x": 0,
+   "y": 0,
+   "w": 532
+  },
+  {
+   "src": "captures/int_assign1_l.png",
+   "chrome": "none",
+   "x": 534,
+   "y": 0,
+   "w": 532
+  },
+  {
+   "src": "captures/int_assign2_l.png",
+   "chrome": "none",
+   "x": 1068,
+   "y": 0,
+   "w": 532
+  }
+ ],
+ "annotations": [
+  {
+   "t": "line",
+   "x1": 533,
+   "y1": 0,
+   "x2": 533,
+   "y2": 600,
+   "color": [
+    160,
+    160,
+    160
+   ],
+   "w": 2
+  },
+  {
+   "t": "line",
+   "x1": 1067,
+   "y1": 0,
+   "x2": 1067,
+   "y2": 600,
+   "color": [
+    160,
+    160,
+    160
+   ],
+   "w": 2
+  },
+  {
+   "t": "pill",
+   "s": "Idle",
+   "x": 20,
+   "y": 62,
+   "h": 44,
+   "pad": 16,
+   "size": 24,
+   "bg": [
+    215,
+    215,
+    215
+   ],
+   "outline": [
+    160,
+    160,
+    160
+   ],
+   "color": [
+    9,
+    9,
+    9
+   ],
+   "font": "fonts/Inter-SemiBold.ttf"
+  },
+  {
+   "t": "pill",
+   "s": "Material dragged",
+   "x": 554,
+   "y": 62,
+   "h": 44,
+   "pad": 16,
+   "size": 24,
+   "bg": [
+    215,
+    215,
+    215
+   ],
+   "outline": [
+    160,
+    160,
+    160
+   ],
+   "color": [
+    9,
+    9,
+    9
+   ],
+   "font": "fonts/Inter-SemiBold.ttf"
+  },
+  {
+   "t": "pill",
+   "s": "Material assigned",
+   "x": 1088,
+   "y": 62,
+   "h": 44,
+   "pad": 16,
+   "size": 24,
+   "bg": [
+    215,
+    215,
+    215
+   ],
+   "outline": [
+    160,
+    160,
+    160
+   ],
+   "color": [
+    9,
+    9,
+    9
+   ],
+   "font": "fonts/Inter-SemiBold.ttf"
+  }
+ ],
+ "theme": "light"
+}

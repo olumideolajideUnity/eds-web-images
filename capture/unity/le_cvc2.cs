@@ -1,0 +1,10 @@
+using UnityEditor; using UnityEngine; using UnityEngine.UIElements; using System.Linq; using System.Reflection;
+var BF = BindingFlags.Instance|BindingFlags.Static|BindingFlags.Public|BindingFlags.NonPublic;
+var w = Resources.FindObjectsOfTypeAll<ProfilerWindow>().First(x => !x.docked);
+var cpu = ((System.Collections.IEnumerable)typeof(ProfilerWindow).GetField("m_AllModules", BF).GetValue(w)).Cast<object>().First(m => m.GetType().Name == "CPUProfilerModule");
+object cvc = null; for (var t = cpu.GetType(); t != null && cvc == null; t = t.BaseType) cvc = t.GetField("m_ChartViewController", BF | BindingFlags.DeclaredOnly)?.GetValue(cpu);
+var m = cvc.GetType().GetMethod("CounterToggleEnableCallback", BF); var u = cvc.GetType().GetMethod("UpdateCounterToggleVisualState", BF);
+var lab = w.rootVisualElement.Query<Label>().Where(l => l.text == "Others").First();
+var item = lab.parent;
+var s = "cb(" + string.Join(",", m.GetParameters().Select(p => p.ParameterType.Name)) + ") upd(" + string.Join(",", u.GetParameters().Select(p => p.ParameterType.Name)) + ") userData=" + item.userData + " childTypes=" + string.Join(",", item.Children().Select(c => c.GetType().Name + "#" + c.name));
+System.IO.File.WriteAllText("C:/tmp/cvc2.txt", s); return "ok";

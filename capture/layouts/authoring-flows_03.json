@@ -1,0 +1,17 @@
+{
+ "out": "replacements/patterns/authoring-flows/scene-tools.png",
+ "canvas": [
+  1600,
+  724
+ ],
+ "windows": [
+  {
+   "src": "captures/af03_scene_d.png",
+   "title": "Scene",
+   "x": 262,
+   "y": 40,
+   "w": 1076,
+   "h": 645
+  }
+ ]
+}

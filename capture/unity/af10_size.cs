@@ -1,0 +1,10 @@
+using UnityEditor; using UnityEngine; using System.Linq; using System.Reflection;
+var BF = BindingFlags.Instance|BindingFlags.Public|BindingFlags.NonPublic;
+var sv = Resources.FindObjectsOfTypeAll<SceneView>().First(w => !w.docked);
+var parent = typeof(EditorWindow).GetField("m_Parent", BF).GetValue(sv);
+var container = parent.GetType().GetProperty("window", BF).GetValue(parent);
+container.GetType().GetProperty("position", BF).SetValue(container, new Rect(100, 100, 816, 494));
+sv.drawGizmos = false;
+sv.LookAtDirect(new Vector3(8.789518f, 0.829852f, -4.06888f), Quaternion.Euler(28f, -35f, 0f), 2.4f);
+sv.Repaint();
+return "sv=" + sv.position;

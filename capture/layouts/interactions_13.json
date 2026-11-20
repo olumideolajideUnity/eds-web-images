@@ -1,0 +1,81 @@
+{
+ "out": "replacements/fundamentals/interactions/checked.png",
+ "canvas": [
+  1600,
+  520
+ ],
+ "backdrop": [
+  56,
+  56,
+  56
+ ],
+ "windows": [
+  {
+   "src": "captures/int_checked_l.png",
+   "chrome": "none",
+   "x": 0,
+   "y": 0,
+   "w": 800
+  },
+  {
+   "src": "captures/int_checked_d.png",
+   "chrome": "none",
+   "x": 800,
+   "y": 0,
+   "w": 800
+  },
+  {
+   "src": "captures/int_tabs_false_l.png",
+   "chrome": "none",
+   "x": 160,
+   "y": 287,
+   "w": 480,
+   "crop": [
+    0,
+    0,
+    0,
+    125
+   ]
+  },
+  {
+   "src": "captures/int_tabs_true_l.png",
+   "chrome": "none",
+   "x": 160,
+   "y": 407,
+   "w": 480,
+   "crop": [
+    0,
+    0,
+    0,
+    125
+   ]
+  },
+  {
+   "src": "captures/int_tabs_false.png",
+   "chrome": "none",
+   "x": 960,
+   "y": 287,
+   "w": 480,
+   "crop": [
+    0,
+    0,
+    0,
+    125
+   ]
+  },
+  {
+   "src": "captures/int_tabs_true.png",
+   "chrome": "none",
+   "x": 960,
+   "y": 407,
+   "w": 480,
+   "crop": [
+    0,
+    0,
+    0,
+    125
+   ]
+  }
+ ],
+ "annotations": []
+}

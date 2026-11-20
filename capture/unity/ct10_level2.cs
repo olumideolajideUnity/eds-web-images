@@ -1,0 +1,11 @@
+using UnityEditor; using UnityEngine; using System.Linq;
+Selection.activeGameObject = GameObject.Find("Camera");
+var sv = Resources.FindObjectsOfTypeAll<SceneView>().First(w => !w.docked);
+var rot = Quaternion.Euler(28f, 58f, 0f); var cs = sv.cameraSettings; cs.fieldOfView = 30; sv.cameraSettings = cs;
+sv.LookAtDirect(new Vector3(-0.2f, 1.3f, -0.8f) + rot * Vector3.right * 3.2f, rot, 3.7f);
+foreach (var o in sv.overlayCanvas.overlays) if (o.displayName == "Tools" || o.displayName == "Tool Settings" || o.displayName == "Bevel Edges") o.displayed = false;
+var co = sv.overlayCanvas.overlays.First(o => o.displayName == "Cameras");
+co.displayed = true; co.Undock(); co.collapsed = false; co.floatingPosition = new Vector2(473, 60);
+Selection.activeGameObject = null;
+sv.Repaint();
+return "ok";

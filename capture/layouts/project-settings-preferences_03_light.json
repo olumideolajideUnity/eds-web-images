@@ -1,0 +1,22 @@
+{
+ "out": "replacements/patterns/project-settings-preferences/Unity menu.png",
+ "canvas": [
+  1600,
+  840
+ ],
+ "backdrop": [
+  235,
+  235,
+  235
+ ],
+ "windows": [
+  {
+   "src": "captures/ps_unitymenu_l.png",
+   "chrome": "none",
+   "x": 0,
+   "y": 0,
+   "w": 1600
+  }
+ ],
+ "theme": "light"
+}

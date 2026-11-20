@@ -1,0 +1,31 @@
+{
+ "out": "replacements/patterns/overlays/overlays-menus.png",
+ "canvas": [
+  1600,
+  600
+ ],
+ "backdrop": [
+  226,
+  226,
+  226
+ ],
+ "windows": [
+  {
+   "src": "captures/ov_menus_l.png",
+   "chrome": "none",
+   "x": 0,
+   "y": 0,
+   "w": 1600
+  }
+ ],
+ "annotations": [
+  {
+   "t": "image",
+   "src": "captures/ov_ctxmenu_l.png",
+   "x": 208,
+   "y": 176,
+   "w": 328
+  }
+ ],
+ "theme": "light"
+}

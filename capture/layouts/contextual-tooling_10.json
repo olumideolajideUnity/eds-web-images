@@ -1,0 +1,21 @@
+{
+ "out": "replacements/patterns/contextual-tooling/GlobalOverlay-Camera@2x.png",
+ "canvas": [
+  1600,
+  590
+ ],
+ "backdrop": [
+  25,
+  25,
+  25
+ ],
+ "windows": [
+  {
+   "src": "captures/ct10_scene_crop.png",
+   "chrome": "none",
+   "x": 0,
+   "y": 0,
+   "w": 1600
+  }
+ ]
+}

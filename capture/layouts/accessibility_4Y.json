@@ -1,0 +1,94 @@
+{
+ "out": "replacements/fundamentals/accessibility/a11y-4Y.png",
+ "canvas": [
+  780,
+  480
+ ],
+ "backdrop": [
+  50,
+  50,
+  50
+ ],
+ "windows": [
+  {
+   "src": "captures/acc_acbutton.png",
+   "chrome": "none",
+   "x": 147.4,
+   "y": 196.0,
+   "w": 483.2,
+   "crop": [
+    73,
+    10,
+    73,
+    125
+   ]
+  }
+ ],
+ "annotations": [
+  {
+   "t": "pill",
+   "s": "",
+   "x": 318.0,
+   "y": 322,
+   "h": 48,
+   "pad": 71.0,
+   "size": 24,
+   "bg": [
+    50,
+    50,
+    50
+   ],
+   "outline": [
+    86,
+    87,
+    88
+   ],
+   "color": [
+    255,
+    255,
+    255
+   ],
+   "font": "fonts/Inter-Regular.ttf"
+  },
+  {
+   "t": "text",
+   "s": "5.88:1",
+   "x": 370.0,
+   "y": 322,
+   "size": 24,
+   "color": [
+    255,
+    255,
+    255
+   ],
+   "font": "fonts/Inter-Regular.ttf",
+   "anchor": "lm"
+  },
+  {
+   "t": "line",
+   "x1": 341.0,
+   "y1": 322,
+   "x2": 347.0,
+   "y2": 328,
+   "color": [
+    178,
+    255,
+    89
+   ],
+   "w": 3
+  },
+  {
+   "t": "line",
+   "x1": 347.0,
+   "y1": 328,
+   "x2": 359.0,
+   "y2": 315,
+   "color": [
+    178,
+    255,
+    89
+   ],
+   "w": 3
+  }
+ ]
+}

@@ -1,0 +1,116 @@
+{
+ "out": "replacements/patterns/inheritance/anatomy_overrides_interactable-area.png",
+ "canvas": [
+  1600,
+  600
+ ],
+ "backdrop": [
+  25,
+  25,
+  25
+ ],
+ "windows": [
+  {
+   "src": "captures/inh_anat.png",
+   "chrome": "none",
+   "x": 400,
+   "y": 70,
+   "w": 800,
+   "h": 476
+  }
+ ],
+ "annotations": [
+  {
+   "t": "rect",
+   "x": 400,
+   "y": 490.8,
+   "w_": 256,
+   "h": 35.19999999999999,
+   "color": [
+    253,
+    134,
+    120
+   ],
+   "fill": 0.16,
+   "dash": true,
+   "w": 2
+  },
+  {
+   "t": "line",
+   "x1": 378,
+   "y1": 490.8,
+   "x2": 378,
+   "y2": 526.0,
+   "color": [
+    253,
+    134,
+    120
+   ],
+   "w": 2
+  },
+  {
+   "t": "line",
+   "x1": 371,
+   "y1": 490.8,
+   "x2": 385,
+   "y2": 490.8,
+   "color": [
+    253,
+    134,
+    120
+   ],
+   "w": 2
+  },
+  {
+   "t": "line",
+   "x1": 371,
+   "y1": 526.0,
+   "x2": 385,
+   "y2": 526.0,
+   "color": [
+    253,
+    134,
+    120
+   ],
+   "w": 2
+  },
+  {
+   "t": "line",
+   "x1": 350,
+   "y1": 508.4,
+   "x2": 378,
+   "y2": 508.4,
+   "color": [
+    253,
+    134,
+    120
+   ],
+   "w": 2
+  },
+  {
+   "t": "pill",
+   "x": 119,
+   "y": 508.4,
+   "h": 44,
+   "s": "Property field height",
+   "color": [
+    253,
+    134,
+    120
+   ],
+   "bg": [
+    59,
+    41,
+    39
+   ],
+   "outline": [
+    253,
+    134,
+    120
+   ],
+   "size": 22,
+   "pad": 16,
+   "font": "C:/Windows/Fonts/segoeui.ttf"
+  }
+ ]
+}

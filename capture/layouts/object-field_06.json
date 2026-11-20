@@ -1,0 +1,58 @@
+{
+ "out": "replacements/components/object-field/locate object.gif",
+ "size": [
+  1600,
+  600
+ ],
+ "crop": [
+  0,
+  0,
+  800,
+  300
+ ],
+ "frames": [
+  [
+   "lo_f0",
+   1500
+  ],
+  [
+   "lo_f1",
+   600
+  ],
+  [
+   "lo_f2",
+   900
+  ],
+  [
+   "lo_f3",
+   500
+  ],
+  [
+   "lo_f4",
+   2000
+  ]
+ ],
+ "note": "GIF from Editor view-buffer frames: a Cube's Mesh Renderer with the Atrio Candles material (unity/gif_insp.cs) above a floating two-column Project browser (unity/gif_proj.cs). A real click on the material field makes Unity ping the asset: the browser opens Atrio/Environment/Candles/Materials and highlights the material and folder; frames caught during and after the ping animation. Built by scripts/gif_build.py. Pointer drawn by gif_build.py at the click/hover positions (crop pt).",
+ "pointer": [
+  [
+   600,
+   250
+  ],
+  [
+   385,
+   61
+  ],
+  [
+   385,
+   61
+  ],
+  [
+   385,
+   61
+  ],
+  [
+   385,
+   61
+  ]
+ ]
+}

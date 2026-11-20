@@ -1,0 +1,42 @@
+{
+ "out": "replacements/components/help-box/helpBox-positioning.png",
+ "canvas": [
+  1600,
+  600
+ ],
+ "backdrop": [
+  215,
+  215,
+  215
+ ],
+ "windows": [
+  {
+   "src": "captures/hb_canvas_vfalse_l.png",
+   "chrome": "none",
+   "x": 120,
+   "y": 90,
+   "w": 640,
+   "crop": [
+    0,
+    292,
+    0,
+    419
+   ]
+  },
+  {
+   "src": "captures/hb_canvas_vtrue_l.png",
+   "chrome": "none",
+   "x": 840,
+   "y": 90,
+   "w": 640,
+   "crop": [
+    0,
+    292,
+    0,
+    253
+   ]
+  }
+ ],
+ "annotations": [],
+ "theme": "light"
+}

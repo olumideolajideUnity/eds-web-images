@@ -1,0 +1,169 @@
+{
+ "out": "replacements/patterns/content-organization/2-1-1-light_headers.png",
+ "canvas": [
+  780,
+  874
+ ],
+ "backdrop": [
+  25,
+  25,
+  25
+ ],
+ "windows": [
+  {
+   "src": "captures/co07_base.png",
+   "chrome": "none",
+   "x": 0,
+   "y": 0,
+   "w": 780
+  }
+ ],
+ "annotations": [
+  {
+   "t": "rect",
+   "x": 199,
+   "y": 131.0,
+   "w_": 700,
+   "h": 900,
+   "dash": false,
+   "solid": true,
+   "w": 2
+  },
+  {
+   "t": "text",
+   "s": "Object",
+   "x": 158,
+   "y": 164,
+   "anchor": "rm",
+   "size": 22
+  },
+  {
+   "t": "line",
+   "x1": 168,
+   "y1": 164,
+   "x2": 199,
+   "y2": 164
+  },
+  {
+   "t": "dot",
+   "x": 199,
+   "y": 164
+  },
+  {
+   "t": "text",
+   "s": "#323232",
+   "x": 534,
+   "y": 203,
+   "anchor": "mm",
+   "size": 20,
+   "color": [
+    245,
+    245,
+    245
+   ],
+   "font": "C:/Windows/Fonts/segoeuib.ttf"
+  },
+  {
+   "t": "text",
+   "s": "Component",
+   "x": 158,
+   "y": 303,
+   "anchor": "rm",
+   "size": 22
+  },
+  {
+   "t": "line",
+   "x1": 168,
+   "y1": 303,
+   "x2": 220,
+   "y2": 303
+  },
+  {
+   "t": "dot",
+   "x": 220,
+   "y": 303
+  },
+  {
+   "t": "text",
+   "s": "#323232",
+   "x": 534,
+   "y": 308,
+   "anchor": "mm",
+   "size": 20,
+   "color": [
+    245,
+    245,
+    245
+   ],
+   "font": "C:/Windows/Fonts/segoeuib.ttf"
+  },
+  {
+   "t": "text",
+   "s": "Main\ncontrols",
+   "x": 158,
+   "y": 422,
+   "anchor": "rm",
+   "size": 22
+  },
+  {
+   "t": "line",
+   "x1": 168,
+   "y1": 434,
+   "x2": 241,
+   "y2": 434
+  },
+  {
+   "t": "dot",
+   "x": 241,
+   "y": 434
+  },
+  {
+   "t": "text",
+   "s": "#323232",
+   "x": 534,
+   "y": 433,
+   "anchor": "mm",
+   "size": 20,
+   "color": [
+    245,
+    245,
+    245
+   ],
+   "font": "C:/Windows/Fonts/segoeuib.ttf"
+  },
+  {
+   "t": "text",
+   "s": "Sub\ncontrols",
+   "x": 158,
+   "y": 668,
+   "anchor": "rm",
+   "size": 22
+  },
+  {
+   "t": "line",
+   "x1": 168,
+   "y1": 680,
+   "x2": 260,
+   "y2": 680
+  },
+  {
+   "t": "dot",
+   "x": 260,
+   "y": 680
+  },
+  {
+   "t": "text",
+   "s": "#323232",
+   "x": 534,
+   "y": 681,
+   "anchor": "mm",
+   "size": 20,
+   "color": [
+    245,
+    245,
+    245
+   ],
+   "font": "C:/Windows/Fonts/segoeuib.ttf"
+  }
+ ]
+}

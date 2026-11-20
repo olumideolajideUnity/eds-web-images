@@ -1,0 +1,23 @@
+{
+ "out": "replacements/components/tab/tabuitk-overview.png",
+ "canvas": [
+  1600,
+  600
+ ],
+ "zoom": 1.45,
+ "backdrop": [
+  25,
+  25,
+  25
+ ],
+ "windows": [
+  {
+   "src": "captures/co04_search_d.png",
+   "title": "Search",
+   "x": 80,
+   "y": 72,
+   "w": 1440,
+   "h": null
+  }
+ ]
+}

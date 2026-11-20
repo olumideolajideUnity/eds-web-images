@@ -1,0 +1,26 @@
+{
+ "out": "replacements/patterns/authoring-flows/scene-iso.png",
+ "canvas": [
+  1600,
+  724
+ ],
+ "windows": [
+  {
+   "src": "captures/af05_hier_l.png",
+   "title": "Hierarchy",
+   "x": 237,
+   "y": 70,
+   "w": 257,
+   "h": 585
+  },
+  {
+   "src": "captures/af05_scene_l.png",
+   "title": "Scene",
+   "x": 549,
+   "y": 70,
+   "w": 815,
+   "h": 585
+  }
+ ],
+ "theme": "light"
+}

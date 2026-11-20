@@ -1,0 +1,36 @@
+{
+ "out": "replacements/components/numeric-field/num_field-variations.png",
+ "canvas": [
+  1600,
+  600
+ ],
+ "backdrop": [
+  50,
+  50,
+  50
+ ],
+ "windows": [
+  {
+   "src": "captures/nf_variations.png",
+   "chrome": "none",
+   "x": 0,
+   "y": 0,
+   "w": 1600
+  }
+ ],
+ "annotations": [
+  {
+   "t": "line",
+   "x1": 800,
+   "y1": 0,
+   "x2": 800,
+   "y2": 600,
+   "color": [
+    86,
+    87,
+    88
+   ],
+   "w": 2
+  }
+ ]
+}
