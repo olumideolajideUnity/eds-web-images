@@ -5,7 +5,7 @@ Unity 7000.0.0a20 Editor so they match the current UI.
 
 - **332 images** are ready, across 39 pages (32 of 39 reviewed pages are complete).
 - More images are added as they're retaken; pull the repo to get the latest.
-- Last updated: 2026-11-19T13:20:21.
+- Last updated: 2026-11-20T09:14:40.
 
 ## Using this repo
 
