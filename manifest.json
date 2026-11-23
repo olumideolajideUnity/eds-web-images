@@ -12988,17 +12988,17 @@
    "original_size": "1600x600",
    "replacement_1x": "images/components/scroll-view/macos-dark/sv-overview.png",
    "replacement_1x_size": "1600x600",
-   "replacement_1x_sha256": "95f1d158ebe0868224f6b1fd67c645a3b627a1777a038077726ea031f8294d4e",
+   "replacement_1x_sha256": "b863e81b0e4724daf452bc8729122c0665cbdf05076e875f679a3cc9d8a7c1a4",
    "replacement_1x_url": "https://raw.githubusercontent.com/olumideolajideUnity/eds-web-images/main/images/components/scroll-view/macos-dark/sv-overview.png",
    "replacement_2x": "images/components/scroll-view/macos-dark/sv-overview@2x.png",
    "replacement_2x_size": "3200x1200",
-   "replacement_2x_sha256": "bc7013af18b04401e3bff7bb422e877a5ce560442d648c9a733b38373e770892",
+   "replacement_2x_sha256": "7095c85d6e11d5b82877b71aefb80fd88c982df42b9f1bc3b7d8311e27ac2849",
    "replacement_2x_url": "https://raw.githubusercontent.com/olumideolajideUnity/eds-web-images/main/images/components/scroll-view/macos-dark/sv-overview%402x.png",
    "size_changed": false,
    "alt_text": "",
    "caption": "",
    "editor_version": "Unity 7000.0.0a20",
-   "notes": "Real floating one-column Project browser captured in both skins (unity/sv_proj.cs), faded like the original; light half left, dark half right. Unity 7's one-column Project has no Favorites section."
+   "notes": "Real floating one-column Project browser captured in both skins (unity/sv_proj.cs), at full opacity (the original's fade is not reproduced); light half left, dark half right. Unity 7's one-column Project has no Favorites section."
   },
   {
    "id": "components/scroll-view/sv-overview.png",
@@ -13014,17 +13014,17 @@
    "original_size": "1600x600",
    "replacement_1x": "images/components/scroll-view/windows-dark/sv-overview.png",
    "replacement_1x_size": "1600x600",
-   "replacement_1x_sha256": "95f1d158ebe0868224f6b1fd67c645a3b627a1777a038077726ea031f8294d4e",
+   "replacement_1x_sha256": "b863e81b0e4724daf452bc8729122c0665cbdf05076e875f679a3cc9d8a7c1a4",
    "replacement_1x_url": "https://raw.githubusercontent.com/olumideolajideUnity/eds-web-images/main/images/components/scroll-view/windows-dark/sv-overview.png",
    "replacement_2x": "images/components/scroll-view/windows-dark/sv-overview@2x.png",
    "replacement_2x_size": "3200x1200",
-   "replacement_2x_sha256": "bc7013af18b04401e3bff7bb422e877a5ce560442d648c9a733b38373e770892",
+   "replacement_2x_sha256": "7095c85d6e11d5b82877b71aefb80fd88c982df42b9f1bc3b7d8311e27ac2849",
    "replacement_2x_url": "https://raw.githubusercontent.com/olumideolajideUnity/eds-web-images/main/images/components/scroll-view/windows-dark/sv-overview%402x.png",
    "size_changed": false,
    "alt_text": "",
    "caption": "",
    "editor_version": "Unity 7000.0.0a20",
-   "notes": "Real floating one-column Project browser captured in both skins (unity/sv_proj.cs), faded like the original; light half left, dark half right. Unity 7's one-column Project has no Favorites section."
+   "notes": "Real floating one-column Project browser captured in both skins (unity/sv_proj.cs), at full opacity (the original's fade is not reproduced); light half left, dark half right. Unity 7's one-column Project has no Favorites section."
   },
   {
    "id": "components/scroll-view/sv-variations.png",

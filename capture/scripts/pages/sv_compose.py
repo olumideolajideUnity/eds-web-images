@@ -59,9 +59,10 @@ out.paste(im.crop(db), db[:2]); out.save(f"captures/sv_hover_d{SUF}.png")
 run("06", "sv-color.png", f"captures/sv_hover_d{SUF}.png", [])
 
 
-# 01 overview (two themes, built on the light run): one-column Project window in each skin, faded like the original
+# 01 overview (two themes, built on the light run): one-column Project window in each skin, at full opacity
+# (the original was faded; keep=1.0 leaves the captures as they are, set it lower to fade them again)
 if LIGHT:
-    def faded(src, bg, keep=0.5):
+    def faded(src, bg, keep=1.0):
         im = Image.open(src).convert("RGB"); out = Image.blend(Image.new("RGB", im.size, bg), im, keep); out.save(src.replace(".png", "_fade.png")); return src.replace(".png", "_fade.png")
     spec = {"out": f"{OUTDIR}/sv-overview.png", "canvas": [1600, 600], "backdrop": [194, 194, 194],
             "windows": [{"src": faded("captures/sv_ov_l.png", (194, 194, 194)), "chrome": "none", "x": 100, "y": 40, "w": 600},
